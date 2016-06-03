@@ -99,9 +99,10 @@
 			<Item Name="CSC-Remote.lvclass" Type="LVClass" URL="../Classes/CAlex_Classes/CableSerialChain-Display/CSC-Remote.lvclass"/>
 			<Item Name="ExpData.lvclass" Type="LVClass" URL="../Classes/CAlex_Classes/ExpData/ExpData.lvclass"/>
 			<Item Name="ForceField.lvclass" Type="LVClass" URL="../Classes/CAlex_Classes/ForceField/ForceField.lvclass"/>
+			<Item Name="MotorControl.lvclass" Type="LVClass" URL="../Classes/MotorControl/MotorControl.lvclass"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Cable2MotorMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/Cable2MotorMismatch.vi"/>
+			<Item Name="CableMotorSensorMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/CableMotorSensorMismatch.vi"/>
 			<Item Name="CutMethod.ctl" Type="VI" URL="../Remote VIs/GenTargetTraj/TypeDef/CutMethod.ctl"/>
 			<Item Name="plotAnkleTraj.vi" Type="VI" URL="../Remote VIs/Sub Vis/plotAnkleTraj.vi"/>
 			<Item Name="ScaleTraj.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj.vi"/>
@@ -397,7 +398,6 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
-			<Item Name="MotorControl.lvclass" Type="LVClass" URL="../Classes/MotorControl/MotorControl.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -825,6 +825,7 @@ DirectoryIndex index.htm
 		<Item Name="LowLevelController" Type="Folder">
 			<Item Name="MotorControl.lvclass" Type="LVClass" URL="../Classes/MotorControl/MotorControl.lvclass"/>
 			<Item Name="AKM43L.lvclass" Type="LVClass" URL="../Classes/MC_AKM43L/AKM43L.lvclass"/>
+			<Item Name="CableMotorSensorMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/CableMotorSensorMismatch.vi"/>
 			<Item Name="LowLvCtrl_Clear.vi" Type="VI" URL="../RT VIs/LowLevelController/LowLvCtrl_Clear.vi"/>
 			<Item Name="LowLvCtrl_Loop.vi" Type="VI" URL="../RT VIs/LowLevelController/LowLvCtrl_Loop.vi"/>
 			<Item Name="LowLvCtrl_Init.vi" Type="VI" URL="../RT VIs/LowLevelController/LowLvCtrl_Init.vi"/>
@@ -841,7 +842,6 @@ DirectoryIndex index.htm
 			<Item Name="HighLvCtrl_Init.vi" Type="VI" URL="../RT VIs/HighLevelController/HighLvCtrl_Init.vi"/>
 			<Item Name="HighLvCtrl_Loop.vi" Type="VI" URL="../RT VIs/HighLevelController/HighLvCtrl_Loop.vi"/>
 			<Item Name="HighLvCtrl_Clear.vi" Type="VI" URL="../RT VIs/HighLevelController/HighLvCtrl_Clear.vi"/>
-			<Item Name="Motor2CableMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/Motor2CableMismatch.vi"/>
 			<Item Name="Exoskeleton_SV.lvlib" Type="Library" URL="../RT VIs/HighLevelController/Exoskeleton_SV.lvlib"/>
 			<Item Name="ForceField_SV.lvlib" Type="Library" URL="../RT VIs/HighLevelController/ForceField_SV.lvlib"/>
 			<Item Name="JointSensor.ctl" Type="VI" URL="../RT VIs/HighLevelController/JointSensor.ctl"/>
@@ -868,9 +868,6 @@ DirectoryIndex index.htm
 			<Item Name="Interface.vi" Type="VI" URL="../RT VIs/InterfaceCommand/Interface.vi"/>
 			<Item Name="UpdateArmPara.vi" Type="VI" URL="../RT VIs/InterfaceCommand/UpdateArmPara.vi"/>
 			<Item Name="UpdateFieldVars.vi" Type="VI" URL="../RT VIs/InterfaceCommand/UpdateFieldVars.vi"/>
-		</Item>
-		<Item Name="NotUsed" Type="Folder">
-			<Item Name="Cable2MotorMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/Cable2MotorMismatch.vi"/>
 		</Item>
 		<Item Name="MotorTuning" Type="Folder">
 			<Item Name="LPF.vi" Type="VI" URL="../RT VIs/MotorTuningVIs/LPF.vi"/>
