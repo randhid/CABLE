@@ -395,6 +395,7 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="CableMotorSensorMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/CableMotorSensorMismatch.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="MotorControl.lvclass" Type="LVClass" URL="../Classes/MotorControl/MotorControl.lvclass"/>
@@ -825,6 +826,7 @@ DirectoryIndex index.htm
 		<Item Name="LowLevelController" Type="Folder">
 			<Item Name="MotorControl.lvclass" Type="LVClass" URL="../Classes/MotorControl/MotorControl.lvclass"/>
 			<Item Name="AKM43L.lvclass" Type="LVClass" URL="../Classes/MC_AKM43L/AKM43L.lvclass"/>
+			<Item Name="CableMotorSensorMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/CableMotorSensorMismatch.vi"/>
 			<Item Name="LowLvCtrl_Clear.vi" Type="VI" URL="../RT VIs/LowLevelController/LowLvCtrl_Clear.vi"/>
 			<Item Name="LowLvCtrl_Loop.vi" Type="VI" URL="../RT VIs/LowLevelController/LowLvCtrl_Loop.vi"/>
 			<Item Name="LowLvCtrl_Init.vi" Type="VI" URL="../RT VIs/LowLevelController/LowLvCtrl_Init.vi"/>
@@ -841,7 +843,6 @@ DirectoryIndex index.htm
 			<Item Name="HighLvCtrl_Init.vi" Type="VI" URL="../RT VIs/HighLevelController/HighLvCtrl_Init.vi"/>
 			<Item Name="HighLvCtrl_Loop.vi" Type="VI" URL="../RT VIs/HighLevelController/HighLvCtrl_Loop.vi"/>
 			<Item Name="HighLvCtrl_Clear.vi" Type="VI" URL="../RT VIs/HighLevelController/HighLvCtrl_Clear.vi"/>
-			<Item Name="Motor2CableMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/Motor2CableMismatch.vi"/>
 			<Item Name="Exoskeleton_SV.lvlib" Type="Library" URL="../RT VIs/HighLevelController/Exoskeleton_SV.lvlib"/>
 			<Item Name="ForceField_SV.lvlib" Type="Library" URL="../RT VIs/HighLevelController/ForceField_SV.lvlib"/>
 			<Item Name="JointSensor.ctl" Type="VI" URL="../RT VIs/HighLevelController/JointSensor.ctl"/>
@@ -868,9 +869,6 @@ DirectoryIndex index.htm
 			<Item Name="Interface.vi" Type="VI" URL="../RT VIs/InterfaceCommand/Interface.vi"/>
 			<Item Name="UpdateArmPara.vi" Type="VI" URL="../RT VIs/InterfaceCommand/UpdateArmPara.vi"/>
 			<Item Name="UpdateFieldVars.vi" Type="VI" URL="../RT VIs/InterfaceCommand/UpdateFieldVars.vi"/>
-		</Item>
-		<Item Name="NotUsed" Type="Folder">
-			<Item Name="Cable2MotorMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/Cable2MotorMismatch.vi"/>
 		</Item>
 		<Item Name="MotorTuning" Type="Folder">
 			<Item Name="LPF.vi" Type="VI" URL="../RT VIs/MotorTuningVIs/LPF.vi"/>
