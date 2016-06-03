@@ -99,9 +99,10 @@
 			<Item Name="CSC-Remote.lvclass" Type="LVClass" URL="../Classes/CAlex_Classes/CableSerialChain-Display/CSC-Remote.lvclass"/>
 			<Item Name="ExpData.lvclass" Type="LVClass" URL="../Classes/CAlex_Classes/ExpData/ExpData.lvclass"/>
 			<Item Name="ForceField.lvclass" Type="LVClass" URL="../Classes/CAlex_Classes/ForceField/ForceField.lvclass"/>
+			<Item Name="MotorControl.lvclass" Type="LVClass" URL="../Classes/MotorControl/MotorControl.lvclass"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Cable2MotorMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/Cable2MotorMismatch.vi"/>
+			<Item Name="CableMotorSensorMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/CableMotorSensorMismatch.vi"/>
 			<Item Name="CutMethod.ctl" Type="VI" URL="../Remote VIs/GenTargetTraj/TypeDef/CutMethod.ctl"/>
 			<Item Name="plotAnkleTraj.vi" Type="VI" URL="../Remote VIs/Sub Vis/plotAnkleTraj.vi"/>
 			<Item Name="ScaleTraj.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj.vi"/>
@@ -395,10 +396,8 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="CableMotorSensorMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/CableMotorSensorMismatch.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
-			<Item Name="MotorControl.lvclass" Type="LVClass" URL="../Classes/MotorControl/MotorControl.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
