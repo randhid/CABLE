@@ -1,0 +1,3 @@
+[submodule "Sim&Process/DataProcess/EMG"]
+	path = Sim&Process/DataProcess/EMG
+	url = //128.59.144.91/git/EMG.git
