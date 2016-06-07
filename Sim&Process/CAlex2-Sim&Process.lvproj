@@ -48,8 +48,6 @@
 			<Item Name="CompareJointTorque.vi" Type="VI" URL="../DataProcess/CompareJointTorque.vi"/>
 			<Item Name="FolderNameMatch.vi" Type="VI" URL="../DataProcess/FolderNameMatch.vi"/>
 			<Item Name="MatchCarexToEMG.vi" Type="VI" URL="../DataProcess/MatchCarexToEMG.vi"/>
-			<Item Name="ReadMVC.vi" Type="VI" URL="../DataProcess/ReadMVC.vi"/>
-			<Item Name="BatchProcess-111.vi" Type="VI" URL="../DataProcess/BatchProcess-111.vi"/>
 			<Item Name="CalcGaitTiming.vi" Type="VI" URL="../DataProcess/CalcGaitTiming.vi"/>
 			<Item Name="CAlex_ChangeDate.vi" Type="VI" URL="../DataProcess/CAlex_ChangeDate.vi"/>
 		</Item>
