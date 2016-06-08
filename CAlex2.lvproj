@@ -856,13 +856,13 @@ DirectoryIndex index.htm
 		<Item Name="MotorEncoder" Type="Folder">
 			<Item Name="MotorEncoder_Init.vi" Type="VI" URL="../RT VIs/LowLevelController/MotorEncoder_Init.vi"/>
 			<Item Name="MotorEncoder_Loop.vi" Type="VI" URL="../RT VIs/MotorEncoder/MotorEncoder_Loop.vi"/>
+			<Item Name="MotorEncoder_Clear.vi" Type="VI" URL="../RT VIs/MotorEncoder/MotorEncoder_Clear.vi"/>
 		</Item>
 		<Item Name="Logger" Type="Folder">
 			<Item Name="Data Logger.lvclass" Type="LVClass" URL="../Classes/DataLogger/Data Logger.lvclass"/>
 			<Item Name="CreateCAlexHeader.vi" Type="VI" URL="../RT VIs/Logger/CreateCAlexHeader.vi"/>
 			<Item Name="Logger_Init.vi" Type="VI" URL="../RT VIs/Logger/Logger_Init.vi"/>
 			<Item Name="Logger_Loop.vi" Type="VI" URL="../RT VIs/Logger/Logger_Loop.vi"/>
-			<Item Name="MotorEncoder_Clear.vi" Type="VI" URL="../RT VIs/MotorEncoder/MotorEncoder_Clear.vi"/>
 		</Item>
 		<Item Name="InterfaceCommand" Type="Folder">
 			<Item Name="Interface.vi" Type="VI" URL="../RT VIs/InterfaceCommand/Interface.vi"/>
