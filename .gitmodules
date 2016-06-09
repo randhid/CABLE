@@ -1,3 +1,12 @@
 [submodule "Sim&Process/DataProcess/EMG"]
 	path = Sim&Process/DataProcess/EMG
 	url = //128.59.144.91/git/EMG.git
+[submodule "Classes/SerialChain-Cable"]
+	path = Classes/SerialChain-Cable
+	url = //128.59.144.91/git/SerialChain-Cable.git
+[submodule "Classes/SerialChain"]
+	path = Classes/SerialChain
+	url = //128.59.144.91/git/SerialChain.git
+[submodule "Classes/MotorControl"]
+	path = Classes/MotorControl
+	url = //128.59.144.91/git/MotorControl.git
