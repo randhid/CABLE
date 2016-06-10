@@ -176,7 +176,7 @@
 				<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 				<Property Name="type" Type="Str">Network</Property>
 				<Property Name="typedefName1" Type="Str">CAlex2.lvclass:LowerBodyDim.ctl</Property>
-				<Property Name="typedefPath1" Type="PathRel">../../Classes/CAlex_Classes/CAlex2/TypeDef/LowerBodyDim.ctl</Property>
+				<Property Name="typedefPath1" Type="PathRel">../../Classes/CAlex2/TypeDef/LowerBodyDim.ctl</Property>
 				<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'JJ1%!!"5!A!!!!!!0!!V!#A!(6'BJ:WB-&gt;!!.1!I!"V.I97ZL4(1!#U!+!!6);8"8:!!91&amp;!!!Q!!!!%!!AJ#&lt;W2Z2'FN+'UJ!!!,1!I!"62I;7&gt;I!!N!#A!&amp;5WBB&lt;GM!&amp;E"1!!)!"!!&amp;#E*P:(F8&gt;#BL:SE!!!^!#A!*3'FQ1X6G:F&gt;E!!^!#A!*3'FQ1X6G:EBU!"6!#A!03'FQ1X6G:E:X:&amp;.I;7:U!"6!#A!06'BJ:WB$&gt;7:G6'^,&lt;G6F!".!#A!.6'BJ:WB$&gt;7:G2'FT&gt;!!61!I!$V.I97ZL1X6G:F2P3WZF:1!?1&amp;!!"A!(!!A!#1!+!!M!$!J$&gt;7:G4'^D+'UJ!!"'!0%!!!!!!!!!!AZ$17RF?$)O&lt;(:D&lt;'&amp;T=R"-&lt;X&gt;F=E*P:(F%;7UO9X2M!"Z!5!!$!!-!"A!.$5RF:V"S&lt;X"F=H2J:8-!!1!/!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 			</Item>
 			<Item Name="ExtraCuffWt" Type="Variable">
@@ -294,7 +294,7 @@
 			<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typedefName1" Type="Str">ForceField.lvclass:FF_Gains.ctl</Property>
-			<Property Name="typedefPath1" Type="PathRel">../../Classes/CAlex_Classes/ForceField/TypeDef/FF_Gains.ctl</Property>
+			<Property Name="typedefPath1" Type="PathRel">../../Classes/ForceField/TypeDef/FF_Gains.ctl</Property>
 			<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#_OA!!!"5!A!!!!!!(!!F!#A!#3WY!!!F!#A!#2'Y!!!F!#A!#3X1!!!F!#A!#2(1!!!F!#A!#3W1!!!F!#A!#4H-!!%1!]1!!!!!!!!!#%E:P=G.F2GFF&lt;'1O&lt;(:D&lt;'&amp;T=QR'2F^(97FO=SZD&gt;'Q!(%"1!!9!!!!"!!)!!Q!%!!5&amp;2W&amp;J&lt;H-!!1!'!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="AnkleTraj" Type="Variable">
