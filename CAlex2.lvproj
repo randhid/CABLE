@@ -3162,8 +3162,6 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
-			<Item Name="LowerBodyDim.ctl" Type="VI" URL="../Classes/CAlex_Classes/CAlex2/TypeDef/LowerBodyDim.ctl"/>
-			<Item Name="FF_Gains.ctl" Type="VI" URL="../Classes/CAlex_Classes/ForceField/TypeDef/FF_Gains.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
