@@ -92,7 +92,7 @@
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">ForceField.lvclass:FF_Gains.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../../Classes/CAlex_Classes/ForceField/TypeDef/FF_Gains.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../../Classes/ForceField/TypeDef/FF_Gains.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#_OA!!!"5!A!!!!!!(!!F!#A!#3WY!!!F!#A!#2'Y!!!F!#A!#3X1!!!F!#A!#2(1!!!F!#A!#3W1!!!F!#A!#4H-!!%1!]1!!!!!!!!!#%E:P=G.F2GFF&lt;'1O&lt;(:D&lt;'&amp;T=QR'2F^(97FO=SZD&gt;'Q!(%"1!!9!!!!"!!)!!Q!%!!5&amp;2W&amp;J&lt;H-!!1!'!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="FF_On" Type="Variable">
