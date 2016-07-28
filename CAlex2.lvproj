@@ -19,6 +19,7 @@
 	<Property Name="varPersistentID:{34294B0F-CD31-435C-A3A3-29A113563044}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Parameters/Est Shoulder Center</Property>
 	<Property Name="varPersistentID:{36038F48-A5BB-4948-AD56-90B89C26B3F9}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Parameters/Comp Sh Center</Property>
 	<Property Name="varPersistentID:{37D99051-D23B-4F5E-80A7-81600D23EFA6}" Type="Ref">/PXIe-8135/SharedVariables_SingleProcess.lvlib/ProgramControl/GlobalStop</Property>
+	<Property Name="varPersistentID:{3D4F43E8-EAEE-4563-ABE0-75F7AF2AEF47}" Type="Ref">/PXIe-8135/TCPconnect/tcpSharedVariables.lvlib/ARtoolkitIMU</Property>
 	<Property Name="varPersistentID:{3F55BC3F-77FD-4E75-A13E-0582B376F800}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/MoterMode</Property>
 	<Property Name="varPersistentID:{47D697CD-6BAE-413E-9125-0830751F6D61}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/CableTensionRef</Property>
 	<Property Name="varPersistentID:{47F3D448-1449-48FA-A049-AA32F726DD7E}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Field Variables/FootSwitch</Property>
@@ -970,6 +971,24 @@ DirectoryIndex index.htm
 				<Property Name="Channels" Type="Str">MotorEncoder/AngularPosition</Property>
 				<Property Name="Name" Type="Str">MotorEncoder</Property>
 			</Item>
+			<Item Name="ctr0-PXI6363" Type="NI-DAQmx Task">
+				<Property Name="\0\ChanType" Type="Str">Counter Input</Property>
+				<Property Name="\0\CI.AngEncoder.InitialAngle" Type="Str">0</Property>
+				<Property Name="\0\CI.AngEncoder.PulsesPerRev" Type="Str">1024</Property>
+				<Property Name="\0\CI.AngEncoder.Units" Type="Str">Degrees</Property>
+				<Property Name="\0\CI.Encoder.AInputTerm" Type="Str">/PXI1Slot3/PFI8</Property>
+				<Property Name="\0\CI.Encoder.BInputTerm" Type="Str">/PXI1Slot3/PFI10</Property>
+				<Property Name="\0\CI.Encoder.DecodingType" Type="Str">X4</Property>
+				<Property Name="\0\CI.Encoder.ZIndexEnable" Type="Str">0</Property>
+				<Property Name="\0\CI.Encoder.ZIndexPhase" Type="Str">A High B High</Property>
+				<Property Name="\0\CI.Encoder.ZIndexVal" Type="Str">0</Property>
+				<Property Name="\0\CI.Encoder.ZInputTerm" Type="Str">/PXI1Slot3/PFI9</Property>
+				<Property Name="\0\CI.MeasType" Type="Str">Position:Angular Encoder</Property>
+				<Property Name="\0\Name" Type="Str">ctr0-PXI6363/AngularPosition</Property>
+				<Property Name="\0\PhysicalChanName" Type="Str">PXI1Slot3/ctr0</Property>
+				<Property Name="Channels" Type="Str">ctr0-PXI6363/AngularPosition</Property>
+				<Property Name="Name" Type="Str">ctr0-PXI6363</Property>
+			</Item>
 		</Item>
 		<Item Name="LowLevelController" Type="Folder">
 			<Item Name="MotorControl.lvclass" Type="LVClass" URL="../Classes/MotorControl/MotorControl.lvclass"/>
@@ -1000,6 +1019,7 @@ DirectoryIndex index.htm
 		<Item Name="TCPconnect" Type="Folder">
 			<Item Name="tcpLoop.vi" Type="VI" URL="../RT VIs/TCP/tcpLoop.vi"/>
 			<Item Name="udpLoop.vi" Type="VI" URL="../RT VIs/TCP/udpLoop.vi"/>
+			<Item Name="udpLoop2.vi" Type="VI" URL="../RT VIs/TCP/udpLoop2.vi"/>
 			<Item Name="tcpSharedVariables.lvlib" Type="Library" URL="../RT VIs/TCP/tcpSharedVariables.lvlib"/>
 		</Item>
 		<Item Name="MotorEncoder" Type="Folder">
@@ -1012,6 +1032,8 @@ DirectoryIndex index.htm
 			<Item Name="CreateCAlexHeader.vi" Type="VI" URL="../RT VIs/Logger/CreateCAlexHeader.vi"/>
 			<Item Name="Logger_Init.vi" Type="VI" URL="../RT VIs/Logger/Logger_Init.vi"/>
 			<Item Name="Logger_Loop.vi" Type="VI" URL="../RT VIs/Logger/Logger_Loop.vi"/>
+			<Item Name="Logger2_Loop.vi" Type="VI" URL="../RT VIs/Logger/Logger2_Loop.vi"/>
+			<Item Name="CreateARtoolkitHeader.vi" Type="VI" URL="../RT VIs/Logger/CreateARtoolkitHeader.vi"/>
 		</Item>
 		<Item Name="InterfaceCommand" Type="Folder">
 			<Item Name="Interface.vi" Type="VI" URL="../RT VIs/InterfaceCommand/Interface.vi"/>

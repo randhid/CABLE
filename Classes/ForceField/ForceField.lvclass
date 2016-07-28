@@ -288,7 +288,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 		</Item>
 	</Item>
-	<Item Name="AnkleFF.txt" Type="Document" URL="/F/CAlex/D/JinXin/LabVIEW.git/CAlex2-Controller/Classes/ForceField/AnkleFF.txt"/>
+	<Item Name="AnkleFF.txt" Type="Document" URL="../AnkleFF.txt"/>
 	<Item Name="FF_CircularPath.vi" Type="VI" URL="../FF_CircularPath.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!((!!!!%1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"1!+!!!71%!!!@````]!"!F$&lt;'^T:8.U5(1!%E"!!!(`````!!1&amp;2G^S9W5!/E"Q!"Y!!"132G^S9W6';76M:#ZM&gt;G.M98.T!!!;2G^S9W5A2GFF&lt;'1A1W^O&gt;(*P&lt;'RF=C"P&gt;81!!":!1!!"`````Q!%#5:P=G.F1W^N=!!%!!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!(1!I!!8E!'E"!!!(`````!!M.6X*J=X27:7RP9WFU?1!.1!I!"UZV&lt;76S;7-!'E"!!!(`````!!U.6X*J=X21&lt;X.J&gt;'FP&lt;A!Y1(!!(A!!&amp;"*'&lt;X*D:5:J:7RE,GRW9WRB=X-!!"F'&lt;X*D:3"';76M:#"$&lt;WZU=G^M&lt;'6S)'FO!'%!]!!-!!-!"1!'!!=!#!!*!!E!#1!+!!Q!$A!0!Q!!?!!!$1A!!!E!!!!*!!!!$1M!!!E!!!!!!!!!!!!!!!!!!!!+!!!"#A!!!1I!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!"!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
