@@ -25,13 +25,13 @@
 			<Item Name="SerialChain.lvclass" Type="LVClass" URL="../../Classes/SerialChain/SerialChain.lvclass"/>
 			<Item Name="SerialChain-Cable.lvclass" Type="LVClass" URL="../../Classes/SerialChain-Cable/SerialChain-Cable.lvclass"/>
 			<Item Name="CAlex2.lvclass" Type="LVClass" URL="../../Classes/CAlex2/CAlex2.lvclass"/>
-			<Item Name="CAlex2_Data.lvclass" Type="LVClass" URL="../DataProcess/CAlex2-Data/CAlex2_Data.lvclass"/>
 			<Item Name="CAlex2_Display.lvclass" Type="LVClass" URL="../../Classes/CAlex2-Display/CAlex2_Display.lvclass"/>
 			<Item Name="ForceField.lvclass" Type="LVClass" URL="../../Classes/ForceField/ForceField.lvclass"/>
 		</Item>
 		<Item Name="DataClasses" Type="Folder">
 			<Item Name="ExpData.lvclass" Type="LVClass" URL="../DataProcess/ExpData/ExpData.lvclass"/>
 			<Item Name="EMG.lvclass" Type="LVClass" URL="../DataProcess/EMG/EMG.lvclass"/>
+			<Item Name="CAlex2_Data.lvclass" Type="LVClass" URL="../DataProcess/CAlex2-Data/CAlex2_Data.lvclass"/>
 		</Item>
 		<Item Name="Simulation" Type="Folder">
 			<Item Name="ModelSimulation.vi" Type="VI" URL="../Simulation/ModelSimulation.vi"/>
