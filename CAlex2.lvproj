@@ -114,6 +114,7 @@
 		<Item Name="FrontPanel_RT.vi" Type="VI" URL="../Remote VIs/FrontPanel_RT.vi"/>
 		<Item Name="GenTargetGait.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/GenTargetGait.vi"/>
 		<Item Name="LoopTiming.vi" Type="VI" URL="../Remote VIs/LoopTiming.vi"/>
+		<Item Name="RT Video Output Setup.vi" Type="VI" URL="../RT VIs/GaitDisp/RT Video Output Setup.vi"/>
 		<Item Name="Timer.vi" Type="VI" URL="../Remote VIs/Sub Vis/Timer.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -358,6 +359,13 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
+				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
+				<Item Name="IMAQ RT Video Out" Type="VI" URL="/&lt;vilib&gt;/vision/IMAQRT.llb/IMAQ RT Video Out"/>
+				<Item Name="IMAQ Video Out Display Mode" Type="VI" URL="/&lt;vilib&gt;/vision/IMAQRT.llb/IMAQ Video Out Display Mode"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVAnnotationListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVAnnotationListTypeDef.ctl"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -387,6 +395,7 @@
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -404,6 +413,12 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -1022,11 +1037,6 @@ DirectoryIndex index.htm
 			<Item Name="udpLoop2.vi" Type="VI" URL="../RT VIs/TCP/udpLoop2.vi"/>
 			<Item Name="tcpSharedVariables.lvlib" Type="Library" URL="../RT VIs/TCP/tcpSharedVariables.lvlib"/>
 		</Item>
-		<Item Name="MotorEncoder" Type="Folder">
-			<Item Name="MotorEncoder_Init.vi" Type="VI" URL="../RT VIs/LowLevelController/MotorEncoder_Init.vi"/>
-			<Item Name="MotorEncoder_Loop.vi" Type="VI" URL="../RT VIs/MotorEncoder/MotorEncoder_Loop.vi"/>
-			<Item Name="MotorEncoder_Clear.vi" Type="VI" URL="../RT VIs/MotorEncoder/MotorEncoder_Clear.vi"/>
-		</Item>
 		<Item Name="Logger" Type="Folder">
 			<Item Name="Data Logger.lvclass" Type="LVClass" URL="../Classes/DataLogger/Data Logger.lvclass"/>
 			<Item Name="CreateCAlexHeader.vi" Type="VI" URL="../RT VIs/Logger/CreateCAlexHeader.vi"/>
@@ -1045,6 +1055,9 @@ DirectoryIndex index.htm
 			<Item Name="PID_Tuning.vi" Type="VI" URL="../RT VIs/MotorTuningVIs/PID_Tuning.vi"/>
 			<Item Name="Vol-Force_Tuning.vi" Type="VI" URL="../RT VIs/MotorTuningVIs/Vol-Force_Tuning.vi"/>
 			<Item Name="Vol-RPM_Tuning.vi" Type="VI" URL="../RT VIs/MotorTuningVIs/Vol-RPM_Tuning.vi"/>
+		</Item>
+		<Item Name="GaitDisp" Type="Folder">
+			<Item Name="RT Video Output Setup.vi" Type="VI" URL="../RT VIs/GaitDisp/RT Video Output Setup.vi"/>
 		</Item>
 		<Item Name="SharedVariables_Network.lvlib" Type="Library" URL="../Remote VIs/SharedVariables_Network.lvlib"/>
 		<Item Name="SharedVariables_SingleProcess.lvlib" Type="Library" URL="../RT VIs/SharedVariables_SingleProcess.lvlib"/>
@@ -3314,6 +3327,14 @@ DirectoryIndex index.htm
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="CustomVI.lvlib" Type="Library" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/CustomVI.lvlib"/>
+				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
+				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
+				<Item Name="IMAQ Video Out Display Mode" Type="VI" URL="/&lt;vilib&gt;/vision/IMAQRT.llb/IMAQ Video Out Display Mode"/>
+				<Item Name="IMAQ RT Video Out" Type="VI" URL="/&lt;vilib&gt;/vision/IMAQRT.llb/IMAQ RT Video Out"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -3323,6 +3344,12 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
