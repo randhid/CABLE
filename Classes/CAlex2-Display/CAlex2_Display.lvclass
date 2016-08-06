@@ -39,22 +39,4 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 	</Item>
-	<Item Name="CAlex2_rtDisplay.vi" Type="VI" URL="../CAlex2_rtDisplay.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%(!!!!#A!%!!!!&amp;%!T`````QNO:8=A='FD&gt;(6S:1!01!I!#%JP;7ZU4'^D!!!71%!!!@````]!!AF$&lt;'^F=X1A5(1!$U!+!!B1=G6W6(*B;A!!'E"!!!,``````````Q!%#&amp;"S:8:5=G&amp;K!!!01!I!#5ZV&lt;76S;7-A-A!=1%!!!P``````````!!9+6'&amp;S:W6U6(*B;A!!'E"!!!,``````````Q!##%JP;7ZU4'^D!!"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!Q!&amp;!!=!#!-!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!##!!!!AA!!!))!!!##!!!!!!"!!E!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
-	</Item>
-	<Item Name="CAlex2_rtDisplay_Scale.vi" Type="VI" URL="../CAlex2_rtDisplay_Scale.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$0!!!!#Q!&amp;!!)!!!I!5!!#!!!!!!!=1%!!!@````]!!1^0&gt;82Q&gt;81A7&amp;EA98*S98E!"U!#!!&amp;Y!!&gt;!!A!"?1!,1!I!"6.D97RF!#B!5!!$!!-!"!!&amp;'F.D97RF)#AR+3"B&lt;G1A4W:G=W6U)#AQ,$!J!!!%!!!!$5!+!!&gt;/&gt;7VF=GFD!#"!1!!#``````````]!#!^*&lt;H"V&gt;#"976IA98*S98E!+A$Q!!5!!A!'!!=!#1!(!A!!_!!!#1!!!!A!!!!!!!!##!!!!!!!!!!!!1!+!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710274</Property>
-	</Item>
 </LVClass>
