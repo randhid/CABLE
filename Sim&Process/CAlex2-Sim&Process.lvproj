@@ -25,13 +25,13 @@
 			<Item Name="SerialChain.lvclass" Type="LVClass" URL="../../Classes/SerialChain/SerialChain.lvclass"/>
 			<Item Name="SerialChain-Cable.lvclass" Type="LVClass" URL="../../Classes/SerialChain-Cable/SerialChain-Cable.lvclass"/>
 			<Item Name="CAlex2.lvclass" Type="LVClass" URL="../../Classes/CAlex2/CAlex2.lvclass"/>
-			<Item Name="CAlex2_Data.lvclass" Type="LVClass" URL="../DataProcess/CAlex2-Data/CAlex2_Data.lvclass"/>
 			<Item Name="CAlex2_Display.lvclass" Type="LVClass" URL="../../Classes/CAlex2-Display/CAlex2_Display.lvclass"/>
 			<Item Name="ForceField.lvclass" Type="LVClass" URL="../../Classes/ForceField/ForceField.lvclass"/>
 		</Item>
 		<Item Name="DataClasses" Type="Folder">
 			<Item Name="ExpData.lvclass" Type="LVClass" URL="../DataProcess/ExpData/ExpData.lvclass"/>
 			<Item Name="EMG.lvclass" Type="LVClass" URL="../DataProcess/EMG/EMG.lvclass"/>
+			<Item Name="CAlex2_Data.lvclass" Type="LVClass" URL="../DataProcess/CAlex2-Data/CAlex2_Data.lvclass"/>
 		</Item>
 		<Item Name="Simulation" Type="Folder">
 			<Item Name="ModelSimulation.vi" Type="VI" URL="../Simulation/ModelSimulation.vi"/>
@@ -437,6 +437,10 @@
 				<Item Name="CustomVI.lvlib" Type="Library" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/CustomVI.lvlib"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="Draw Multiple Lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Multiple Lines.vi"/>
+				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
+				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
