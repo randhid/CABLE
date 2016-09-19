@@ -28,6 +28,7 @@
 	<Property Name="varPersistentID:{5A3C5198-66A5-460C-AB63-D7DC4606F431}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_ForceXYZ</Property>
 	<Property Name="varPersistentID:{5A9EAECE-8A21-4218-A79C-5591F907A0DC}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/General/QPSolved</Property>
 	<Property Name="varPersistentID:{5F82E887-707D-44D9-A504-BD229804BEA5}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_On</Property>
+	<Property Name="varPersistentID:{5FC3AB52-F5BA-40C8-AA9A-9B7F73235AD7}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/JointCoord</Property>
 	<Property Name="varPersistentID:{60D50DB4-4870-49CD-8273-551FE051A653}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/MotorEnabled</Property>
 	<Property Name="varPersistentID:{62A71C6A-8F0B-406E-82B6-2988C07477CA}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Motor Loop/Controls/MotorMode</Property>
 	<Property Name="varPersistentID:{64016815-82E7-49B5-9508-7741BC958D63}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/FFController/ClosestPt</Property>
@@ -112,6 +113,7 @@
 			<Item Name="VectorNorm.vi" Type="VI" URL="../Remote VIs/Sub Vis/VectorNorm.vi"/>
 		</Item>
 		<Item Name="FrontPanel_RT.vi" Type="VI" URL="../Remote VIs/FrontPanel_RT.vi"/>
+		<Item Name="GaitDisplay.vi" Type="VI" URL="../Remote VIs/GaitDisplay.vi"/>
 		<Item Name="GenTargetGait.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/GenTargetGait.vi"/>
 		<Item Name="LoopTiming.vi" Type="VI" URL="../Remote VIs/LoopTiming.vi"/>
 		<Item Name="RT Video Output Setup.vi" Type="VI" URL="../RT VIs/GaitDisp/RT Video Output Setup.vi"/>
@@ -345,6 +347,9 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
+				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
+				<Item Name="Draw Multiple Lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Multiple Lines.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -385,15 +390,21 @@
 				<Item Name="Normalize End Of Line.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Normalize End Of Line.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
 				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
 				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
+				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -1058,6 +1069,7 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="GaitDisp" Type="Folder">
 			<Item Name="RT Video Output Setup.vi" Type="VI" URL="../RT VIs/GaitDisp/RT Video Output Setup.vi"/>
+			<Item Name="VideoLoop.vi" Type="VI" URL="../RT VIs/GaitDisp/VideoLoop.vi"/>
 		</Item>
 		<Item Name="SharedVariables_Network.lvlib" Type="Library" URL="../Remote VIs/SharedVariables_Network.lvlib"/>
 		<Item Name="SharedVariables_SingleProcess.lvlib" Type="Library" URL="../RT VIs/SharedVariables_SingleProcess.lvlib"/>
@@ -3335,6 +3347,10 @@ DirectoryIndex index.htm
 				<Item Name="IMAQ RT Video Out" Type="VI" URL="/&lt;vilib&gt;/vision/IMAQRT.llb/IMAQ RT Video Out"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Draw Multiple Lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Multiple Lines.vi"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
+				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

@@ -4,6 +4,15 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="JointCoord" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!Z.1!!!"5!A!!!!!!#!!V!#A!(4H6N:8*J9Q!1!%!!!P``````````!!!!!1!"!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="JointSensor" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -39,7 +48,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">CAlex2.lvclass:LowerBodyDim.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../../Classes/CAlex2/TypeDef/LowerBodyDim.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'JJ1%!!"5!A!!!!!!0!!V!#A!(6'BJ:WB-&gt;!!.1!I!"V.I97ZL4(1!#U!+!!6);8"8:!!91&amp;!!!Q!!!!%!!AJ#&lt;W2Z2'FN+'UJ!!!,1!I!"62I;7&gt;I!!N!#A!&amp;5WBB&lt;GM!&amp;E"1!!)!"!!&amp;#E*P:(F8&gt;#BL:SE!!!^!#A!*3'FQ1X6G:F&gt;E!!^!#A!*3'FQ1X6G:EBU!"6!#A!03'FQ1X6G:E:X:&amp;.I;7:U!"6!#A!06'BJ:WB$&gt;7:G6'^,&lt;G6F!".!#A!.6'BJ:WB$&gt;7:G2'FT&gt;!!61!I!$V.I97ZL1X6G:F2P3WZF:1!?1&amp;!!"A!(!!A!#1!+!!M!$!J$&gt;7:G4'^D+'UJ!!"'!0%!!!!!!!!!!AZ$17RF?$)O&lt;(:D&lt;'&amp;T=R"-&lt;X&gt;F=E*P:(F%;7UO9X2M!"Z!5!!$!!-!"A!.$5RF:V"S&lt;X"F=H2J:8-!!1!/!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!($PQ%!!"5!A!!!!!!0!"&amp;!#A!,6'BJ:WB-&gt;#!I&lt;3E!%5!+!!N4;'&amp;O;URU)#BN+1!01!I!#5BJ=&amp;&gt;E)#BN+1!51&amp;!!!Q!!!!%!!A&gt;#&lt;W2Z2'FN!"&amp;!#A!+6'BJ:WAA+'NH+1!!%5!+!!J4;'&amp;O;S!I;W=J!!!31&amp;!!!A!%!!5'1G^E?6&gt;U!!!41!I!$5BJ=%.V:G:8:#!I&lt;3E!%U!+!!V);8"$&gt;7:G3(1A+'UJ!"6!#A!03'FQ2H&gt;E5WBJ:H1A+'UJ!"6!#A!06'BJ:WB5&lt;UNO:75A+'UJ!"&gt;!#A!26'BJ:WB$&gt;7:G2'FT&gt;#!I&lt;3E!&amp;5!+!!^4;'&amp;O;V2P3WZF:3!I&lt;3E!(%"1!!9!"Q!)!!E!#A!,!!Q)1X6G:C"-&lt;W-!!%9!]1!!!!!!!!!#$E."&lt;'6Y-CZM&gt;G.M98.T%%RP&gt;W6S1G^E?52J&lt;3ZD&gt;'Q!(E"1!!-!!Q!'!!U.4'6H5(*P='6S&gt;'FF=Q!"!!Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="LegDimRst" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>

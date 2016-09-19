@@ -39,4 +39,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 	</Item>
+	<Item Name="CAlex2_Display_NoCables.vi" Type="VI" URL="../CAlex2_Display_NoCables.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*7!!!!&amp;1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%5!$!!N-98.U5'RP&gt;%ZV&lt;1"'1(!!"Q%#!!!!!=!K&gt;5&amp;4:"(3EX-!I#12[_9!!!!%+PK@%1NK%&gt;+C5!#A*.AS41!!!!%!!!!#$$.%)'&gt;S98"I)'^V&gt;!!!,%"Q!"Y!!"A71U&amp;M:8AS8U2J=X"M98EO&lt;(:D&lt;'&amp;T=Q!!#%.-7$)A&lt;X6U!!!&amp;!!I!!"J!1!!#``````````]!"QF"&lt;GNM:62S97I!&amp;%"!!!(`````!!=(1WRP=W61&gt;!!+1#%&amp;37ZJ&gt;$]!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!#!!Q`````Q!71%!!!@````]!$1F"?'FT4'&amp;C:7Q!&amp;%"!!!(`````!!=(18BJ=UVB?!!51%!!!@````]!"Q&gt;"?'FT47FO!"B!5!!$!!Y!$Q!1#U&amp;Y;8.4:82U;7ZH!%2!=!!(!1)!!!!"Q#JV16.E%&gt;+4=Q#A*"(LZA!!!!1K_J]2#WI2UK*1!+!EW$*.!!!!!1!!!!),-U1A:X*B='AA;7Y!+E"Q!"Y!!"A71U&amp;M:8AS8U2J=X"M98EO&lt;(:D&lt;'&amp;T=Q!!"U.-7$)A;7Y!91$Q!!Q!!Q!%!!5!"A!)!!E!#A!,!!Q!%1!3!"-$!!"Y!!!.#!!!#1!!!!E!!!!.#Q!"#A!!!1I!!!!+!!!!!!!!!!A!!!!+!!!!#A!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!&amp;!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
 </LVClass>
