@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="15008000">
 	<Property Name="varPersistentID:{010D2550-6E7D-4359-9129-96CFBD0BFD4A}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/LegJointAngles</Property>
 	<Property Name="varPersistentID:{053F03F0-7130-4A2B-9741-C8E0A172CFE1}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/CableLengthInc</Property>
+	<Property Name="varPersistentID:{05ED41F6-000C-41A6-BB46-296588292A5B}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Field Variables/AnkleLocHistory</Property>
 	<Property Name="varPersistentID:{06D3D543-BBAB-4FD3-846E-8DA83AF1F100}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Reset</Property>
 	<Property Name="varPersistentID:{07352B55-35B4-4F25-8FB0-2A1445BC0E5E}" Type="Ref">/PXIe-8135/SharedVariables_SingleProcess.lvlib/Status/ExceTime_Interface</Property>
 	<Property Name="varPersistentID:{0EEB25B7-EA78-4FDA-9AEE-EACF7AD8897F}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Controls/IMU_reset</Property>
@@ -62,7 +63,8 @@
 	<Property Name="varPersistentID:{C0EEF294-B42A-4455-9E40-1AF9D10E704E}" Type="Ref">/PXIe-8135/SharedVariables_SingleProcess.lvlib/Status/ExecTime_LowLvLoop</Property>
 	<Property Name="varPersistentID:{C3C29E97-BFB7-44F4-BFBA-90072B160285}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Field Variables/AnklePos</Property>
 	<Property Name="varPersistentID:{C3DC6FFE-811E-40DC-BC5A-7E635573B832}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_PathType</Property>
-	<Property Name="varPersistentID:{C5074ACF-417D-4B22-A48D-6768E9502274}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/FFController/AnkleTraj</Property>
+	<Property Name="varPersistentID:{C5074ACF-417D-4B22-A48D-6768E9502274}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/FFController/AnkleTraj_Target</Property>
+	<Property Name="varPersistentID:{C6BC976F-CA65-4B31-91AB-7A371FCDB41E}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/AnkleLocHistory</Property>
 	<Property Name="varPersistentID:{CD70365E-E9C7-4C35-AEE4-26694FFFE28B}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Field Variables/JointAngles</Property>
 	<Property Name="varPersistentID:{D2179D35-A417-4BD1-94AE-D4C884664107}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/FFController/CompCuffWeight</Property>
 	<Property Name="varPersistentID:{D2E710A2-E189-45A8-B364-C8A9FBC28A00}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Parameters/ExtraCuffWt</Property>
@@ -1033,6 +1035,7 @@ DirectoryIndex index.htm
 			<Item Name="VN100.lvclass" Type="LVClass" URL="../../Shared Libraries/VN100/VN100.lvclass"/>
 			<Item Name="VN100_Var.lvlib" Type="Library" URL="../../Shared Libraries/VN100/VN100_Var.lvlib"/>
 			<Item Name="filter8.vi" Type="VI" URL="../RT VIs/HighLevelController/filter8.vi"/>
+			<Item Name="AnkleLocHistory.vi" Type="VI" URL="../RT VIs/HighLevelController/AnkleLocHistory.vi"/>
 			<Item Name="HighLvCtrl_Init.vi" Type="VI" URL="../RT VIs/HighLevelController/HighLvCtrl_Init.vi"/>
 			<Item Name="HighLvCtrl_Loop.vi" Type="VI" URL="../RT VIs/HighLevelController/HighLvCtrl_Loop.vi"/>
 			<Item Name="HighLvCtrl_Clear.vi" Type="VI" URL="../RT VIs/HighLevelController/HighLvCtrl_Clear.vi"/>

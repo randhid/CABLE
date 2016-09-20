@@ -177,7 +177,7 @@
 				<Property Name="type" Type="Str">Network</Property>
 				<Property Name="typedefName1" Type="Str">CAlex2.lvclass:LowerBodyDim.ctl</Property>
 				<Property Name="typedefPath1" Type="PathRel">../../Classes/CAlex2/TypeDef/LowerBodyDim.ctl</Property>
-				<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'JJ1%!!"5!A!!!!!!0!!V!#A!(6'BJ:WB-&gt;!!.1!I!"V.I97ZL4(1!#U!+!!6);8"8:!!91&amp;!!!Q!!!!%!!AJ#&lt;W2Z2'FN+'UJ!!!,1!I!"62I;7&gt;I!!N!#A!&amp;5WBB&lt;GM!&amp;E"1!!)!"!!&amp;#E*P:(F8&gt;#BL:SE!!!^!#A!*3'FQ1X6G:F&gt;E!!^!#A!*3'FQ1X6G:EBU!"6!#A!03'FQ1X6G:E:X:&amp;.I;7:U!"6!#A!06'BJ:WB$&gt;7:G6'^,&lt;G6F!".!#A!.6'BJ:WB$&gt;7:G2'FT&gt;!!61!I!$V.I97ZL1X6G:F2P3WZF:1!?1&amp;!!"A!(!!A!#1!+!!M!$!J$&gt;7:G4'^D+'UJ!!"'!0%!!!!!!!!!!AZ$17RF?$)O&lt;(:D&lt;'&amp;T=R"-&lt;X&gt;F=E*P:(F%;7UO9X2M!"Z!5!!$!!-!"A!.$5RF:V"S&lt;X"F=H2J:8-!!1!/!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+				<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!($PQ%!!"5!A!!!!!!0!"&amp;!#A!,6'BJ:WB-&gt;#!I&lt;3E!%5!+!!N4;'&amp;O;URU)#BN+1!01!I!#5BJ=&amp;&gt;E)#BN+1!51&amp;!!!Q!!!!%!!A&gt;#&lt;W2Z2'FN!"&amp;!#A!+6'BJ:WAA+'NH+1!!%5!+!!J4;'&amp;O;S!I;W=J!!!31&amp;!!!A!%!!5'1G^E?6&gt;U!!!41!I!$5BJ=%.V:G:8:#!I&lt;3E!%U!+!!V);8"$&gt;7:G3(1A+'UJ!"6!#A!03'FQ2H&gt;E5WBJ:H1A+'UJ!"6!#A!06'BJ:WB5&lt;UNO:75A+'UJ!"&gt;!#A!26'BJ:WB$&gt;7:G2'FT&gt;#!I&lt;3E!&amp;5!+!!^4;'&amp;O;V2P3WZF:3!I&lt;3E!(%"1!!9!"Q!)!!E!#A!,!!Q)1X6G:C"-&lt;W-!!%9!]1!!!!!!!!!#$E."&lt;'6Y-CZM&gt;G.M98.T%%RP&gt;W6S1G^E?52J&lt;3ZD&gt;'Q!(E"1!!-!!Q!'!!U.4'6H5(*P='6S&gt;'FF=Q!"!!Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 			</Item>
 			<Item Name="ExtraCuffWt" Type="Variable">
 				<Property Name="featurePacks" Type="Str">Network</Property>
@@ -191,13 +191,13 @@
 		</Item>
 		<Item Name="Field Variables" Type="Folder">
 			<Item Name="JointAngles" Type="Variable">
-				<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+				<Property Name="featurePacks" Type="Str">Network</Property>
 				<Property Name="Network:BuffSize" Type="Str">5</Property>
 				<Property Name="Network:ElemSize" Type="Str">4</Property>
 				<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 				<Property Name="Network:SingleWriter" Type="Str">False</Property>
 				<Property Name="Network:UseBinding" Type="Str">False</Property>
-				<Property Name="Network:UseBuffering" Type="Str">True</Property>
+				<Property Name="Network:UseBuffering" Type="Str">False</Property>
 				<Property Name="numTypedefs" Type="UInt">0</Property>
 				<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">True</Property>
 				<Property Name="Real-Time Features:ArrayLength" Type="Str">4</Property>
@@ -208,13 +208,13 @@
 				<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"5!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 			</Item>
 			<Item Name="AnklePos" Type="Variable">
-				<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+				<Property Name="featurePacks" Type="Str">Network</Property>
 				<Property Name="Network:BuffSize" Type="Str">5</Property>
 				<Property Name="Network:ElemSize" Type="Str">3</Property>
 				<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 				<Property Name="Network:SingleWriter" Type="Str">False</Property>
 				<Property Name="Network:UseBinding" Type="Str">False</Property>
-				<Property Name="Network:UseBuffering" Type="Str">True</Property>
+				<Property Name="Network:UseBuffering" Type="Str">False</Property>
 				<Property Name="numTypedefs" Type="UInt">0</Property>
 				<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 				<Property Name="Real-Time Features:ArrayLength" Type="Str">3</Property>
@@ -225,13 +225,13 @@
 				<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"5!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 			</Item>
 			<Item Name="PlannedTensions" Type="Variable">
-				<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+				<Property Name="featurePacks" Type="Str">Network</Property>
 				<Property Name="Network:BuffSize" Type="Str">5</Property>
 				<Property Name="Network:ElemSize" Type="Str">8</Property>
 				<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 				<Property Name="Network:SingleWriter" Type="Str">False</Property>
 				<Property Name="Network:UseBinding" Type="Str">False</Property>
-				<Property Name="Network:UseBuffering" Type="Str">True</Property>
+				<Property Name="Network:UseBuffering" Type="Str">False</Property>
 				<Property Name="numTypedefs" Type="UInt">0</Property>
 				<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 				<Property Name="Real-Time Features:ArrayLength" Type="Str">8</Property>
@@ -242,13 +242,13 @@
 				<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"5!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 			</Item>
 			<Item Name="Cable Lengths" Type="Variable">
-				<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+				<Property Name="featurePacks" Type="Str">Network</Property>
 				<Property Name="Network:BuffSize" Type="Str">5</Property>
 				<Property Name="Network:ElemSize" Type="Str">8</Property>
 				<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 				<Property Name="Network:SingleWriter" Type="Str">False</Property>
 				<Property Name="Network:UseBinding" Type="Str">False</Property>
-				<Property Name="Network:UseBuffering" Type="Str">True</Property>
+				<Property Name="Network:UseBuffering" Type="Str">False</Property>
 				<Property Name="numTypedefs" Type="UInt">0</Property>
 				<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 				<Property Name="Real-Time Features:ArrayLength" Type="Str">8</Property>
@@ -259,13 +259,13 @@
 				<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"5!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 			</Item>
 			<Item Name="FootSwitch" Type="Variable">
-				<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+				<Property Name="featurePacks" Type="Str">Network</Property>
 				<Property Name="Network:BuffSize" Type="Str">3</Property>
 				<Property Name="Network:ElemSize" Type="Str">6</Property>
 				<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 				<Property Name="Network:SingleWriter" Type="Str">False</Property>
 				<Property Name="Network:UseBinding" Type="Str">False</Property>
-				<Property Name="Network:UseBuffering" Type="Str">True</Property>
+				<Property Name="Network:UseBuffering" Type="Str">False</Property>
 				<Property Name="numTypedefs" Type="UInt">0</Property>
 				<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">True</Property>
 				<Property Name="Real-Time Features:ArrayLength" Type="Str">6</Property>
@@ -274,6 +274,18 @@
 				<Property Name="Real-Time Features:UseBuffering" Type="Str">True</Property>
 				<Property Name="type" Type="Str">Network</Property>
 				<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"5!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
+			</Item>
+			<Item Name="AnkleLocHistory" Type="Variable">
+				<Property Name="featurePacks" Type="Str">Network</Property>
+				<Property Name="Network:BuffSize" Type="Str">1200</Property>
+				<Property Name="Network:ElemSize" Type="Str">1</Property>
+				<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+				<Property Name="Network:SingleWriter" Type="Str">True</Property>
+				<Property Name="Network:UseBinding" Type="Str">False</Property>
+				<Property Name="Network:UseBuffering" Type="Str">False</Property>
+				<Property Name="numTypedefs" Type="UInt">0</Property>
+				<Property Name="type" Type="Str">Network</Property>
+				<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!R,1!!!"5!A!!!!!!#!!5!#A!!%!"!!!,``````````Q!!!!%!!1!!!!!!!!!!!!!!!!!!!!!</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -297,7 +309,7 @@
 			<Property Name="typedefPath1" Type="PathRel">../../Classes/ForceField/TypeDef/FF_Gains.ctl</Property>
 			<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#_OA!!!"5!A!!!!!!(!!F!#A!#3WY!!!F!#A!#2'Y!!!F!#A!#3X1!!!F!#A!#2(1!!!F!#A!#3W1!!!F!#A!#4H-!!%1!]1!!!!!!!!!#%E:P=G.F2GFF&lt;'1O&lt;(:D&lt;'&amp;T=QR'2F^(97FO=SZD&gt;'Q!(%"1!!9!!!!"!!)!!Q!%!!5&amp;2W&amp;J&lt;H-!!1!'!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
-		<Item Name="AnkleTraj" Type="Variable">
+		<Item Name="AnkleTraj_Target" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Network</Property>
 			<Property Name="Network:BuffSize" Type="Str">5</Property>
 			<Property Name="Network:ElemSize" Type="Str">9</Property>
@@ -330,13 +342,13 @@
 			<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!"5!A!!!!!!"!!N!"1!&amp;65FO&gt;$A!!1!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="FieldForceNTR" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+			<Property Name="featurePacks" Type="Str">Network</Property>
 			<Property Name="Network:BuffSize" Type="Str">5</Property>
 			<Property Name="Network:ElemSize" Type="Str">3</Property>
 			<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 			<Property Name="Network:SingleWriter" Type="Str">False</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">True</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
 			<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 			<Property Name="Real-Time Features:ArrayLength" Type="Str">3</Property>
@@ -347,13 +359,13 @@
 			<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"5!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="FieldForceXYZ" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+			<Property Name="featurePacks" Type="Str">Network</Property>
 			<Property Name="Network:BuffSize" Type="Str">5</Property>
 			<Property Name="Network:ElemSize" Type="Str">3</Property>
 			<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 			<Property Name="Network:SingleWriter" Type="Str">False</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">True</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
 			<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 			<Property Name="Real-Time Features:ArrayLength" Type="Str">3</Property>
@@ -364,13 +376,13 @@
 			<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"5!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="ClosestPt" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+			<Property Name="featurePacks" Type="Str">Network</Property>
 			<Property Name="Network:BuffSize" Type="Str">1</Property>
 			<Property Name="Network:ElemSize" Type="Str">3</Property>
 			<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 			<Property Name="Network:SingleWriter" Type="Str">False</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">True</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
 			<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">True</Property>
 			<Property Name="Real-Time Features:ArrayLength" Type="Str">3</Property>
@@ -486,13 +498,13 @@
 			<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="MotorEnable" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+			<Property Name="featurePacks" Type="Str">Network</Property>
 			<Property Name="Network:BuffSize" Type="Str">5</Property>
 			<Property Name="Network:ElemSize" Type="Str">8</Property>
 			<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 			<Property Name="Network:SingleWriter" Type="Str">False</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">True</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
 			<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 			<Property Name="Real-Time Features:ArrayLength" Type="Str">8</Property>
@@ -535,13 +547,13 @@
 			<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"5!A!!!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="QPSolved" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+			<Property Name="featurePacks" Type="Str">Network</Property>
 			<Property Name="Network:BuffSize" Type="Str">3</Property>
 			<Property Name="Network:ElemSize" Type="Str">1</Property>
 			<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 			<Property Name="Network:SingleWriter" Type="Str">False</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">True</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
 			<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">True</Property>
 			<Property Name="Real-Time Features:ArrayLength" Type="Str">1</Property>
