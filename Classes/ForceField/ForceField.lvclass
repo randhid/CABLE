@@ -231,15 +231,6 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074536982</Property>
-		</Item>
-		<Item Name="FF_AnkleTrajAdv2.vi" Type="VI" URL="../FF_AnkleTrajAdv2.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(Q!!!!%Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$5!+!!&gt;/&gt;7VF=GFD!"J!1!!"`````Q!%$%.M&lt;X.F=X21&lt;WFO&gt;!!!"1!+!!!71%!!!@````]!"AB'&lt;X*D:6B:7A!!/E"Q!"Y!!"132G^S9W6';76M:#ZM&gt;G.M98.T!!!;2G^S9W5A2GFF&lt;'1A1W^O&gt;(*P&lt;'RF=C"P&gt;81!!"2!)1Z6='2B&gt;'65=G&amp;K5(*F&gt;A!!&amp;E"!!!(`````!!9)2G^S9W6/6%1!!!J!)12*&lt;GFU!!!*1!I!!G2U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!&gt;!#A!"?1!;1%!!!@````]!$AV"&lt;GNM:6:F&lt;'^D;82Z!"B!1!!"`````Q!%#E&amp;O;WRF37Z(1V-!!$B!=!!?!!!5%E:P=G.F2GFF&lt;'1O&lt;(:D&lt;'&amp;T=Q!!'5:P=G.F)%:J:7RE)%.P&lt;H2S&lt;WRM:8)A;7Y!91$Q!!Q!!Q!&amp;!!=!#!!*!!I!#Q!-!!U!$Q!1!"%$!!"Y!!!.#!!!#1!!!!E!!!!.#Q!!#1!!!!E!!!!+!!!!#A!!!!A!!!%+!!!"#A!!!!I!!!U!!!!-!!!!!!!!!!!!!!%!%A!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1074536976</Property>
 		</Item>
 		<Item Name="TrajFilter.vi" Type="VI" URL="../FF_AnkleTraj/TrajFilter.vi">
