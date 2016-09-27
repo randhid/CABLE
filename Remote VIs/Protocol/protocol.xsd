@@ -1,0 +1,47 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:complexType name="TimeType">
+		<xs:simpleContent>
+			<xs:extension base="xs:decimal">
+				<xs:attribute type="xs:string" name="unit" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType> 
+	
+	<xs:complexType name="ActionType">
+		<xs:sequence>
+			<xs:element type="xs:string" name="Name" />
+			<xs:element type="xs:string" name="Value" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="SessionType">
+		<xs:sequence>
+			<xs:element type="xs:string" name="Name" />
+			<xs:element type="TimeType" name="Time" />
+			<xs:element type="ActionType" name="Action" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="Protocol">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Session" minOccurs="1">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="SessionType">
+								<xs:sequence>
+
+									<xs:element name="FileName" type="xs:string" />
+									<xs:element name="Suggestions" type="xs:string" minOccurs="0"  maxOccurs="1"/>
+									<xs:element name="Subsession" type="SessionType"  minOccurs="0"/>
+
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

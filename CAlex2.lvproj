@@ -106,6 +106,17 @@
 			<Item Name="ForceField.lvclass" Type="LVClass" URL="../Classes/ForceField/ForceField.lvclass"/>
 			<Item Name="MotorControl.lvclass" Type="LVClass" URL="../Classes/MotorControl/MotorControl.lvclass"/>
 		</Item>
+		<Item Name="Protocol" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="TrainingProtocol.xml" Type="Document" URL="../Remote VIs/Protocol/TrainingProtocol.xml"/>
+			<Item Name="protocol.xsd" Type="Document" URL="../Remote VIs/Protocol/protocol.xsd"/>
+			<Item Name="ProtocolStatus.ctl" Type="VI" URL="../Remote VIs/Protocol/ProtocolStatus.ctl"/>
+			<Item Name="GetSessionAction.vi" Type="VI" URL="../Remote VIs/Protocol/GetSessionAction.vi"/>
+			<Item Name="GetSessionNameTime.vi" Type="VI" URL="../Remote VIs/Protocol/GetSessionNameTime.vi"/>
+			<Item Name="SetSessionAction.vi" Type="VI" URL="../Remote VIs/Protocol/SetSessionAction.vi"/>
+			<Item Name="ProtocolControl2.vi" Type="VI" URL="../Remote VIs/Protocol/ProtocolControl2.vi"/>
+			<Item Name="ProtocolControl_QMH.vi" Type="VI" URL="../Remote VIs/Protocol/ProtocolControl_QMH.vi"/>
+		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="CableMotorSensorMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/CableMotorSensorMismatch.vi"/>
 			<Item Name="CutMethod.ctl" Type="VI" URL="../Remote VIs/GenTargetTraj/TypeDef/CutMethod.ctl"/>
@@ -118,7 +129,6 @@
 		<Item Name="GaitDisplay.vi" Type="VI" URL="../Remote VIs/GaitDisplay.vi"/>
 		<Item Name="GenTargetGait.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/GenTargetGait.vi"/>
 		<Item Name="LoopTiming.vi" Type="VI" URL="../Remote VIs/LoopTiming.vi"/>
-		<Item Name="RT Video Output Setup.vi" Type="VI" URL="../RT VIs/GaitDisp/RT Video Output Setup.vi"/>
 		<Item Name="Timer.vi" Type="VI" URL="../Remote VIs/Sub Vis/Timer.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -366,13 +376,6 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
-				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
-				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
-				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
-				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
-				<Item Name="IMAQ RT Video Out" Type="VI" URL="/&lt;vilib&gt;/vision/IMAQRT.llb/IMAQ RT Video Out"/>
-				<Item Name="IMAQ Video Out Display Mode" Type="VI" URL="/&lt;vilib&gt;/vision/IMAQRT.llb/IMAQ Video Out Display Mode"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVAnnotationListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVAnnotationListTypeDef.ctl"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -389,6 +392,7 @@
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="Normalize End Of Line.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Normalize End Of Line.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
@@ -408,7 +412,6 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -424,14 +427,11 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
-			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

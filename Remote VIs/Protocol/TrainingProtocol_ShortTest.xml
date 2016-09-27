@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Protocol>
+	<Session>
+		<Name>Freewalking</Name>
+		<Time unit="min">0.5</Time>
+		<FileName>fw1</FileName>
+		<Suggestions>Take off C-ALEX</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>False</Value>
+		</Action>
+		<Action>
+			<Name>VisualFeedBack</Name>
+			<Value>False</Value>
+		</Action>
+	</Session>
+	<Session>
+		<Name>Baseline</Name>
+		<Time unit="min">0.5</Time>
+		<FileName>bs1</FileName>
+		<Suggestions>Put on C-ALEX</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>False</Value>
+		</Action>
+		<Action>
+			<Name>VisualFeedBack</Name>
+			<Value>False</Value>
+		</Action>
+	</Session>
+	<Session>
+		<Name>Training #1</Name>
+		<Time unit="min">1</Time>
+		<FileName>tr1</FileName>
+		<Suggestions>Break for 0.2 min</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>True</Value>
+		</Action>
+		<Subsession>
+			<Name>Visual Feedback On</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>True</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback Off</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback On</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>True</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback Off</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Catch</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>ForceField</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+	</Session>
+	<Session>
+		<Name>Mid-Test</Name>
+		<Time unit="min">0.2</Time>
+		<FileName>mt1</FileName>
+		<Suggestions>Break for 1 min</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>False</Value>
+		</Action>
+		<Action>
+			<Name>VisualFeedBack</Name>
+			<Value>False</Value>
+		</Action>
+	</Session>
+	<Session>
+		<Name>Training #2</Name>
+		<Time unit="min">1</Time>
+		<FileName>tr2</FileName>
+		<Suggestions>Break for 0.2 min</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>True</Value>
+		</Action>
+		<Subsession>
+			<Name>Visual Feedback On</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>True</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback Off</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback On</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>True</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback Off</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Catch</Name>
+			<Time unit="min">0.5</Time>
+			<Action>
+				<Name>ForceField</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+	</Session>
+	<Session>
+		<Name>Mid-Test</Name>
+		<Time unit="min">1</Time>
+		<FileName>mt2</FileName>
+		<Suggestions>Break for 1 min</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>False</Value>
+		</Action>
+		<Action>
+			<Name>VisualFeedBack</Name>
+			<Value>False</Value>
+		</Action>
+	</Session>
+	<Session>
+		<Name>Training #3</Name>
+		<Time unit="min">1</Time>
+		<FileName>tr3</FileName>
+		<Suggestions>Break for 0.2 min</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>True</Value>
+		</Action>
+		<Subsession>
+			<Name>Visual Feedback On</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>True</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback Off</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback On</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>True</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback Off</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Catch</Name>
+			<Time unit="min">0.5</Time>
+			<Action>
+				<Name>ForceField</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+	</Session>
+	<Session>
+		<Name>Mid-Test</Name>
+		<Time unit="min">1</Time>
+		<FileName>mt3</FileName>
+		<Suggestions>Break for 1 min</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>False</Value>
+		</Action>
+		<Action>
+			<Name>VisualFeedBack</Name>
+			<Value>False</Value>
+		</Action>
+	</Session>
+	<Session>
+		<Name>Training #4</Name>
+		<Time unit="min">1</Time>
+		<FileName>tr4</FileName>
+		<Suggestions>Break for 0.2 min</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>True</Value>
+		</Action>
+		<Subsession>
+			<Name>Visual Feedback On</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>True</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback Off</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback On</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>True</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback Off</Name>
+			<Time unit="min">0.2</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Catch</Name>
+			<Time unit="min">0.5</Time>
+			<Action>
+				<Name>ForceField</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+	</Session>
+	<Session>
+		<Name>Post-Test</Name>
+		<Time unit="min">0.3</Time>
+		<FileName>pt1</FileName>
+		<Suggestions>Start Immediately</Suggestions>
+		<Action>
+			<Name>VisualFeedBack</Name>
+			<Value>False</Value>
+		</Action>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>False</Value>
+		</Action>
+	</Session>
+	<Session>
+		<Name>Retention #1</Name>
+		<Time unit="min">0.5</Time>
+		<FileName>rt1</FileName>
+		<Suggestions>Take off C-ALEX</Suggestions>
+		<Action>
+			<Name>VisualFeedBack</Name>
+			<Value>False</Value>
+		</Action>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>False</Value>
+		</Action>
+	</Session>
+	<Session>
+		<Name>Retention #2</Name>
+		<Time unit="min">0.5</Time>
+		<FileName>rt2</FileName>
+		<Suggestions>Wait 5 min</Suggestions>
+		<Action>
+			<Name>VisualFeedBack</Name>
+			<Value>False</Value>
+		</Action>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>False</Value>
+		</Action>
+	</Session>	
+	<Session>
+		<Name>Retention #3</Name>
+		<Time unit="min">0.5</Time>
+		<FileName>rt3</FileName>
+		<Suggestions>Start Immediately, Walk Normally</Suggestions>
+		<Action>
+			<Name>VisualFeedBack</Name>
+			<Value>False</Value>
+		</Action>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>False</Value>
+		</Action>
+	</Session>	
+	
+	
+</Protocol>
