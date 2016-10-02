@@ -279,13 +279,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
 		</Item>
 		<Item Name="TrajClosePtAve.vi" Type="VI" URL="../FF_AnkleTraj/TrajClosePtAve.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$3!!!!#!!%!!!!%5!+!!JX:7FH;(21=G6W!!!61!-!$E.M&lt;X.F5(2*:(B@18:F!!!01!I!#52N;7Z@5(*F&gt;A!61!-!$U.M&lt;X.F5(2*:(B@5(*F&gt;A!81!-!%5.M&lt;X.F5(2*:(B@6'&amp;S:W6U!"&amp;!!Q!+6(*B;ERF&lt;G&gt;U;!!!6!$Q!!Q!!!!"!!!!!A!!!!!!!!!!!!-!"!!&amp;!!9#!!"Y!!!!!!!!$1A!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!!#!!!!!I!!!!!!1!(!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$7!!!!#!!%!!!!%U!+!!RX:7FH;(2598*H:81!!"6!!Q!/1WRP=W61&gt;%FE?&amp;^"&gt;G5!!"&amp;!#A!,2'VJ&lt;F^598*H:81!&amp;5!$!!^$&lt;'^T:6"U372Y8V"S:89!&amp;U!$!"&amp;$&lt;'^T:6"U372Y8V2B=G&gt;F&gt;!!21!-!#F2S97J-:7ZH&gt;'A!!&amp;1!]!!-!!!!!1!!!!)!!!!!!!!!!!!$!!1!"1!'!A!!?!!!!!!!!!U)!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!!A!!!!+!!!!!!%!"Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821058</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1073742336</Property>
 		</Item>
 		<Item Name="TrajCheck.vi" Type="VI" URL="../FF_AnkleTraj/TrajCheck.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!":!!!!"!!51#%02W^P:&amp;2S97JF9X2P=HE`!!V!#A!(4H6N:8*J9Q!91%!!!P``````````!!%'6(*B;EFO!!!9!0!!!A!!!!)#!!!)!!!*!!!##!!!!!!"!!-!!!!!</Property>
@@ -344,7 +344,7 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342714384</Property>
 	</Item>
 	<Item Name="FF_SetForce.vi" Type="VI" URL="../FF_SetForce.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)*!!!!%Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"1!+!!!71%!!!@````]!"!B'&lt;X*D:5Z52!!!&amp;E"!!!(`````!!1)2G^S9W6976I!!$J!=!!?!!!5%E:P=G.F2GFF&lt;'1O&lt;(:D&lt;'&amp;T=Q!!'E:P=G.F)%:J:7RE)%.P&lt;H2S&lt;WRM:8)A&lt;X6U!!!%!!!!'5!7!!)'4'FO:7&amp;S"%*F&lt;'Q!"%6O&gt;7U!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%%"!!!(`````!!1#6H1!!""!1!!"`````Q!%!F:O!!!,1!I!"%2N;7Y!!$=!]1!!!!!!!!!#%E:P=G.F2GFF&lt;'1O&lt;(:D&lt;'&amp;T=Q&gt;54E1O9X2M!"2!5!!$!!M!$!!.!V2/2!!(1!I!!8E!'E"!!!(`````!!].17ZL&lt;'67:7RP9WFU?1!Y1(!!(A!!&amp;"*'&lt;X*D:5:J:7RE,GRW9WRB=X-!!"F'&lt;X*D:3"';76M:#"$&lt;WZU=G^M&lt;'6S)'FO!'%!]!!-!!-!"1!'!!=!#!!)!!A!#1!+!!Y!%!!2!Q!!?!!!$1A!!!E!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!I!!!!)!!!!#!!!!1I!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!")!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)*!!!!%Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"1!+!!!71%!!!@````]!"!B'&lt;X*D:5Z52!!!&amp;E"!!!(`````!!1)2G^S9W6976I!!$J!=!!?!!!5%E:P=G.F2GFF&lt;'1O&lt;(:D&lt;'&amp;T=Q!!'E:P=G.F)%:J:7RE)%.P&lt;H2S&lt;WRM:8)A&lt;X6U!!!%!!!!'5!7!!)'4'FO:7&amp;S"%*F&lt;'Q!"%6O&gt;7U!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%%"!!!(`````!!1#6H1!!""!1!!"`````Q!%!F:O!!!,1!I!"%2N;7Y!!$=!]1!!!!!!!!!#%E:P=G.F2GFF&lt;'1O&lt;(:D&lt;'&amp;T=Q&gt;54E1O9X2M!"2!5!!$!!M!$!!.!V2/2!!(1!I!!8E!'E"!!!(`````!!].17ZL&lt;'67:7RP9WFU?1!Y1(!!(A!!&amp;"*'&lt;X*D:5:J:7RE,GRW9WRB=X-!!"F'&lt;X*D:3"';76M:#"$&lt;WZU=G^M&lt;'6S)'FO!'%!]!!-!!-!"1!'!!=!#!!)!!A!#1!+!!Y!%!!2!Q!!?!!!$1A!!!E!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!I!!!!)!!!!%!!!!2)!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!")!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
