@@ -49,6 +49,7 @@
 			<Item Name="MatchCarexToEMG.vi" Type="VI" URL="../DataProcess/MatchCarexToEMG.vi"/>
 			<Item Name="CalcGaitTiming.vi" Type="VI" URL="../DataProcess/CalcGaitTiming.vi"/>
 			<Item Name="CAlex_ChangeDate.vi" Type="VI" URL="../DataProcess/CAlex_ChangeDate.vi"/>
+			<Item Name="MatchCutTime.vi" Type="VI" URL="../DataProcess/MatchCutTime.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
