@@ -25,6 +25,7 @@
 	<Property Name="varPersistentID:{47D697CD-6BAE-413E-9125-0830751F6D61}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/CableTensionRef</Property>
 	<Property Name="varPersistentID:{47F3D448-1449-48FA-A049-AA32F726DD7E}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Field Variables/FootSwitch</Property>
 	<Property Name="varPersistentID:{506FC14A-B975-419C-BEFF-0D116CE53ED1}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/FootSwitchLR3</Property>
+	<Property Name="varPersistentID:{597FE261-12AF-4FF5-A4B8-64709BB1A423}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/DesiredTorque(Nm)</Property>
 	<Property Name="varPersistentID:{59993029-3DD4-4E7C-9E3B-9C151A79BBD0}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/CableTensionManual</Property>
 	<Property Name="varPersistentID:{5A3C5198-66A5-460C-AB63-D7DC4606F431}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_ForceXYZ</Property>
 	<Property Name="varPersistentID:{5A9EAECE-8A21-4218-A79C-5591F907A0DC}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/General/QPSolved</Property>
