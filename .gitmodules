@@ -1,12 +1,12 @@
 [submodule "Sim&Process/DataProcess/EMG"]
 	path = Sim&Process/DataProcess/EMG
-	url = //128.59.144.92/git/EMG.git
+	url = ssh://roar2.me.columbia.edu/git/emg
 [submodule "Classes/SerialChain-Cable"]
 	path = Classes/SerialChain-Cable
-	url = //128.59.144.92/git/SerialChain-Cable.git
+	url = ssh://roar2.me.columbia.edu/git/serialchain-cable
 [submodule "Classes/SerialChain"]
 	path = Classes/SerialChain
-	url = //128.59.144.92/git/SerialChain.git
+	url = ssh://roar2.me.columbia.edu/git/serialchain
 [submodule "Classes/MotorControl"]
 	path = Classes/MotorControl
-	url = //128.59.144.92/git/MotorControl.git
+	url = ssh://roar2.me.columbia.edu/git/motorcontrol
