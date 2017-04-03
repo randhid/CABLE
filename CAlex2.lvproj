@@ -929,7 +929,6 @@ DirectoryIndex index.htm
 			<Item Name="Vicon2JointAngles.vi" Type="VI" URL="../RT VIs/TCP/Vicon2JointAngles.vi"/>
 		</Item>
 		<Item Name="TCPconnect" Type="Folder">
-			<Item Name="tcpLoop.vi" Type="VI" URL="../RT VIs/TCP/tcpLoop.vi"/>
 			<Item Name="udpLoop.vi" Type="VI" URL="../RT VIs/TCP/udpLoop.vi"/>
 			<Item Name="udpLoop2.vi" Type="VI" URL="../RT VIs/TCP/udpLoop2.vi"/>
 			<Item Name="tcpSharedVariables.lvlib" Type="Library" URL="../RT VIs/TCP/tcpSharedVariables.lvlib"/>
@@ -3061,10 +3060,6 @@ DirectoryIndex index.htm
 				<Item Name="DAQmx Create Channel (CI-Duty Cycle).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Duty Cycle).vi"/>
 				<Item Name="DAQmx Create Channel (CI-Velocity-Angular).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Velocity-Angular).vi"/>
 				<Item Name="DAQmx Create Channel (CI-Velocity-Linear).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Velocity-Linear).vi"/>
-				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
-				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
-				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
-				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
