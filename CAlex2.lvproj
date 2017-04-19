@@ -17,11 +17,9 @@
 	<Property Name="varPersistentID:{2C7AD3ED-0E63-464F-8142-C55A6637FEB2}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/MotorCmd</Property>
 	<Property Name="varPersistentID:{2F457C1A-95DD-4C8A-9FAB-9C5819118CFF}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Parameters/LegDim</Property>
 	<Property Name="varPersistentID:{322ED8EA-77A9-4F7F-A249-975127FC9BBA}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_ForceNTD</Property>
-	<Property Name="varPersistentID:{34294B0F-CD31-435C-A3A3-29A113563044}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Parameters/Est Shoulder Center</Property>
-	<Property Name="varPersistentID:{36038F48-A5BB-4948-AD56-90B89C26B3F9}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Parameters/Comp Sh Center</Property>
 	<Property Name="varPersistentID:{37D99051-D23B-4F5E-80A7-81600D23EFA6}" Type="Ref">/PXIe-8135/SharedVariables_SingleProcess.lvlib/ProgramControl/GlobalStop</Property>
 	<Property Name="varPersistentID:{3D4F43E8-EAEE-4563-ABE0-75F7AF2AEF47}" Type="Ref">/PXIe-8135/TCPconnect/tcpSharedVariables.lvlib/ARtoolkitIMU</Property>
-	<Property Name="varPersistentID:{3F55BC3F-77FD-4E75-A13E-0582B376F800}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/MoterMode</Property>
+	<Property Name="varPersistentID:{3F55BC3F-77FD-4E75-A13E-0582B376F800}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/ControllerMode</Property>
 	<Property Name="varPersistentID:{47D697CD-6BAE-413E-9125-0830751F6D61}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/CableTensionRef</Property>
 	<Property Name="varPersistentID:{47F3D448-1449-48FA-A049-AA32F726DD7E}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Field Variables/FootSwitch</Property>
 	<Property Name="varPersistentID:{506FC14A-B975-419C-BEFF-0D116CE53ED1}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/FootSwitchLR3</Property>
@@ -35,6 +33,7 @@
 	<Property Name="varPersistentID:{62A71C6A-8F0B-406E-82B6-2988C07477CA}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Motor Loop/Controls/MotorMode</Property>
 	<Property Name="varPersistentID:{64016815-82E7-49B5-9508-7741BC958D63}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/FFController/ClosestPt</Property>
 	<Property Name="varPersistentID:{678E0B2B-970A-4979-A95E-3429EFFB20AB}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/FFController/GenForceField</Property>
+	<Property Name="varPersistentID:{6DFE71F6-068D-423F-BE08-92078C4C4E42}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_TareAngles</Property>
 	<Property Name="varPersistentID:{7002A3F0-05EF-4FA3-B263-D189065759CB}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/LegAnkleLoc</Property>
 	<Property Name="varPersistentID:{724BB76C-BC54-4D24-9930-E87A4D7D44A7}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Stop</Property>
 	<Property Name="varPersistentID:{73EC2E7E-0B15-4B12-80DA-FC7DFD77EE42}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/General/MotorEnable</Property>
@@ -43,6 +42,7 @@
 	<Property Name="varPersistentID:{86D808A8-8A16-4733-8255-6C348FB0B46A}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_CompCuff</Property>
 	<Property Name="varPersistentID:{86DB0BD9-FDB7-4987-ADA2-921DC70D9D85}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/FFController/CompLegWeight</Property>
 	<Property Name="varPersistentID:{86DEA0C0-09E5-495E-AAA1-056D2074B48F}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/FFController/FieldForceNTR</Property>
+	<Property Name="varPersistentID:{87031C77-7DCE-4376-9993-CA7F329E68BA}" Type="Ref">/PXIe-8135/Logger/LoggerSharedVariables.lvlib/IMUTareViconReading</Property>
 	<Property Name="varPersistentID:{8704BA27-21AA-4460-8B6B-43EE9D2680D8}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Controls/Vicon</Property>
 	<Property Name="varPersistentID:{893B1725-594E-44F9-B724-B18FA2705089}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/FFController/Gains</Property>
 	<Property Name="varPersistentID:{8AF1B67D-ECF8-4D77-8745-DC91C61B0725}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Field Variables/Cable Lengths</Property>
@@ -79,7 +79,6 @@
 	<Property Name="varPersistentID:{E287ACC8-4C24-4616-BE03-06676CBF6B69}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Data Logger/RecordTime</Property>
 	<Property Name="varPersistentID:{E7E86B82-6BC6-410F-BDA0-36B42886C3FB}" Type="Ref">/PXIe-8135/TCPconnect/tcpSharedVariables.lvlib/ViconIMU</Property>
 	<Property Name="varPersistentID:{EC0DFE10-4857-4020-B02A-17D3E7E41D0A}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Data Logger/Record?</Property>
-	<Property Name="varPersistentID:{F27D134E-D99D-44CC-B0BC-C4E4503A9847}" Type="Ref">/PXIe-8135/SharedVariables_Network.lvlib/Exoskeleton/Controls/Es SH Center?</Property>
 	<Property Name="varPersistentID:{F2BEA521-AE39-4CA0-8B13-62600ABF371C}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/StandPos</Property>
 	<Property Name="varPersistentID:{F7694959-B096-4FF2-823E-FACD345072F7}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_AngRates (rad-s)</Property>
 	<Property Name="varPersistentID:{F799C58A-F84F-49A1-8CAD-38412DBF9071}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/JointSensor</Property>
@@ -122,8 +121,8 @@
 			<Item Name="CableMotorSensorMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/CableMotorSensorMismatch.vi"/>
 			<Item Name="CutMethod.ctl" Type="VI" URL="../Remote VIs/GenTargetTraj/TypeDef/CutMethod.ctl"/>
 			<Item Name="plotAnkleTraj.vi" Type="VI" URL="../Remote VIs/Sub Vis/plotAnkleTraj.vi"/>
-			<Item Name="ScaleTraj.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj.vi"/>
-			<Item Name="ScaleTrajByAngle.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTrajByAngle.vi"/>
+			<Item Name="ScaleTraj_Angle.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj_Angle.vi"/>
+			<Item Name="ScaleTraj_Height.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj_Height.vi"/>
 			<Item Name="VectorNorm.vi" Type="VI" URL="../Remote VIs/Sub Vis/VectorNorm.vi"/>
 		</Item>
 		<Item Name="FrontPanel_RT.vi" Type="VI" URL="../Remote VIs/FrontPanel_RT.vi"/>
@@ -235,6 +234,10 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
+				<Item Name="cfis_Replace Percent Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Replace Percent Code.vi"/>
+				<Item Name="cfis_Reverse Scan From String For Integer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Reverse Scan From String For Integer.vi"/>
+				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -242,6 +245,7 @@
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
 				<Item Name="CustomVI.lvlib" Type="Library" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/CustomVI.lvlib"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
@@ -263,9 +267,11 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="GXML.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/GXML/GXML.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVAnnotationListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVAnnotationListTypeDef.ctl"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_3dgraph.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/NI_3dgraph.lvlib"/>
@@ -303,6 +309,7 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
@@ -902,15 +909,22 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="LowLevelController" Type="Folder">
+			<Item Name="TypeDef" Type="Folder">
+				<Item Name="LowLvControlTypeDef.ctl" Type="VI" URL="../RT VIs/LowLevelController/TypeDef/LowLvControlTypeDef.ctl"/>
+			</Item>
 			<Item Name="MotorControl.lvclass" Type="LVClass" URL="../Classes/MotorControl/MotorControl.lvclass"/>
-			<Item Name="AKM43L.lvclass" Type="LVClass" URL="../Classes/MC_AKM43L/AKM43L.lvclass"/>
+			<Item Name="AKM43Lx8.lvclass" Type="LVClass" URL="../Classes/MC_AKM43L/AKM43Lx8.lvclass"/>
 			<Item Name="CableMotorSensorMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/CableMotorSensorMismatch.vi"/>
 			<Item Name="LowLvCtrl_Clear.vi" Type="VI" URL="../RT VIs/LowLevelController/LowLvCtrl_Clear.vi"/>
 			<Item Name="LowLvCtrl_Loop.vi" Type="VI" URL="../RT VIs/LowLevelController/LowLvCtrl_Loop.vi"/>
 			<Item Name="LowLvCtrl_Init.vi" Type="VI" URL="../RT VIs/LowLevelController/LowLvCtrl_Init.vi"/>
 			<Item Name="MotorCtrl_SV.lvlib" Type="Library" URL="../RT VIs/LowLevelController/MotorCtrl_SV.lvlib"/>
+			<Item Name="LowLvGV.vi" Type="VI" URL="../RT VIs/LowLevelController/LowLvGV.vi"/>
 		</Item>
 		<Item Name="HighLevelController" Type="Folder">
+			<Item Name="TypeDef" Type="Folder">
+				<Item Name="HighLevelControl.ctl" Type="VI" URL="../RT VIs/HighLevelController/TypeDef/HighLevelControl.ctl"/>
+			</Item>
 			<Item Name="ForceField.lvclass" Type="LVClass" URL="../Classes/ForceField/ForceField.lvclass"/>
 			<Item Name="SerialChain.lvclass" Type="LVClass" URL="../Classes/SerialChain/SerialChain.lvclass"/>
 			<Item Name="SerialChain-Cable.lvclass" Type="LVClass" URL="../Classes/SerialChain-Cable/SerialChain-Cable.lvclass"/>
@@ -936,15 +950,18 @@ DirectoryIndex index.htm
 		<Item Name="Logger" Type="Folder">
 			<Item Name="Data Logger.lvclass" Type="LVClass" URL="../Classes/DataLogger/Data Logger.lvclass"/>
 			<Item Name="CreateCAlexHeader.vi" Type="VI" URL="../RT VIs/Logger/CreateCAlexHeader.vi"/>
+			<Item Name="GenColumnHeaders.vi" Type="VI" URL="../RT VIs/Logger/GenColumnHeaders.vi"/>
 			<Item Name="Logger_Init.vi" Type="VI" URL="../RT VIs/Logger/Logger_Init.vi"/>
 			<Item Name="Logger_Loop.vi" Type="VI" URL="../RT VIs/Logger/Logger_Loop.vi"/>
 			<Item Name="Logger2_Loop.vi" Type="VI" URL="../RT VIs/Logger/Logger2_Loop.vi"/>
 			<Item Name="CreateARtoolkitHeader.vi" Type="VI" URL="../RT VIs/Logger/CreateARtoolkitHeader.vi"/>
+			<Item Name="LoggerSharedVariables.lvlib" Type="Library" URL="../RT VIs/Logger/LoggerSharedVariables.lvlib"/>
 		</Item>
 		<Item Name="InterfaceCommand" Type="Folder">
 			<Item Name="Interface.vi" Type="VI" URL="../RT VIs/InterfaceCommand/Interface.vi"/>
-			<Item Name="UpdateArmPara.vi" Type="VI" URL="../RT VIs/InterfaceCommand/UpdateArmPara.vi"/>
+			<Item Name="UpdateArmParam.vi" Type="VI" URL="../RT VIs/InterfaceCommand/UpdateArmParam.vi"/>
 			<Item Name="UpdateFieldVars.vi" Type="VI" URL="../RT VIs/InterfaceCommand/UpdateFieldVars.vi"/>
+			<Item Name="UpdateViconIMUParam.vi" Type="VI" URL="../RT VIs/InterfaceCommand/UpdateViconIMUParam.vi"/>
 		</Item>
 		<Item Name="MotorTuning" Type="Folder">
 			<Item Name="LPF.vi" Type="VI" URL="../RT VIs/MotorTuningVIs/LPF.vi"/>
@@ -2849,6 +2866,7 @@ DirectoryIndex index.htm
 				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
 				<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
+				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
@@ -3118,6 +3136,16 @@ DirectoryIndex index.htm
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
 				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
+				<Item Name="GXML.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/GXML/GXML.lvlib"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="cfis_Replace Percent Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Replace Percent Code.vi"/>
+				<Item Name="cfis_Reverse Scan From String For Integer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Reverse Scan From String For Integer.vi"/>
+				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
+				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
+				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
+				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
