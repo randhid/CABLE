@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="16008000">
 	<Property Name="varPersistentID:{4CCB31CA-CED2-4FE1-A7AC-32C36AE410AF}" Type="Ref">/My Computer/Simulation/SharedVariables.lvlib/FileJointAngles</Property>
 	<Property Name="varPersistentID:{56B68BEB-888E-4337-9A6B-74217B3B5D06}" Type="Ref">/My Computer/Simulation/SharedVariables.lvlib/FileTargetTraj</Property>
 	<Item Name="My Computer" Type="My Computer">
