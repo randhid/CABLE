@@ -127,11 +127,12 @@
 			<Item Name="ScaleTraj_Height.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj_Height.vi"/>
 			<Item Name="VectorNorm.vi" Type="VI" URL="../Remote VIs/Sub Vis/VectorNorm.vi"/>
 		</Item>
-		<Item Name="FrontPanel_RT.vi" Type="VI" URL="../Remote VIs/FrontPanel_RT.vi"/>
+		<Item Name="ControlInterface.vi" Type="VI" URL="../Remote VIs/ControlInterface.vi"/>
 		<Item Name="GaitDisplay.vi" Type="VI" URL="../Remote VIs/GaitDisplay.vi"/>
 		<Item Name="GenTargetGait.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/GenTargetGait.vi"/>
 		<Item Name="LoopTiming.vi" Type="VI" URL="../Remote VIs/LoopTiming.vi"/>
 		<Item Name="RestTimer.vi" Type="VI" URL="../Remote VIs/Sub Vis/RestTimer.vi"/>
+		<Item Name="SimulateJointAngles.vi" Type="VI" URL="../Remote VIs/SimulateJointAngles.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
