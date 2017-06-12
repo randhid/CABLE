@@ -99,6 +99,7 @@
 				<Item Name="Control 1.ctl" Type="VI" URL="../DataProcess/TypeDef/Control 1.ctl"/>
 			</Item>
 			<Item Name="subVI" Type="Folder">
+				<Item Name="GetAnklePosEachCycle.vi" Type="VI" URL="../DataProcess/GetAnklePosEachCycle.vi"/>
 				<Item Name="GetJAEachCycle.vi" Type="VI" URL="../DataProcess/GetJAEachCycle.vi"/>
 				<Item Name="FolderNameMatch.vi" Type="VI" URL="../DataProcess/FolderNameMatch.vi"/>
 				<Item Name="MatchCarexToEMG.vi" Type="VI" URL="../DataProcess/MatchCarexToEMG.vi"/>
@@ -109,7 +110,8 @@
 			<Item Name="DataProcess_CutAndAverage.vi" Type="VI" URL="../DataProcess/DataProcess_CutAndAverage.vi"/>
 			<Item Name="DataProcess_JointTorque.vi" Type="VI" URL="../DataProcess/DataProcess_JointTorque.vi"/>
 			<Item Name="DataProcess_CalcGaitTiming.vi" Type="VI" URL="../DataProcess/DataProcess_CalcGaitTiming.vi"/>
-			<Item Name="DataProcess_JAeachcycle.vi" Type="VI" URL="../DataProcess/DataProcess_JAeachcycle.vi"/>
+			<Item Name="DataProcess_ja.vi" Type="VI" URL="../DataProcess/DataProcess_ja.vi"/>
+			<Item Name="DataProcess_anklepos.vi" Type="VI" URL="../DataProcess/DataProcess_anklepos.vi"/>
 			<Item Name="DataProcess_ChangeCatchName.vi" Type="VI" URL="../DataProcess/DataProcess_ChangeCatchName.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
