@@ -3,6 +3,59 @@
 	<Property Name="CCSymbols" Type="Str">PROJECT,SIM;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="utf.calculate.project.code.coverage" Type="Bool">true</Property>
+	<Property Name="utf.create.arraybrackets" Type="Str">[]</Property>
+	<Property Name="utf.create.arraythreshold" Type="UInt">100</Property>
+	<Property Name="utf.create.captureinputvalues" Type="Bool">true</Property>
+	<Property Name="utf.create.captureoutputvalues" Type="Bool">true</Property>
+	<Property Name="utf.create.codecoverage.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.codecoverage.value" Type="UInt">100</Property>
+	<Property Name="utf.create.editor.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.editor.path" Type="Path"></Property>
+	<Property Name="utf.create.nameseparator" Type="Str">/</Property>
+	<Property Name="utf.create.precision" Type="UInt">6</Property>
+	<Property Name="utf.create.repetitions" Type="UInt">1</Property>
+	<Property Name="utf.create.testpath.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.testpath.path" Type="Path"></Property>
+	<Property Name="utf.create.timeout.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.timeout.value" Type="UInt">0</Property>
+	<Property Name="utf.create.type" Type="UInt">0</Property>
+	<Property Name="utf.enable.RT.VI.server" Type="Bool">false</Property>
+	<Property Name="utf.passwords" Type="Bin">&amp;A#!!!!!!!)!%%!Q`````Q:4&gt;(*J&lt;G=!!":!1!!"`````Q!!#6"B=X.X&lt;X*E=Q!"!!%!!!!"!!!!#F652E&amp;-4&amp;.516)!!!!!</Property>
+	<Property Name="utf.report.atml.create" Type="Bool">false</Property>
+	<Property Name="utf.report.atml.path" Type="Path">ATML report.xml</Property>
+	<Property Name="utf.report.atml.view" Type="Bool">false</Property>
+	<Property Name="utf.report.details.errors" Type="Bool">false</Property>
+	<Property Name="utf.report.details.failed" Type="Bool">false</Property>
+	<Property Name="utf.report.details.passed" Type="Bool">false</Property>
+	<Property Name="utf.report.errors" Type="Bool">true</Property>
+	<Property Name="utf.report.failed" Type="Bool">true</Property>
+	<Property Name="utf.report.html.create" Type="Bool">false</Property>
+	<Property Name="utf.report.html.path" Type="Path">HTML report.html</Property>
+	<Property Name="utf.report.html.view" Type="Bool">false</Property>
+	<Property Name="utf.report.passed" Type="Bool">true</Property>
+	<Property Name="utf.report.skipped" Type="Bool">true</Property>
+	<Property Name="utf.report.sortby" Type="UInt">1</Property>
+	<Property Name="utf.report.stylesheet.flag" Type="Bool">false</Property>
+	<Property Name="utf.report.stylesheet.path" Type="Path"></Property>
+	<Property Name="utf.report.summary" Type="Bool">true</Property>
+	<Property Name="utf.report.txt.create" Type="Bool">false</Property>
+	<Property Name="utf.report.txt.path" Type="Path">ASCII report.txt</Property>
+	<Property Name="utf.report.txt.view" Type="Bool">false</Property>
+	<Property Name="utf.run.changed.days" Type="UInt">1</Property>
+	<Property Name="utf.run.changed.outdated" Type="Bool">false</Property>
+	<Property Name="utf.run.changed.timestamp" Type="Bin">&amp;A#!!!!!!!%!%%"5!!9*2'&amp;U:3^U;7VF!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	<Property Name="utf.run.days.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.includevicallers" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.overwrite" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.path" Type="Path">test execution log.txt</Property>
+	<Property Name="utf.run.modified.last.run.flag" Type="Bool">true</Property>
+	<Property Name="utf.run.priority.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.priority.value" Type="UInt">5</Property>
+	<Property Name="utf.run.statusfile.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.statusfile.path" Type="Path">test status log.txt</Property>
+	<Property Name="utf.run.timestamp.flag" Type="Bool">false</Property>
 	<Property Name="varPersistentID:{4CCB31CA-CED2-4FE1-A7AC-32C36AE410AF}" Type="Ref">/My Computer/Simulation/SharedVariables.lvlib/FileJointAngles</Property>
 	<Property Name="varPersistentID:{56B68BEB-888E-4337-9A6B-74217B3B5D06}" Type="Ref">/My Computer/Simulation/SharedVariables.lvlib/FileTargetTraj</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -17,9 +70,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="GenTargetGait" Type="Folder">
-			<Item Name="GenTargetGait.vi" Type="VI" URL="../../Remote VIs/GenTargetTraj/GenTargetGait.vi"/>
 			<Item Name="ScaleTraj_Height.vi" Type="VI" URL="../../Remote VIs/GenTargetTraj/ScaleTraj_Height.vi"/>
 			<Item Name="ScaleTraj_Angle.vi" Type="VI" URL="../../Remote VIs/GenTargetTraj/ScaleTraj_Angle.vi"/>
+			<Item Name="GenTargetGait.vi" Type="VI" URL="../../Remote VIs/GenTargetTraj/GenTargetGait.vi"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="plotAnkleTraj.vi" Type="VI" URL="../../Remote VIs/Sub Vis/plotAnkleTraj.vi"/>
@@ -45,14 +98,21 @@
 			<Item Name="TypeDef" Type="Folder">
 				<Item Name="Control 1.ctl" Type="VI" URL="../DataProcess/TypeDef/Control 1.ctl"/>
 			</Item>
-			<Item Name="DataProcess_CalcTorque.vi" Type="VI" URL="../DataProcess/DataProcess_CalcTorque.vi"/>
+			<Item Name="subVI" Type="Folder">
+				<Item Name="GetAnklePosEachCycle.vi" Type="VI" URL="../DataProcess/GetAnklePosEachCycle.vi"/>
+				<Item Name="GetJAEachCycle.vi" Type="VI" URL="../DataProcess/GetJAEachCycle.vi"/>
+				<Item Name="FolderNameMatch.vi" Type="VI" URL="../DataProcess/FolderNameMatch.vi"/>
+				<Item Name="MatchCarexToEMG.vi" Type="VI" URL="../DataProcess/MatchCarexToEMG.vi"/>
+				<Item Name="CAlex_ChangeDate.vi" Type="VI" URL="../DataProcess/CAlex_ChangeDate.vi"/>
+				<Item Name="MatchCutTime.vi" Type="VI" URL="../DataProcess/MatchCutTime.vi"/>
+				<Item Name="CalcJointTorque.vi" Type="VI" URL="../DataProcess/subVIs/CalcJointTorque.vi"/>
+			</Item>
 			<Item Name="DataProcess_CutAndAverage.vi" Type="VI" URL="../DataProcess/DataProcess_CutAndAverage.vi"/>
-			<Item Name="CompareJointTorque.vi" Type="VI" URL="../DataProcess/CompareJointTorque.vi"/>
-			<Item Name="FolderNameMatch.vi" Type="VI" URL="../DataProcess/FolderNameMatch.vi"/>
-			<Item Name="MatchCarexToEMG.vi" Type="VI" URL="../DataProcess/MatchCarexToEMG.vi"/>
-			<Item Name="CalcGaitTiming.vi" Type="VI" URL="../DataProcess/CalcGaitTiming.vi"/>
-			<Item Name="CAlex_ChangeDate.vi" Type="VI" URL="../DataProcess/CAlex_ChangeDate.vi"/>
-			<Item Name="MatchCutTime.vi" Type="VI" URL="../DataProcess/MatchCutTime.vi"/>
+			<Item Name="DataProcess_JointTorque.vi" Type="VI" URL="../DataProcess/DataProcess_JointTorque.vi"/>
+			<Item Name="DataProcess_CalcGaitTiming.vi" Type="VI" URL="../DataProcess/DataProcess_CalcGaitTiming.vi"/>
+			<Item Name="DataProcess_ja.vi" Type="VI" URL="../DataProcess/DataProcess_ja.vi"/>
+			<Item Name="DataProcess_anklepos.vi" Type="VI" URL="../DataProcess/DataProcess_anklepos.vi"/>
+			<Item Name="DataProcess_ChangeCatchName.vi" Type="VI" URL="../DataProcess/DataProcess_ChangeCatchName.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -445,6 +505,11 @@
 				<Item Name="Draw Multiple Lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Multiple Lines.vi"/>
 				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
 				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
+				<Item Name="cfis_Replace Percent Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Replace Percent Code.vi"/>
+				<Item Name="cfis_Reverse Scan From String For Integer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Reverse Scan From String For Integer.vi"/>
+				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
+				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
+				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
