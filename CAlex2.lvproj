@@ -61,6 +61,7 @@
 	<Property Name="varPersistentID:{A63818A1-3BA4-4D2C-A8F9-FA767AE92AC4}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/ViconIsConnected</Property>
 	<Property Name="varPersistentID:{A7EE5BBC-5F2E-449E-83B1-02E66637A086}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Status/ExecTime_Logger</Property>
 	<Property Name="varPersistentID:{B10F0374-A2A0-4816-B0F6-D79C68C2A475}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Gyro(rad-s)</Property>
+	<Property Name="varPersistentID:{B575D0DA-8C7E-403D-AA13-C6E5DBA85355}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/StandPosVicon</Property>
 	<Property Name="varPersistentID:{B6D6C72A-5600-4070-9E26-B61D532E0405}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Motor Loop/Tensions</Property>
 	<Property Name="varPersistentID:{B9B7252F-A482-491D-A939-406D95CC9B09}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/Reset Motor Encoders?</Property>
 	<Property Name="varPersistentID:{BDBD5BD3-6254-44FD-B975-6D46F6D9B5B4}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Status/ExecTime_HighLvLoop</Property>
@@ -82,7 +83,7 @@
 	<Property Name="varPersistentID:{E287ACC8-4C24-4616-BE03-06676CBF6B69}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Data Logger/RecordTime</Property>
 	<Property Name="varPersistentID:{E7E86B82-6BC6-410F-BDA0-36B42886C3FB}" Type="Ref">/PXIe-8135/TCPconnect/tcpSharedVariables.lvlib/ViconIMU</Property>
 	<Property Name="varPersistentID:{EC0DFE10-4857-4020-B02A-17D3E7E41D0A}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Data Logger/Record?</Property>
-	<Property Name="varPersistentID:{F2BEA521-AE39-4CA0-8B13-62600ABF371C}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/StandPos</Property>
+	<Property Name="varPersistentID:{F2BEA521-AE39-4CA0-8B13-62600ABF371C}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/StandPosIMU</Property>
 	<Property Name="varPersistentID:{F7694959-B096-4FF2-823E-FACD345072F7}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_AngRates (rad-s)</Property>
 	<Property Name="varPersistentID:{F799C58A-F84F-49A1-8CAD-38412DBF9071}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/JointSensor</Property>
 	<Property Name="varPersistentID:{F8DAE504-4A3E-40B4-9FED-B9F6B03BDB98}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_Rst</Property>
@@ -935,6 +936,7 @@ DirectoryIndex index.htm
 		<Item Name="HighLevelController" Type="Folder">
 			<Item Name="TypeDef" Type="Folder">
 				<Item Name="HighLvControl Cluster.ctl" Type="VI" URL="../RT VIs/HighLevelController/TypeDef/HighLvControl Cluster.ctl"/>
+				<Item Name="IMU_operation.ctl" Type="VI" URL="../RT VIs/HighLevelController/TypeDef/IMU_operation.ctl"/>
 			</Item>
 			<Item Name="ForceField.lvclass" Type="LVClass" URL="../Classes/ForceField/ForceField.lvclass"/>
 			<Item Name="SerialChain.lvclass" Type="LVClass" URL="../Classes/SerialChain/SerialChain.lvclass"/>
