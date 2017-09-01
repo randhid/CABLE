@@ -90,6 +90,7 @@
 	<Property Name="varPersistentID:{FAC35D65-BE6E-4967-BEE8-5F3C877358C7}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_AnkleTraj</Property>
 	<Property Name="varPersistentID:{FB699F72-7CD2-4361-9E07-34381F720A4D}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Tare</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -128,6 +129,7 @@
 			<Item Name="ScaleTraj_Height.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj_Height.vi"/>
 			<Item Name="VectorNorm.vi" Type="VI" URL="../Remote VIs/Sub Vis/VectorNorm.vi"/>
 		</Item>
+		<Item Name="Treadmill Version.txt" Type="Document" URL="../Remote VIs/Treadmill Version.txt"/>
 		<Item Name="ControlInterface.vi" Type="VI" URL="../Remote VIs/ControlInterface.vi"/>
 		<Item Name="GaitDisplay.vi" Type="VI" URL="../Remote VIs/GaitDisplay.vi"/>
 		<Item Name="GenTargetGait.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/GenTargetGait.vi"/>
@@ -3171,7 +3173,6 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="Control 1.ctl" Type="VI" URL="../../CAlex-vicon/Vicon_DataStream_SDK/Labview/Control 1.ctl"/>
-			<Item Name="AKM43Lx8_InitParam8.vi" Type="VI" URL="../Classes/MC_AKM43L/AKM43Lx8_InitParam8.vi"/>
 			<Item Name="CAlex2_FPGATarget_MotorControl_+dy1qhm6Ymw.lvbitx" Type="Document" URL="../../CAlex2-Controller-mobile/FPGA Bitfiles/CAlex2_FPGATarget_MotorControl_+dy1qhm6Ymw.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
