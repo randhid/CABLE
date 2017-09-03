@@ -955,6 +955,7 @@ DirectoryIndex index.htm
 			<Item Name="ForceField_SV.lvlib" Type="Library" URL="../RT VIs/HighLevelController/ForceField_SV.lvlib"/>
 			<Item Name="JointSensor.ctl" Type="VI" URL="../RT VIs/HighLevelController/JointSensor.ctl"/>
 			<Item Name="IMU2JointAngles.vi" Type="VI" URL="../RT VIs/HighLevelController/IMU2JointAngles.vi"/>
+			<Item Name="IMU2JointAnglesAdv.vi" Type="VI" URL="../RT VIs/HighLevelController/IMU2JointAnglesAdv.vi"/>
 			<Item Name="Vicon2JointAngles.vi" Type="VI" URL="../RT VIs/TCP/Vicon2JointAngles.vi"/>
 		</Item>
 		<Item Name="TCPconnect" Type="Folder">
