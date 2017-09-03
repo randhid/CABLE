@@ -1,12 +1,12 @@
 [submodule "Sim&Process/DataProcess/EMG"]
 	path = Sim&Process/DataProcess/EMG
-	url = ssh://roar2.me.columbia.edu/git/emg
+	url = ssh://roar2.me.columbia.edu/volume1/CAlex/git/emg
 [submodule "Classes/SerialChain-Cable"]
 	path = Classes/SerialChain-Cable
-	url = ssh://roar2.me.columbia.edu/git/serialchain-cable
+	url = ssh://roar2.me.columbia.edu/volume1/CAlex/git/serialchain-cable
 [submodule "Classes/SerialChain"]
 	path = Classes/SerialChain
-	url = ssh://roar2.me.columbia.edu/git/serialchain
+	url = ssh://roar2.me.columbia.edu/volume1/CAlex/git/serialchain
 [submodule "Classes/MotorControl"]
 	path = Classes/MotorControl
-	url = ssh://roar2.me.columbia.edu/git/motorcontrol
+	url = ssh://roar2.me.columbia.edu/volume1/CAlex/git/motorcontrol
