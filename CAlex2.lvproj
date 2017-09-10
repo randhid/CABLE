@@ -129,7 +129,7 @@
 			<Item Name="ScaleTraj_Height.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj_Height.vi"/>
 			<Item Name="VectorNorm.vi" Type="VI" URL="../Remote VIs/Sub Vis/VectorNorm.vi"/>
 		</Item>
-		<Item Name="Mobile Version.txt" Type="Document" URL="../Mobile Version.txt"/>
+		<Item Name="Treadmill Version.txt" Type="Document" URL="../Remote VIs/Treadmill Version.txt"/>
 		<Item Name="ControlInterface.vi" Type="VI" URL="../Remote VIs/ControlInterface.vi"/>
 		<Item Name="GaitDisplay.vi" Type="VI" URL="../Remote VIs/GaitDisplay.vi"/>
 		<Item Name="GenTargetGait.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/GenTargetGait.vi"/>
