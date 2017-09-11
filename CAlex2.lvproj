@@ -419,7 +419,7 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="DAQmx" Type="Folder">
 			<Item Name="LoadCell_Futek_LSB200" Type="NI-DAQmx Scale">
-				<Property Name="Lin.Slope" Type="Str">86</Property>
+				<Property Name="Lin.Slope" Type="Str">22.239999999999998</Property>
 				<Property Name="Lin.YIntercept" Type="Str">0</Property>
 				<Property Name="Name" Type="Str">LoadCell_Futek_LSB200</Property>
 				<Property Name="PreScaledUnits" Type="Str">Volts</Property>

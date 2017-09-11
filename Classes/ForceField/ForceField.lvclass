@@ -244,7 +244,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1074536976</Property>
 		</Item>
 		<Item Name="TrajFilter.vi" Type="VI" URL="../FF_AnkleTraj/TrajFilter.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$(!!!!"Q!91#%317ZL&lt;'65=G&amp;K8UFO;81A:(6Q!!!%!!!!"1!+!!!=1%!!!P``````````!!),18:F=G&amp;H:62S97I!&amp;%!B$E&amp;O;WRF6(*B;F^*&lt;GFU!!!G1%!!!P``````````!!)56(*B;C"P:C"$&gt;8*S:7ZU)&amp;.U:8!!!%A!]!!+!!!!!1!"!!-!!1!"!!1!!1!"!!5$!!$1!!!*!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!%+!!!!!!%!"A!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$(!!!!"Q!91#%317ZL&lt;'65=G&amp;K8UFO;81A:(6Q!!!%!!!!"1!+!!!=1%!!!P``````````!!),18:F=G&amp;H:62S97I!&amp;%!B$E&amp;O;WRF6(*B;F^*&lt;GFU!!!G1%!!!P``````````!!)56(*B;C"P:C"$&gt;8*S:7ZU)&amp;.U:8!!!%A!]!!+!!!!!1!"!!-!!1!"!!1!!1!"!!5$!!$1!!!*!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!%+!!!!!!%!"A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
