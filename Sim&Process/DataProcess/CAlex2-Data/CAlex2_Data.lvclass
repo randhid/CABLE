@@ -76,7 +76,7 @@
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">CAlex2</Property>
 			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">CAlex2</Property>
 			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-			<Item Name="Read CAlex2.vi" Type="VI" URL="../PropertyNodes/Read CAlex2.vi">
+			<Item Name="Get CAlex2.vi" Type="VI" URL="../PropertyNodes/Get CAlex2.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Z!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!=!!?!!!1$E."&lt;'6Y-CZM&gt;G.M98.T!!!'1U&amp;M:8AS!!!O1(!!(A!!&amp;2.$17RF?$*@2'&amp;U93ZM&gt;G.M98.T!!Z$17RF?%2B&gt;'%S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!M1(!!(A!!&amp;2.$17RF?$*@2'&amp;U93ZM&gt;G.M98.T!!V$17RF?%2B&gt;'%S)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>

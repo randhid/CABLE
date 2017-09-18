@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Protocol>
+	<Session>
+		<Name>Baseline</Name>
+		<Time unit="min">3</Time>
+		<FileName>baseline</FileName>
+		<Suggestions>Take off C-ALEX</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>False</Value>
+		</Action>
+		<Action>
+			<Name>VisualFeedBack</Name>
+			<Value>False</Value>
+		</Action>
+	</Session>
+	
+	<Session>
+		<Name>Pre-Training</Name>
+		<Time unit="min">3</Time>
+		<FileName>pre</FileName>
+		<Suggestions>Put on C-ALEX</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>False</Value>
+		</Action>
+		<Action>
+			<Name>VisualFeedBack</Name>
+			<Value>False</Value>
+		</Action>
+	</Session>
+	
+	<Session>
+		<Name>Training-interVS-10min</Name>
+		<Time unit="min">10.5</Time>
+		<FileName>training</FileName>
+		<Suggestions>Rest for 5 min</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>True</Value>
+		</Action>
+		<Subsession>
+			<Name>Visual Feedback On</Name>
+			<Time unit="min">2.5</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>True</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback Off</Name>
+			<Time unit="min">2.5</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback On</Name>
+			<Time unit="min">2.5</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>True</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback Off</Name>
+			<Time unit="min">2.5</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Catch</Name>
+			<Time unit="min">0.5</Time>
+			<Action>
+				<Name>ForceField</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+	</Session>
+	
+	<Session>
+		<Name>Training-interVS-5min</Name>
+		<Time unit="min">5.5</Time>
+		<FileName>training</FileName>
+		<Suggestions>Rest for 5 min</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>True</Value>
+		</Action>
+		<Subsession>
+			<Name>Visual Feedback On</Name>
+			<Time unit="min">1.25</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>True</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback Off</Name>
+			<Time unit="min">1.25</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback On</Name>
+			<Time unit="min">1.25</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>True</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Visual Feedback Off</Name>
+			<Time unit="min">1.25</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Catch</Name>
+			<Time unit="min">0.5</Time>
+			<Action>
+				<Name>ForceField</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+	</Session>
+
+	<Session>
+		<Name>Training-constVS-10min</Name>
+		<Time unit="min">10.5</Time>
+		<FileName>training</FileName>
+		<Suggestions>Rest for 5 min</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>True</Value>
+		</Action>
+		<Subsession>
+			<Name>Visual Feedback On</Name>
+			<Time unit="min">10</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>True</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Catch</Name>
+			<Time unit="min">0.5</Time>
+			<Action>
+				<Name>ForceField</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+	</Session>
+	
+	<Session>
+		<Name>Training-constVS-5min</Name>
+		<Time unit="min">5.5</Time>
+		<FileName>training</FileName>
+		<Suggestions>Rest for 5 min</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>True</Value>
+		</Action>
+		<Subsession>
+			<Name>Visual Feedback On</Name>
+			<Time unit="min">5</Time>
+			<Action>
+				<Name>VisualFeedBack</Name>
+				<Value>True</Value>
+			</Action>
+		</Subsession>
+		<Subsession>
+			<Name>Catch</Name>
+			<Time unit="min">0.5</Time>
+			<Action>
+				<Name>ForceField</Name>
+				<Value>False</Value>
+			</Action>
+		</Subsession>
+	</Session>
+	
+	<Session>
+		<Name>Mid-Test</Name>
+		<Time unit="min">1.5</Time>
+		<FileName>mid</FileName>
+		<Suggestions>Rest for 30sec</Suggestions>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>False</Value>
+		</Action>
+		<Action>
+			<Name>VisualFeedBack</Name>
+			<Value>False</Value>
+		</Action>
+	</Session>
+	
+	<Session>
+		<Name>Post-Test</Name>
+		<Time unit="min">3</Time>
+		<FileName>post</FileName>
+		<Suggestions>Rest for 30sec</Suggestions>
+		<Action>
+			<Name>VisualFeedBack</Name>
+			<Value>False</Value>
+		</Action>
+		<Action>
+			<Name>ForceField</Name>
+			<Value>False</Value>
+		</Action>
+	</Session>
+	
+	
+</Protocol>
