@@ -1,0 +1,33 @@
+<?xml version='1.0' standalone='yes' ?>
+<GXML_Root>
+  <CMS type='Version'>1.0</CMS>
+  <CableMotorSensorMismatch mems='2'>
+    <TotalCount mems='3'>
+      <CableCount type='I32'>4</CableCount>
+      <MotorCount type='I32'>6</MotorCount>
+      <SensorCount type='I32'>8</SensorCount>
+    </TotalCount>
+    <Matches dim='[4]' type='Cluster'>
+      <Match mems='3'>
+        <CableID type='I32'>1</CableID>
+        <MotorID type='I32'>6</MotorID>
+        <SensorID type='I32'>8</SensorID>
+      </Match>
+      <Match mems='3'>
+        <CableID type='I32'>2</CableID>
+        <MotorID type='I32'>5</MotorID>
+        <SensorID type='I32'>5</SensorID>
+      </Match>
+      <Match mems='3'>
+        <CableID type='I32'>3</CableID>
+        <MotorID type='I32'>7</MotorID>
+        <SensorID type='I32'>4</SensorID>
+      </Match>
+      <Match mems='3'>
+        <CableID type='I32'>4</CableID>
+        <MotorID type='I32'>4</MotorID>
+        <SensorID type='I32'>2</SensorID>
+      </Match>
+    </Matches>
+  </CableMotorSensorMismatch>
+</GXML_Root>

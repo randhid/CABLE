@@ -5,31 +5,30 @@
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{010D2550-6E7D-4359-9129-96CFBD0BFD4A}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/LegJointAngles</Property>
 	<Property Name="varPersistentID:{053F03F0-7130-4A2B-9741-C8E0A172CFE1}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/CableLengthInc</Property>
-	<Property Name="varPersistentID:{05ED41F6-000C-41A6-BB46-296588292A5B}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/Field Variables/AnkleLocHistory</Property>
+	<Property Name="varPersistentID:{05ED41F6-000C-41A6-BB46-296588292A5B}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/AnkleTraj_Hist</Property>
 	<Property Name="varPersistentID:{06D3D543-BBAB-4FD3-846E-8DA83AF1F100}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Reset</Property>
-	<Property Name="varPersistentID:{07352B55-35B4-4F25-8FB0-2A1445BC0E5E}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Status/ExceTime_Interface</Property>
-	<Property Name="varPersistentID:{0EEB25B7-EA78-4FDA-9AEE-EACF7AD8897F}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/Controls/IMU_reset</Property>
-	<Property Name="varPersistentID:{110EFBBA-AA04-4AC6-B0BB-C84FF2F3E6F3}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/Controls/IMU_Tare</Property>
+	<Property Name="varPersistentID:{07352B55-35B4-4F25-8FB0-2A1445BC0E5E}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Debug/ExceTime_Interface</Property>
+	<Property Name="varPersistentID:{0EEB25B7-EA78-4FDA-9AEE-EACF7AD8897F}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/IMU_reset</Property>
+	<Property Name="varPersistentID:{110EFBBA-AA04-4AC6-B0BB-C84FF2F3E6F3}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/IMU_Tare</Property>
 	<Property Name="varPersistentID:{166FAB3E-4F3A-40C9-A4A0-B5A6DB3B2670}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/LegExtraWeight(kg)</Property>
 	<Property Name="varPersistentID:{180A0D36-ED63-4478-A570-191BE0470392}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Mag(Gauss)</Property>
 	<Property Name="varPersistentID:{1E7D1A98-CDDF-47BC-9EEE-CCFF63274A2C}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/StandPos_Set</Property>
 	<Property Name="varPersistentID:{1F9BC5F7-F86A-4584-A0DD-9C8431FEF695}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/PathType</Property>
 	<Property Name="varPersistentID:{2350E022-6CAC-4B61-8704-A06BE9D4C657}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/LegDimRst</Property>
 	<Property Name="varPersistentID:{2842D500-44F6-4233-8EB1-960902A5E1A9}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/StandPos_Clear</Property>
-	<Property Name="varPersistentID:{2A95DDB1-23D9-41E0-91BD-5218BCA53F7C}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Motor Loop/PreTensionValue</Property>
+	<Property Name="varPersistentID:{2A95DDB1-23D9-41E0-91BD-5218BCA53F7C}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Motor Loop/MotorPreTenVal(N)</Property>
 	<Property Name="varPersistentID:{2C7AD3ED-0E63-464F-8142-C55A6637FEB2}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/MotorCmd</Property>
-	<Property Name="varPersistentID:{2F457C1A-95DD-4C8A-9FAB-9C5819118CFF}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/Parameters/LegDim</Property>
+	<Property Name="varPersistentID:{2F457C1A-95DD-4C8A-9FAB-9C5819118CFF}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/LegDim</Property>
 	<Property Name="varPersistentID:{322ED8EA-77A9-4F7F-A249-975127FC9BBA}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_ForceNTD</Property>
 	<Property Name="varPersistentID:{37D99051-D23B-4F5E-80A7-81600D23EFA6}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/GlobalStop</Property>
 	<Property Name="varPersistentID:{3D4F43E8-EAEE-4563-ABE0-75F7AF2AEF47}" Type="Ref">/PXIe-8135/TCPconnect/tcpSharedVariables.lvlib/ARtoolkitIMU</Property>
 	<Property Name="varPersistentID:{3F55BC3F-77FD-4E75-A13E-0582B376F800}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/ControllerMode</Property>
 	<Property Name="varPersistentID:{47D697CD-6BAE-413E-9125-0830751F6D61}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/CableTensionRef</Property>
-	<Property Name="varPersistentID:{47F3D448-1449-48FA-A049-AA32F726DD7E}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/Field Variables/FootSwitch</Property>
+	<Property Name="varPersistentID:{47F3D448-1449-48FA-A049-AA32F726DD7E}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/FootSwitch</Property>
 	<Property Name="varPersistentID:{506FC14A-B975-419C-BEFF-0D116CE53ED1}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/FootSwitchLR3</Property>
 	<Property Name="varPersistentID:{597FE261-12AF-4FF5-A4B8-64709BB1A423}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/DesiredTorque(Nm)</Property>
 	<Property Name="varPersistentID:{59993029-3DD4-4E7C-9E3B-9C151A79BBD0}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/CableTensionManual</Property>
 	<Property Name="varPersistentID:{5A3C5198-66A5-460C-AB63-D7DC4606F431}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_ForceXYZ</Property>
-	<Property Name="varPersistentID:{5A9EAECE-8A21-4218-A79C-5591F907A0DC}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/QPSolved</Property>
 	<Property Name="varPersistentID:{5F82E887-707D-44D9-A504-BD229804BEA5}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_On</Property>
 	<Property Name="varPersistentID:{5FC3AB52-F5BA-40C8-AA9A-9B7F73235AD7}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/JointCoord</Property>
 	<Property Name="varPersistentID:{60D50DB4-4870-49CD-8273-551FE051A653}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/MotorEnabled</Property>
@@ -40,41 +39,38 @@
 	<Property Name="varPersistentID:{7002A3F0-05EF-4FA3-B263-D189065759CB}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/LegAnkleLoc</Property>
 	<Property Name="varPersistentID:{724BB76C-BC54-4D24-9930-E87A4D7D44A7}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Stop</Property>
 	<Property Name="varPersistentID:{73EC2E7E-0B15-4B12-80DA-FC7DFD77EE42}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/MotorEnable</Property>
-	<Property Name="varPersistentID:{7651352E-BFD7-462C-A007-7827AB841C4A}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/AnkleTraj_Prev</Property>
-	<Property Name="varPersistentID:{822DF578-4D96-4C9C-A8FE-716BC638729F}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/Field Variables/PlannedTensions</Property>
+	<Property Name="varPersistentID:{7651352E-BFD7-462C-A007-7827AB841C4A}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/AnkleTraj_Past</Property>
+	<Property Name="varPersistentID:{822DF578-4D96-4C9C-A8FE-716BC638729F}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Motor Loop/TenPlanned(M-order)</Property>
 	<Property Name="varPersistentID:{86D808A8-8A16-4733-8255-6C348FB0B46A}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_CompCuff</Property>
 	<Property Name="varPersistentID:{86DB0BD9-FDB7-4987-ADA2-921DC70D9D85}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/CompLegWeight</Property>
 	<Property Name="varPersistentID:{86DEA0C0-09E5-495E-AAA1-056D2074B48F}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/FieldForceNTD</Property>
 	<Property Name="varPersistentID:{87031C77-7DCE-4376-9993-CA7F329E68BA}" Type="Ref">/PXIe-8135/Logger/LoggerSharedVariables.lvlib/IMUTareViconReading</Property>
-	<Property Name="varPersistentID:{8704BA27-21AA-4460-8B6B-43EE9D2680D8}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/Controls/Vicon</Property>
+	<Property Name="varPersistentID:{8704BA27-21AA-4460-8B6B-43EE9D2680D8}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/ViconUse</Property>
 	<Property Name="varPersistentID:{893B1725-594E-44F9-B724-B18FA2705089}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/Gains</Property>
-	<Property Name="varPersistentID:{8AF1B67D-ECF8-4D77-8745-DC91C61B0725}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/Field Variables/Cable Lengths</Property>
 	<Property Name="varPersistentID:{8CC1634D-7298-467F-9FAB-140A7321CF1A}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_Gain</Property>
 	<Property Name="varPersistentID:{8CFD9A85-8D6B-41B4-A812-AF6A39270A1D}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_ClosePt</Property>
 	<Property Name="varPersistentID:{8DF98774-22DD-4CEF-8549-71BE0E322F7F}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/Stop RT</Property>
-	<Property Name="varPersistentID:{8F2E9C19-4446-443D-BC53-4EDA72EA278A}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/Controls/ZeroPosition</Property>
+	<Property Name="varPersistentID:{8F2E9C19-4446-443D-BC53-4EDA72EA278A}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/ZeroPosition</Property>
 	<Property Name="varPersistentID:{A08E1A73-9D20-46CB-A9BD-B84CC61ADE7D}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Accel(m-s2)</Property>
 	<Property Name="varPersistentID:{A21F1DF6-8F9A-4BF8-9B2F-E6608D880BC0}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/CableTensionCurrent</Property>
 	<Property Name="varPersistentID:{A3086374-6B22-44B3-832F-FBFA99C8A2F0}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_CompArm</Property>
-	<Property Name="varPersistentID:{A44E4BEB-8C9F-4982-8490-729F582C8A17}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/UpdateLeg</Property>
+	<Property Name="varPersistentID:{A44E4BEB-8C9F-4982-8490-729F582C8A17}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/UpdateLeg</Property>
 	<Property Name="varPersistentID:{A58FFBE4-9C6C-42C8-B597-27B42D9D2F9D}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/FieldForceXYZ</Property>
-	<Property Name="varPersistentID:{A63818A1-3BA4-4D2C-A8F9-FA767AE92AC4}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/ViconIsConnected</Property>
-	<Property Name="varPersistentID:{A7EE5BBC-5F2E-449E-83B1-02E66637A086}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Status/ExecTime_Logger</Property>
+	<Property Name="varPersistentID:{A63818A1-3BA4-4D2C-A8F9-FA767AE92AC4}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/ViconConnected</Property>
+	<Property Name="varPersistentID:{A7EE5BBC-5F2E-449E-83B1-02E66637A086}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Debug/ExecTime_Logger</Property>
 	<Property Name="varPersistentID:{B10F0374-A2A0-4816-B0F6-D79C68C2A475}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Gyro(rad-s)</Property>
 	<Property Name="varPersistentID:{B575D0DA-8C7E-403D-AA13-C6E5DBA85355}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/StandPosVicon</Property>
-	<Property Name="varPersistentID:{B6D6C72A-5600-4070-9E26-B61D532E0405}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Motor Loop/Tensions</Property>
-	<Property Name="varPersistentID:{B9B7252F-A482-491D-A939-406D95CC9B09}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/Reset Motor Encoders?</Property>
-	<Property Name="varPersistentID:{BDBD5BD3-6254-44FD-B975-6D46F6D9B5B4}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Status/ExecTime_HighLvLoop</Property>
-	<Property Name="varPersistentID:{C0EEF294-B42A-4455-9E40-1AF9D10E704E}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Status/ExecTime_LowLvLoop</Property>
-	<Property Name="varPersistentID:{C3C29E97-BFB7-44F4-BFBA-90072B160285}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/Field Variables/AnklePos</Property>
+	<Property Name="varPersistentID:{B6D6C72A-5600-4070-9E26-B61D532E0405}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Motor Loop/TenActual(M-order)</Property>
+	<Property Name="varPersistentID:{BDBD5BD3-6254-44FD-B975-6D46F6D9B5B4}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Debug/ExecTime_HighLvLoop</Property>
+	<Property Name="varPersistentID:{C0EEF294-B42A-4455-9E40-1AF9D10E704E}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Debug/ExecTime_LowLvLoop</Property>
 	<Property Name="varPersistentID:{C3DC6FFE-811E-40DC-BC5A-7E635573B832}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_PathType</Property>
 	<Property Name="varPersistentID:{C5074ACF-417D-4B22-A48D-6768E9502274}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/AnkleTraj_Target</Property>
 	<Property Name="varPersistentID:{C6BC976F-CA65-4B31-91AB-7A371FCDB41E}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/AnkleLocHistory</Property>
-	<Property Name="varPersistentID:{CD70365E-E9C7-4C35-AEE4-26694FFFE28B}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/Field Variables/JointAngles</Property>
+	<Property Name="varPersistentID:{CD70365E-E9C7-4C35-AEE4-26694FFFE28B}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/JointAngles</Property>
 	<Property Name="varPersistentID:{D2179D35-A417-4BD1-94AE-D4C884664107}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/CompCuffWeight</Property>
-	<Property Name="varPersistentID:{D2E710A2-E189-45A8-B364-C8A9FBC28A00}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/Parameters/ExtraCuffWt</Property>
+	<Property Name="varPersistentID:{D2E710A2-E189-45A8-B364-C8A9FBC28A00}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/ExtraCuffWt</Property>
 	<Property Name="varPersistentID:{D3C0BA74-0D2A-4B7B-9AF9-2A9A65A36689}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/FFRst</Property>
-	<Property Name="varPersistentID:{D4C90B94-3A8D-448B-839C-9153DBBB2EC4}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Motor Loop/Motor Commands</Property>
+	<Property Name="varPersistentID:{D4C90B94-3A8D-448B-839C-9153DBBB2EC4}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Motor Loop/MotorCmd(I)</Property>
 	<Property Name="varPersistentID:{D6281B28-A0AA-4605-8942-AE3A00BFEB26}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/LegDim</Property>
 	<Property Name="varPersistentID:{D736BFC8-78AC-40D8-9810-47C1710407C5}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Angles (rad)</Property>
 	<Property Name="varPersistentID:{DC887707-4BE2-4D68-A2EC-30D6088910B5}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/ResetMotorEnc</Property>
@@ -128,6 +124,10 @@
 			<Item Name="ScaleTraj_Angle.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj_Angle.vi"/>
 			<Item Name="ScaleTraj_Height.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj_Height.vi"/>
 			<Item Name="VectorNorm.vi" Type="VI" URL="../Remote VIs/Sub Vis/VectorNorm.vi"/>
+		</Item>
+		<Item Name="Config" Type="Folder">
+			<Item Name="GenCMSMismatchFile.vi" Type="VI" URL="../Remote VIs/Configs/GenCMSMismatchFile.vi"/>
+			<Item Name="CMSMismatch.ctl" Type="VI" URL="../Remote VIs/Configs/CMSMismatch.ctl"/>
 		</Item>
 		<Item Name="Mobile Version.txt" Type="Document" URL="../Mobile Version.txt"/>
 		<Item Name="ControlInterface.vi" Type="VI" URL="../Remote VIs/ControlInterface.vi"/>
@@ -303,6 +303,8 @@
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -700,18 +702,19 @@ DirectoryIndex index.htm
 				<Property Name="\7\ChanType" Type="Str">Analog Input</Property>
 				<Property Name="\7\Name" Type="Str">TuningTask/LoadCell8</Property>
 				<Property Name="\7\PhysicalChanName" Type="Str">PXI1Slot3/ai7</Property>
-				<Property Name="\8\AI.Max" Type="Str">10</Property>
+				<Property Name="\8\AI.CustomScaleName" Type="Str">LoadCell_Futek_LSB200</Property>
+				<Property Name="\8\AI.Max" Type="Str">220</Property>
 				<Property Name="\8\AI.MeasType" Type="Str">Voltage</Property>
-				<Property Name="\8\AI.Min" Type="Str">-10</Property>
-				<Property Name="\8\AI.TermCfg" Type="Str">RSE</Property>
-				<Property Name="\8\AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="\8\AI.Min" Type="Str">-220</Property>
+				<Property Name="\8\AI.TermCfg" Type="Str">Differential</Property>
+				<Property Name="\8\AI.Voltage.Units" Type="Str">From Custom Scale</Property>
 				<Property Name="\8\ChanType" Type="Str">Analog Input</Property>
 				<Property Name="\8\Name" Type="Str">TuningTask/AI16</Property>
 				<Property Name="\8\PhysicalChanName" Type="Str">PXI1Slot3/ai16</Property>
 				<Property Name="\9\AI.Max" Type="Str">10</Property>
 				<Property Name="\9\AI.MeasType" Type="Str">Voltage</Property>
 				<Property Name="\9\AI.Min" Type="Str">-10</Property>
-				<Property Name="\9\AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="\9\AI.TermCfg" Type="Str">Differential</Property>
 				<Property Name="\9\AI.Voltage.Units" Type="Str">Volts</Property>
 				<Property Name="\9\ChanType" Type="Str">Analog Input</Property>
 				<Property Name="\9\Name" Type="Str">TuningTask/AI17</Property>
@@ -933,7 +936,6 @@ DirectoryIndex index.htm
 			<Item Name="HighLvCtrl_Clear.vi" Type="VI" URL="../RT VIs/HighLevelController/HighLvCtrl_Clear.vi"/>
 			<Item Name="Exoskeleton_SV.lvlib" Type="Library" URL="../RT VIs/HighLevelController/Exoskeleton_SV.lvlib"/>
 			<Item Name="ForceField_SV.lvlib" Type="Library" URL="../RT VIs/HighLevelController/ForceField_SV.lvlib"/>
-			<Item Name="JointSensor.ctl" Type="VI" URL="../RT VIs/HighLevelController/JointSensor.ctl"/>
 			<Item Name="IMU2JointAngles.vi" Type="VI" URL="../RT VIs/HighLevelController/IMU2JointAngles.vi"/>
 			<Item Name="Vicon2JointAngles.vi" Type="VI" URL="../RT VIs/HighLevelController/Vicon2JointAngles.vi"/>
 			<Item Name="IMU2JointAngles2.vi" Type="VI" URL="../RT VIs/HighLevelController/IMU2JointAngles2.vi"/>
@@ -951,6 +953,7 @@ DirectoryIndex index.htm
 			<Item Name="Data Logger.lvclass" Type="LVClass" URL="../Classes/DataLogger/Data Logger.lvclass"/>
 			<Item Name="CreateCAlexHeader.vi" Type="VI" URL="../RT VIs/Logger/CreateCAlexHeader.vi"/>
 			<Item Name="GenColumnHeaders.vi" Type="VI" URL="../RT VIs/Logger/GenColumnHeaders.vi"/>
+			<Item Name="Logger_FileSavePath.vi" Type="VI" URL="../RT VIs/Logger/Logger_FileSavePath.vi"/>
 			<Item Name="Logger_Init.vi" Type="VI" URL="../RT VIs/Logger/Logger_Init.vi"/>
 			<Item Name="Logger_Loop.vi" Type="VI" URL="../RT VIs/Logger/Logger_Loop.vi"/>
 			<Item Name="Logger_Clear.vi" Type="VI" URL="../RT VIs/Logger/Logger_Clear.vi"/>
@@ -960,7 +963,7 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="InterfaceCommand" Type="Folder">
 			<Item Name="Interface.vi" Type="VI" URL="../RT VIs/InterfaceCommand/Interface.vi"/>
-			<Item Name="UpdateArmParam.vi" Type="VI" URL="../RT VIs/InterfaceCommand/UpdateArmParam.vi"/>
+			<Item Name="UpdateLegParam.vi" Type="VI" URL="../RT VIs/InterfaceCommand/UpdateLegParam.vi"/>
 			<Item Name="UpdateFieldVars.vi" Type="VI" URL="../RT VIs/InterfaceCommand/UpdateFieldVars.vi"/>
 			<Item Name="UpdateViconIMUParam.vi" Type="VI" URL="../RT VIs/InterfaceCommand/UpdateViconIMUParam.vi"/>
 		</Item>
@@ -969,10 +972,6 @@ DirectoryIndex index.htm
 			<Item Name="PID_Tuning.vi" Type="VI" URL="../RT VIs/MotorTuningVIs/PID_Tuning.vi"/>
 			<Item Name="Vol-Force_Tuning.vi" Type="VI" URL="../RT VIs/MotorTuningVIs/Vol-Force_Tuning.vi"/>
 			<Item Name="Vol-RPM_Tuning.vi" Type="VI" URL="../RT VIs/MotorTuningVIs/Vol-RPM_Tuning.vi"/>
-		</Item>
-		<Item Name="GaitDisp" Type="Folder">
-			<Item Name="RT Video Output Setup.vi" Type="VI" URL="../RT VIs/GaitDisp/RT Video Output Setup.vi"/>
-			<Item Name="VideoLoop.vi" Type="VI" URL="../RT VIs/GaitDisp/VideoLoop.vi"/>
 		</Item>
 		<Item Name="SharedVariables.lvlib" Type="Library" URL="../Remote VIs/SharedVariables.lvlib"/>
 		<Item Name="FPGA Target" Type="FPGA Target">
@@ -2773,6 +2772,7 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="RT_MasterLoopvi.vi" Type="VI" URL="../RT VIs/RT_MasterLoopvi.vi"/>
+		<Item Name="CMSMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/CMSMismatch.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -3104,13 +3104,6 @@ DirectoryIndex index.htm
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="CustomVI.lvlib" Type="Library" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/CustomVI.lvlib"/>
-				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
-				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
-				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
-				<Item Name="IMAQ Video Out Display Mode" Type="VI" URL="/&lt;vilib&gt;/vision/IMAQRT.llb/IMAQ Video Out Display Mode"/>
-				<Item Name="IMAQ RT Video Out" Type="VI" URL="/&lt;vilib&gt;/vision/IMAQRT.llb/IMAQ RT Video Out"/>
-				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Draw Multiple Lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Multiple Lines.vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
@@ -3125,6 +3118,8 @@ DirectoryIndex index.htm
 				<Item Name="GXML.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/GXML/GXML.lvlib"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -3135,6 +3130,7 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="CAlex2_FPGATarget_MotorControl_+dy1qhm6Ymw.lvbitx" Type="Document" URL="../FPGA Bitfiles/CAlex2_FPGATarget_MotorControl_+dy1qhm6Ymw.lvbitx"/>
+			<Item Name="CMSMismatch.ctl" Type="VI" URL="../Remote VIs/Configs/CMSMismatch.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
