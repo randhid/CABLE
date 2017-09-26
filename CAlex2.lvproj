@@ -78,6 +78,7 @@
 	<Property Name="varPersistentID:{E2561D34-C6DA-4CEC-A547-B400D4E5D689}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Data Logger/FileName</Property>
 	<Property Name="varPersistentID:{E287ACC8-4C24-4616-BE03-06676CBF6B69}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Data Logger/RecordTime</Property>
 	<Property Name="varPersistentID:{E7E86B82-6BC6-410F-BDA0-36B42886C3FB}" Type="Ref">/PXIe-8135/TCPconnect/tcpSharedVariables.lvlib/ViconIMU</Property>
+	<Property Name="varPersistentID:{E8010CC6-366B-47B5-9E89-0F5BF8A4B9E4}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/CAlexVersion</Property>
 	<Property Name="varPersistentID:{EC0DFE10-4857-4020-B02A-17D3E7E41D0A}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Data Logger/Record?</Property>
 	<Property Name="varPersistentID:{F2BEA521-AE39-4CA0-8B13-62600ABF371C}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/StandPosIMU</Property>
 	<Property Name="varPersistentID:{F7694959-B096-4FF2-823E-FACD345072F7}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_AngRates (rad-s)</Property>
@@ -135,6 +136,7 @@
 		<Item Name="LoopTiming.vi" Type="VI" URL="../Remote VIs/LoopTiming.vi"/>
 		<Item Name="RestTimer.vi" Type="VI" URL="../Remote VIs/Sub Vis/RestTimer.vi"/>
 		<Item Name="SimulateJointAngles.vi" Type="VI" URL="../Remote VIs/SimulateJointAngles.vi"/>
+		<Item Name="CheckRTMasterLoop.vi" Type="VI" URL="../Remote VIs/Sub Vis/CheckRTMasterLoop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
@@ -970,6 +972,9 @@ DirectoryIndex index.htm
 			<Item Name="PID_Tuning.vi" Type="VI" URL="../RT VIs/MotorTuningVIs/PID_Tuning.vi"/>
 			<Item Name="Vol-Force_Tuning.vi" Type="VI" URL="../RT VIs/MotorTuningVIs/Vol-Force_Tuning.vi"/>
 			<Item Name="Vol-RPM_Tuning.vi" Type="VI" URL="../RT VIs/MotorTuningVIs/Vol-RPM_Tuning.vi"/>
+		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="ConfirmRTMasterLoopRuning.vi" Type="VI" URL="../RT VIs/SubVIs/ConfirmRTMasterLoopRuning.vi"/>
 		</Item>
 		<Item Name="SharedVariables.lvlib" Type="Library" URL="../Remote VIs/SharedVariables.lvlib"/>
 		<Item Name="FPGA Target" Type="FPGA Target">

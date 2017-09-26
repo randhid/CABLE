@@ -388,9 +388,11 @@
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
 			<Property Name="Network:UseBuffering" Type="Str">False</Property>
 			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-			<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-			<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+			<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">True</Property>
+			<Property Name="Real-Time Features:ArrayLength" Type="Str">1</Property>
+			<Property Name="Real-Time Features:BufferLength" Type="Str">5</Property>
+			<Property Name="Real-Time Features:DatapointsInWaveform" Type="Str">1</Property>
+			<Property Name="Real-Time Features:UseBuffering" Type="Str">True</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 		</Item>
@@ -465,6 +467,17 @@
 			<Property Name="numTypedefs" Type="UInt">0</Property>
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="CAlexVersion" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Network</Property>
+			<Property Name="Network:SingleWriter" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">1</Property>
+			<Property Name="type" Type="Str">Network</Property>
+			<Property Name="typedefName1" Type="Str">CAlex2.lvclass:CAlexVersion.ctl</Property>
+			<Property Name="typedefPath1" Type="PathRel">../../Classes/CAlex2/TypeDef/CAlexVersion.ctl</Property>
+			<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"J:1!!!"9!A!!!!!!"!&amp;-!]1!!!!!!!!!#$E."&lt;'6Y-CZM&gt;G.M98.T%%."&lt;'6Y6G6S=WFP&lt;CZD&gt;'Q!+U!7!!)'47^C;7RF#62S:7&amp;E&lt;7FM&lt;!!!$%."&lt;'6Y6G6S=WFP&lt;A!!!1!!!!!!!!!!!!!!!!</Property>
 		</Item>
 	</Item>
 	<Item Name="Debug" Type="Folder">
