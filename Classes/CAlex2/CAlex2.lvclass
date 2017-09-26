@@ -38,9 +38,18 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 		</Item>
+		<Item Name="CAlexVersion.ctl" Type="VI" URL="../TypeDef/CAlexVersion.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"&lt;!!!!!1"4!0%!!!!!!!!!!AZ$17RF?$)O&lt;(:D&lt;'&amp;T=R"$17RF?&amp;:F=H.J&lt;WYO9X2M!#N!&amp;A!#"EVP9GFM:1F5=G6B:'VJ&lt;'Q!!!R$17RF?&amp;:F=H.J&lt;WY!!!%!!!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
+		</Item>
 	</Item>
-	<Item Name="Init_SubVIs" Type="Folder">
-		<Item Name="CAlex2_InitCuff.vi" Type="VI" URL="../CAlex2_InitCuff.vi">
+	<Item Name="SetCuffs_Mobile" Type="Folder">
+		<Item Name="CAlex2_SetAllCuffs_Mobile.vi" Type="VI" URL="../SetCuffs/CAlex2_SetAllCuffs_Mobile.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!++!!!!'A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!1$E."&lt;'6Y-CZM&gt;G.M98.T!!!+1U&amp;M:8AS)'^V&gt;!!!&amp;U!+!""4;'&amp;O;U6Y&gt;(*B6W6J:WBU!!!81!I!%&amp;2I;7&gt;I28BU=G&amp;8:7FH;(1!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%5!+!!N5;'FH;%RU)#BN+1!21!I!#V.I97ZL4(1A+'UJ!!^!#A!*3'FQ6W1A+'UJ!"2!5!!$!!E!#A!,"U*P:(F%;7U!%5!+!!J5;'FH;#!I;W=J!!!21!I!#F.I97ZL)#BL:SE!!"*!5!!#!!U!$A:#&lt;W2Z6X1!!".!#A!.3'FQ1X6G:F&gt;E)#BN+1!41!I!$5BJ=%.V:G:)&gt;#!I&lt;3E!&amp;5!+!!^);8"'&gt;W24;'FG&gt;#!I&lt;3E!&amp;5!+!!^5;'FH;&amp;2P3WZF:3!I&lt;3E!&amp;U!+!"&amp;5;'FH;%.V:G:%;8.U)#BN+1!61!I!$V.I97ZL6'^,&lt;G6F)#BN+1!=1&amp;!!"A!1!"%!%A!4!"1!&amp;1B$&gt;7:G)%RP9Q!!2!$R!!!!!!!!!!)/1U&amp;M:8AS,GRW9WRB=X-14'^X:8*#&lt;W2Z2'FN,G.U&lt;!!=1&amp;!!!Q!-!!]!&amp;AN-:7&gt;1=G^Q:8*U?1!E1(!!(A!!%!Z$17RF?$)O&lt;(:D&lt;'&amp;T=Q!!#5."&lt;'6Y-C"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!9!"!!(!!1!#!!%!"=!'!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!+!!!!!!!!!!I!!!!!!!!!#A!!!!!!!!!3!!!!EA!!!!!"!"E!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">128</Property>
@@ -49,7 +58,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
-		<Item Name="CAlex2_SetCuff_Pelvis.vi" Type="VI" URL="../SetCuffs/CAlex2_SetCuff_Pelvis.vi">
+		<Item Name="CAlex2_SetCuff_Hip_Mobile.vi" Type="VI" URL="../SetCuffs/CAlex2_SetCuff_Hip_Mobile.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*:!!!!%1!%!!!!$5!$!!:#&lt;W2Z351!!!V!#A!(1G^E?5ZV&lt;1!51%!!!@````]!!A:$&lt;W^S:$1!!!F!!Q!#351!!%9!]1!!!!!!!!!#%V.F=GFB&lt;%.I97FO,GRW9WRB=X-05'^J&lt;H20&lt;E*P:(EO9X2M!"J!5!!#!!-!"!N$&lt;UUI1X6G:E.4+1!01!I!#%VB=X-I;W=J!!"!!0%!!!!!!!!!!B.4:8*J97R$;'&amp;J&lt;CZM&gt;G.M98.T$V"P;7ZU4WZ#&lt;W2Z,G.U&lt;!!51&amp;!!!A!$!!1&amp;5'^J&lt;H1!(E"!!!(`````!!=11W&amp;C&lt;'61&gt;(-I1X6G:E.4+1!!'5!+!".3:7&amp;M)%VB&gt;(*J?#"&amp;&lt;'6N:7ZU!%=!]1!!!!!!!!!#$UZ*8UVB&gt;(*J?#ZM&gt;GRJ9AZ3:7&amp;M47&amp;U=GFY,G.U&lt;!!A1%!!!P``````````!!E+1X6G:CU_1G^E?1!!31$R!!!!!!!!!!):5W6S;7&amp;M1WBB;7YN1W&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=QB$&gt;7:G,G.U&lt;!!?1&amp;!!"1!"!!5!"A!)!!I)3'FQ)%.V:G9!!#&amp;!#A!;3'FQ)%.V:G9A2G^S&gt;W&amp;S:#"4;'FG&gt;#!I&lt;3E!!"F!#A!43'FQ)%.V:G9A3'6J:WBU)#BN+1!:1!I!%EBJ=#"$&gt;7:G)&amp;&gt;J:(2I)#BN+1!!%U!+!!V);8!A6WFE&gt;'AA+'UJ!&amp;1!]!!-!!!!!!!!!!M!!!!!!!!!!!!-!!U!$A!0!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!#A!!!!I!!!!+!!!!!!%!%!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -58,7 +67,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
-		<Item Name="CAlex2_SetCuff_Thigh.vi" Type="VI" URL="../SetCuffs/CAlex2_SetCuff_Thigh.vi">
+		<Item Name="CAlex2_SetCuff_Thigh_Mobile.vi" Type="VI" URL="../SetCuffs/CAlex2_SetCuff_Thigh_Mobile.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+@!!!!%1!%!!!!$5!$!!:#&lt;W2Z351!!!V!#A!(1G^E?5ZV&lt;1!51%!!!@````]!!A:$&lt;W^S:$1!!!F!!Q!#351!!%9!]1!!!!!!!!!#%V.F=GFB&lt;%.I97FO,GRW9WRB=X-05'^J&lt;H20&lt;E*P:(EO9X2M!"J!5!!#!!-!"!N$&lt;UUI1X6G:E.4+1!01!I!#%VB=X-I;W=J!!"!!0%!!!!!!!!!!B.4:8*J97R$;'&amp;J&lt;CZM&gt;G.M98.T$V"P;7ZU4WZ#&lt;W2Z,G.U&lt;!!51&amp;!!!A!$!!1&amp;5'^J&lt;H1!(E"!!!(`````!!=11W&amp;C&lt;'61&gt;(-I1X6G:E.4+1!!'5!+!".3:7&amp;M)%VB&gt;(*J?#"&amp;&lt;'6N:7ZU!%=!]1!!!!!!!!!#$UZ*8UVB&gt;(*J?#ZM&gt;GRJ9AZ3:7&amp;M47&amp;U=GFY,G.U&lt;!!A1%!!!P``````````!!E+1X6G:CU_1G^E?1!!4Q$R!!!!!!!!!!):5W6S;7&amp;M1WBB;7YN1W&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=QB$&gt;7:G,G.U&lt;!!E1&amp;!!"1!"!!5!"A!)!!I/6'BJ:WAA1X6G:C"-&lt;X=!!%]!]1!!!!!!!!!#'6.F=GFB&lt;%.I97FO,5.B9GRF,GRW9WRB=X-)1X6G:CZD&gt;'Q!*%"1!!5!!1!&amp;!!9!#!!+$V2I;7&gt;I)%.V:G9A3'FH;!!81!I!%56Y&gt;(*B)&amp;&gt;F;7&gt;I&gt;#!I;W=J!#.!#A!=68"Q:8)A1X6G:C"U&lt;S"-&lt;X&gt;F=C"$&gt;7:G)#BN+1!!(5!+!":-&lt;X&gt;F=C"$&gt;7:G)(2P)%NO:75A+'UJ!!"5!0!!$!!!!!!!#Q!-!!!!!!!!!!!!!!!.!!Y!$Q)!!(A!!!!!!!!!!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!)!!!!#A!!!!!"!"!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -67,16 +76,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1073742336</Property>
 		</Item>
-		<Item Name="CAlex2_SetCuff_Thigh2.vi" Type="VI" URL="../SetCuffs/CAlex2_SetCuff_Thigh2.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+#!!!!%!!%!!!!$5!$!!:#&lt;W2Z351!!!V!#A!(1G^E?5ZV&lt;1!51%!!!@````]!!A:$&lt;W^S:$1!!!F!!Q!#351!!%9!]1!!!!!!!!!#%V.F=GFB&lt;%.I97FO,GRW9WRB=X-05'^J&lt;H20&lt;E*P:(EO9X2M!"J!5!!#!!-!"!N$&lt;UUI1X6G:E.4+1!01!I!#%VB=X-I;W=J!!"!!0%!!!!!!!!!!B.4:8*J97R$;'&amp;J&lt;CZM&gt;G.M98.T$V"P;7ZU4WZ#&lt;W2Z,G.U&lt;!!51&amp;!!!A!$!!1&amp;5'^J&lt;H1!(E"!!!(`````!!=11W&amp;C&lt;'61&gt;(-I1X6G:E.4+1!!'5!+!".3:7&amp;M)%VB&gt;(*J?#"&amp;&lt;'6N:7ZU!%=!]1!!!!!!!!!#$UZ*8UVB&gt;(*J?#ZM&gt;GRJ9AZ3:7&amp;M47&amp;U=GFY,G.U&lt;!!A1%!!!P``````````!!E+1X6G:CU_1G^E?1!!4Q$R!!!!!!!!!!):5W6S;7&amp;M1WBB;7YN1W&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=QB$&gt;7:G,G.U&lt;!!E1&amp;!!"1!"!!5!"A!)!!I/6'BJ:WAA1X6G:C"-&lt;X=!!%]!]1!!!!!!!!!#'6.F=GFB&lt;%.I97FO,5.B9GRF,GRW9WRB=X-)1X6G:CZD&gt;'Q!*%"1!!5!!1!&amp;!!9!#!!+$V2I;7&gt;I)%.V:G9A3'FH;!!:1!I!%V2I;7&gt;I)%.V:G9A2'FT&gt;'&amp;O9W5!)5!+!"N5;'FH;#"$&gt;7:G)%.F&lt;H2F=C"G=G^N)%NO:75!6!$Q!!Q!!!!!!!M!$!!!!!!!!!!!!!!!!!!.!!Y#!!"Y!!!!!!!!!!!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!I!!!!!!1!0!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1351098880</Property>
-		</Item>
-		<Item Name="CAlex2_SetCuff_Shank.vi" Type="VI" URL="../SetCuffs/CAlex2_SetCuff_Shank.vi">
+		<Item Name="CAlex2_SetCuff_Shank_Mobile.vi" Type="VI" URL="../SetCuffs/CAlex2_SetCuff_Shank_Mobile.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Q!!!!%!!%!!!!$5!$!!:#&lt;W2Z351!!!V!#A!(1G^E?5ZV&lt;1!51%!!!@````]!!A:$&lt;W^S:$1!!!F!!Q!#351!!%9!]1!!!!!!!!!#%V.F=GFB&lt;%.I97FO,GRW9WRB=X-05'^J&lt;H20&lt;E*P:(EO9X2M!"J!5!!#!!-!"!N$&lt;UUI1X6G:E.4+1!01!I!#%VB=X-I;W=J!!"!!0%!!!!!!!!!!B.4:8*J97R$;'&amp;J&lt;CZM&gt;G.M98.T$V"P;7ZU4WZ#&lt;W2Z,G.U&lt;!!51&amp;!!!A!$!!1&amp;5'^J&lt;H1!(E"!!!(`````!!=11W&amp;C&lt;'61&gt;(-I1X6G:E.4+1!!'5!+!".3:7&amp;M)%VB&gt;(*J?#"&amp;&lt;'6N:7ZU!%=!]1!!!!!!!!!#$UZ*8UVB&gt;(*J?#ZM&gt;GRJ9AZ3:7&amp;M47&amp;U=GFY,G.U&lt;!!A1%!!!P``````````!!E+1X6G:CU_1G^E?1!!3Q$R!!!!!!!!!!):5W6S;7&amp;M1WBB;7YN1W&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=QB$&gt;7:G,G.U&lt;!!A1&amp;!!"1!"!!5!"A!)!!I+5WBB&lt;GMA1X6G:A!!%5!+!!N&amp;?(2S96&gt;F;7&gt;I&gt;!!81!I!%%2J=X2B&lt;G.F)&amp;2P)%NO:75!!".!#A!-5WBB&lt;GMA4'6O:X2I!!"5!0!!$!!!!!!!!!!,!!!!!!!!!!!!!!!-!!U!$A)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!)!!!!#!!!!!!"!!]!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -84,6 +84,60 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+		</Item>
+	</Item>
+	<Item Name="SetCuffs_Treadmill" Type="Folder">
+		<Item Name="CAlex2_SetAllCuffs_Treadmill.vi" Type="VI" URL="../SetCuffs/CAlex2_SetAllCuffs_Treadmill.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!++!!!!'A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!1$E."&lt;'6Y-CZM&gt;G.M98.T!!!+1U&amp;M:8AS)'^V&gt;!!!&amp;U!+!""4;'&amp;O;U6Y&gt;(*B6W6J:WBU!!!81!I!%&amp;2I;7&gt;I28BU=G&amp;8:7FH;(1!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%5!+!!N5;'FH;%RU)#BN+1!21!I!#V.I97ZL4(1A+'UJ!!^!#A!*3'FQ6W1A+'UJ!"2!5!!$!!E!#A!,"U*P:(F%;7U!%5!+!!J5;'FH;#!I;W=J!!!21!I!#F.I97ZL)#BL:SE!!"*!5!!#!!U!$A:#&lt;W2Z6X1!!".!#A!.3'FQ1X6G:F&gt;E)#BN+1!41!I!$5BJ=%.V:G:)&gt;#!I&lt;3E!&amp;5!+!!^);8"'&gt;W24;'FG&gt;#!I&lt;3E!&amp;5!+!!^5;'FH;&amp;2P3WZF:3!I&lt;3E!&amp;U!+!"&amp;5;'FH;%.V:G:%;8.U)#BN+1!61!I!$V.I97ZL6'^,&lt;G6F)#BN+1!=1&amp;!!"A!1!"%!%A!4!"1!&amp;1B$&gt;7:G)%RP9Q!!2!$R!!!!!!!!!!)/1U&amp;M:8AS,GRW9WRB=X-14'^X:8*#&lt;W2Z2'FN,G.U&lt;!!=1&amp;!!!Q!-!!]!&amp;AN-:7&gt;1=G^Q:8*U?1!E1(!!(A!!%!Z$17RF?$)O&lt;(:D&lt;'&amp;T=Q!!#5."&lt;'6Y-C"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!9!"!!(!!1!#!!%!"=!'!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!+!!!!!!!!!!I!!!!!!!!!#A!!!!!!!!!3!!!!EA!!!!!"!"E!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">128</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+		</Item>
+		<Item Name="CAlex2_SetCuff_Hip_Treadmill.vi" Type="VI" URL="../SetCuffs/CAlex2_SetCuff_Hip_Treadmill.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*:!!!!%1!%!!!!$5!$!!:#&lt;W2Z351!!!V!#A!(1G^E?5ZV&lt;1!51%!!!@````]!!A:$&lt;W^S:$1!!!F!!Q!#351!!%9!]&gt;80%EE!!!!#%V.F=GFB&lt;%.I97FO,GRW9WRB=X-05'^J&lt;H20&lt;E*P:(EO9X2M!"J!5!!#!!-!"!N$&lt;UUI1X6G:E.4+1!01!I!#%VB=X-I;W=J!!"!!0(6TR**!!!!!B.4:8*J97R$;'&amp;J&lt;CZM&gt;G.M98.T$V"P;7ZU4WZ#&lt;W2Z,G.U&lt;!!51&amp;!!!A!$!!1&amp;5'^J&lt;H1!(E"!!!(`````!!=11W&amp;C&lt;'61&gt;(-I1X6G:E.4+1!!'5!+!".3:7&amp;M)%VB&gt;(*J?#"&amp;&lt;'6N:7ZU!%=!]1!!!!!!!!!#$UZ*8UVB&gt;(*J?#ZM&gt;GRJ9AZ3:7&amp;M47&amp;U=GFY,G.U&lt;!!A1%!!!P``````````!!E+1X6G:CU_1G^E?1!!31$R!!!!!!!!!!):5W6S;7&amp;M1WBB;7YN1W&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=QB$&gt;7:G,G.U&lt;!!?1&amp;!!"1!"!!5!"A!)!!I)3'FQ)%.V:G9!!#&amp;!#A!;3'FQ)%.V:G9A2G^S&gt;W&amp;S:#"4;'FG&gt;#!I&lt;3E!!"F!#A!43'FQ)%.V:G9A3'6J:WBU)#BN+1!:1!I!%EBJ=#"$&gt;7:G)&amp;&gt;J:(2I)#BN+1!!%U!+!!V);8!A6WFE&gt;'AA+'UJ!&amp;1!]!!-!!!!!!!!!!M!!!!!!!!!!!!-!!U!$A!0!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!#A!!!!I!!!!+!!!!!!%!%!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+		</Item>
+		<Item Name="CAlex2_SetCuff_Shank_Treadmill.vi" Type="VI" URL="../SetCuffs/CAlex2_SetCuff_Shank_Treadmill.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Q!!!!%!!%!!!!$5!$!!:#&lt;W2Z351!!!V!#A!(1G^E?5ZV&lt;1!51%!!!@````]!!A:$&lt;W^S:$1!!!F!!Q!#351!!%9!]&gt;80%EE!!!!#%V.F=GFB&lt;%.I97FO,GRW9WRB=X-05'^J&lt;H20&lt;E*P:(EO9X2M!"J!5!!#!!-!"!N$&lt;UUI1X6G:E.4+1!01!I!#%VB=X-I;W=J!!"!!0(6TR**!!!!!B.4:8*J97R$;'&amp;J&lt;CZM&gt;G.M98.T$V"P;7ZU4WZ#&lt;W2Z,G.U&lt;!!51&amp;!!!A!$!!1&amp;5'^J&lt;H1!(E"!!!(`````!!=11W&amp;C&lt;'61&gt;(-I1X6G:E.4+1!!'5!+!".3:7&amp;M)%VB&gt;(*J?#"&amp;&lt;'6N:7ZU!%=!]1!!!!!!!!!#$UZ*8UVB&gt;(*J?#ZM&gt;GRJ9AZ3:7&amp;M47&amp;U=GFY,G.U&lt;!!A1%!!!P``````````!!E+1X6G:CU_1G^E?1!!3Q$R!!!!!!!!!!):5W6S;7&amp;M1WBB;7YN1W&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=QB$&gt;7:G,G.U&lt;!!A1&amp;!!"1!"!!5!"A!)!!I+5WBB&lt;GMA1X6G:A!!%5!+!!N&amp;?(2S96&gt;F;7&gt;I&gt;!!81!I!%%2J=X2B&lt;G.F)&amp;2P)%NO:75!!".!#A!-5WBB&lt;GMA4'6O:X2I!!"5!0!!$!!!!!!!!!!,!!!!!!!!!!!!!!!-!!U!$A)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!)!!!!#!!!!!!"!!]!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+		</Item>
+		<Item Name="CAlex2_SetCuff_Thigh_Treadmill.vi" Type="VI" URL="../SetCuffs/CAlex2_SetCuff_Thigh_Treadmill.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+@!!!!%1!%!!!!$5!$!!:#&lt;W2Z351!!!V!#A!(1G^E?5ZV&lt;1!51%!!!@````]!!A:$&lt;W^S:$1!!!F!!Q!#351!!%9!]&gt;80%EE!!!!#%V.F=GFB&lt;%.I97FO,GRW9WRB=X-05'^J&lt;H20&lt;E*P:(EO9X2M!"J!5!!#!!-!"!N$&lt;UUI1X6G:E.4+1!01!I!#%VB=X-I;W=J!!"!!0(6TR**!!!!!B.4:8*J97R$;'&amp;J&lt;CZM&gt;G.M98.T$V"P;7ZU4WZ#&lt;W2Z,G.U&lt;!!51&amp;!!!A!$!!1&amp;5'^J&lt;H1!(E"!!!(`````!!=11W&amp;C&lt;'61&gt;(-I1X6G:E.4+1!!'5!+!".3:7&amp;M)%VB&gt;(*J?#"&amp;&lt;'6N:7ZU!%=!]1!!!!!!!!!#$UZ*8UVB&gt;(*J?#ZM&gt;GRJ9AZ3:7&amp;M47&amp;U=GFY,G.U&lt;!!A1%!!!P``````````!!E+1X6G:CU_1G^E?1!!4Q$R!!!!!!!!!!):5W6S;7&amp;M1WBB;7YN1W&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=QB$&gt;7:G,G.U&lt;!!E1&amp;!!"1!"!!5!"A!)!!I/6'BJ:WAA1X6G:C"-&lt;X=!!%]!]1!!!!!!!!!#'6.F=GFB&lt;%.I97FO,5.B9GRF,GRW9WRB=X-)1X6G:CZD&gt;'Q!*%"1!!5!!1!&amp;!!9!#!!+$V2I;7&gt;I)%.V:G9A3'FH;!!81!I!%56Y&gt;(*B)&amp;&gt;F;7&gt;I&gt;#!I;W=J!#.!#A!=68"Q:8)A1X6G:C"U&lt;S"-&lt;X&gt;F=C"$&gt;7:G)#BN+1!!(5!+!":-&lt;X&gt;F=C"$&gt;7:G)(2P)%NO:75A+'UJ!!"5!0!!$!!!!!!!#Q!-!!!!!!!!!!!!!!!.!!Y!$Q)!!(A!!!!!!!!!!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!)!!!!#A!!!!!"!"!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+		</Item>
+	</Item>
+	<Item Name="LegDim" Type="Folder">
+		<Item Name="LegProperties" Type="Property Definition">
+			<Property Name="NI.ClassItem.Property.LongName" Type="Str">LegProperties</Property>
+			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">LegProperties</Property>
+			<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+			<Item Name="Read_LegProperties.vi" Type="VI" URL="../Read_LegProperties.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*?!!!!'!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#A!,6'BJ:WB-&gt;#!I&lt;3E!%5!+!!N4;'&amp;O;URU)#BN+1!01!I!#5BJ=&amp;&gt;E)#BN+1!51&amp;!!!Q!&amp;!!9!"Q&gt;#&lt;W2Z2'FN!"&amp;!#A!+6'BJ:WAA+'NH+1!!%5!+!!J4;'&amp;O;S!I;W=J!!!31&amp;!!!A!*!!I'1G^E?6&gt;U!!!41!I!$5BJ=%.V:G:8:#!I&lt;3E!%U!+!!V);8"$&gt;7:G3(1A+'UJ!"6!#A!03'FQ2H&gt;E5WBJ:H1A+'UJ!"6!#A!06'BJ:WB5&lt;UNO:75A+'UJ!"&gt;!#A!26'BJ:WB$&gt;7:G2'FT&gt;#!I&lt;3E!&amp;5!+!!^4;'&amp;O;V2P3WZF:3!I&lt;3E!(%"1!!9!$!!.!!Y!$Q!1!"%)1X6G:C"-&lt;W-!!%9!]1!!!!!!!!!#$E."&lt;'6Y-CZM&gt;G.M98.T%%RP&gt;W6S1G^E?52J&lt;3ZD&gt;'Q!(E"1!!-!#!!,!").4'6H5(*P='6S&gt;'FF=Q!G1(!!(A!!%!Z$17RF?$)O&lt;(:D&lt;'&amp;T=Q!!#E."&lt;'6Y-C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!*%"Q!"Y!!"!/1U&amp;M:8AS,GRW9WRB=X-!!!F$17RF?$)A;7Y!6!$Q!!Q!!Q!%!"-!&amp;!!%!!1!"!!%!"5!"!!%!"9#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!8!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
+			</Item>
 		</Item>
 		<Item Name="CAlex2_SetLegDH.vi" Type="VI" URL="../CAlex2_SetLegDH.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,@!!!!(!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!1$E."&lt;'6Y-CZM&gt;G.M98.T!!!+1U&amp;M:8AS)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!.1!I!"U*P:(F/&gt;7U!&amp;%"!!!(`````!!='1W^P=G1U!!!*1!-!!EF%!!"-!0(6TR**!!!!!B.4:8*J97R$;'&amp;J&lt;CZM&gt;G.M98.T$V"P;7ZU4WZ#&lt;W2Z,G.U&lt;!!A1&amp;!!!A!)!!E127ZE)%6G:G6D&gt;'^S)&amp;"P=Q!!%5!+!!N5;'FH;%RU)#BN+1!21!I!#V.I97ZL4(1A+'UJ!!^!#A!*3'FQ6W1A+'UJ!"2!5!!$!!M!$!!."U*P:(F%;7U!%5!+!!J5;'FH;#!I;W=J!!!21!I!#F.I97ZL)#BL:SE!!"*!5!!#!!]!%!:#&lt;W2Z6X1!!".!#A!.3'FQ1X6G:F&gt;E)#BN+1!41!I!$5BJ=%.V:G:)&gt;#!I&lt;3E!&amp;5!+!!^);8"'&gt;W24;'FG&gt;#!I&lt;3E!&amp;5!+!!^5;'FH;&amp;2P3WZF:3!I&lt;3E!&amp;U!+!"&amp;5;'FH;%.V:G:%;8.U)#BN+1!61!I!$V.I97ZL6'^,&lt;G6F)#BN+1!=1&amp;!!"A!3!"-!&amp;!!6!"9!&amp;QB$&gt;7:G)%RP9Q!!2!$R!!!!!!!!!!)/1U&amp;M:8AS,GRW9WRB=X-14'^X:8*#&lt;W2Z2'FN,G.U&lt;!!=1&amp;!!!Q!/!"%!'!N"=GV1=G^Q:8*U?1!E1(!!(A!!%!Z$17RF?$)O&lt;(:D&lt;'&amp;T=Q!!#5."&lt;'6Y-C"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!+!"E!'A-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!A!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!&lt;!!!!!!</Property>
@@ -95,40 +149,6 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 		</Item>
 	</Item>
-	<Item Name="rtDisplay" Type="Folder">
-		<Item Name="CAlex2_rtDisplay.vi" Type="VI" URL="../../CAlex2-Display/CAlex2_rtDisplay.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%(!!!!#A!%!!!!&amp;%!T`````QNO:8=A='FD&gt;(6S:1!01!I!#%JP;7ZU4'^D!!!71%!!!@````]!!AF$&lt;'^F=X1A5(1!$U!+!!B1=G6W6(*B;A!!'E"!!!,``````````Q!%#&amp;"S:8:5=G&amp;K!!!01!I!#5ZV&lt;76S;7-A-A!=1%!!!P``````````!!9+6'&amp;S:W6U6(*B;A!!'E"!!!,``````````Q!##%JP;7ZU4'^D!!"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!Q!&amp;!!=!#!-!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!##!!!!AA!!!))!!!##!!!!!!"!!E!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
-		</Item>
-		<Item Name="CAlex2_rtDisplay_Scale.vi" Type="VI" URL="../../CAlex2-Display/CAlex2_rtDisplay_Scale.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$0!!!!#Q!&amp;!!)!!!I!5!!#!!!!!!!=1%!!!@````]!!1^0&gt;82Q&gt;81A7&amp;EA98*S98E!"U!#!!&amp;Y!!&gt;!!A!"?1!,1!I!"6.D97RF!#B!5!!$!!-!"!!&amp;'F.D97RF)#AR+3"B&lt;G1A4W:G=W6U)#AQ,$!J!!!%!!!!$5!+!!&gt;/&gt;7VF=GFD!#"!1!!#``````````]!#!^*&lt;H"V&gt;#"976IA98*S98E!+A$Q!!5!!A!'!!=!#1!(!A!!_!!!#1!!!!A!!!!!!!!##!!!!!!!!!!!!1!+!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
-		</Item>
-	</Item>
-	<Item Name="LegProperties" Type="Property Definition">
-		<Property Name="NI.ClassItem.Property.LongName" Type="Str">LegProperties</Property>
-		<Property Name="NI.ClassItem.Property.ShortName" Type="Str">LegProperties</Property>
-		<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
-		<Item Name="Read_LegProperties.vi" Type="VI" URL="../Read_LegProperties.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*?!!!!'!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#A!,6'BJ:WB-&gt;#!I&lt;3E!%5!+!!N4;'&amp;O;URU)#BN+1!01!I!#5BJ=&amp;&gt;E)#BN+1!51&amp;!!!Q!&amp;!!9!"Q&gt;#&lt;W2Z2'FN!"&amp;!#A!+6'BJ:WAA+'NH+1!!%5!+!!J4;'&amp;O;S!I;W=J!!!31&amp;!!!A!*!!I'1G^E?6&gt;U!!!41!I!$5BJ=%.V:G:8:#!I&lt;3E!%U!+!!V);8"$&gt;7:G3(1A+'UJ!"6!#A!03'FQ2H&gt;E5WBJ:H1A+'UJ!"6!#A!06'BJ:WB5&lt;UNO:75A+'UJ!"&gt;!#A!26'BJ:WB$&gt;7:G2'FT&gt;#!I&lt;3E!&amp;5!+!!^4;'&amp;O;V2P3WZF:3!I&lt;3E!(%"1!!9!$!!.!!Y!$Q!1!"%)1X6G:C"-&lt;W-!!%9!]1!!!!!!!!!#$E."&lt;'6Y-CZM&gt;G.M98.T%%RP&gt;W6S1G^E?52J&lt;3ZD&gt;'Q!(E"1!!-!#!!,!").4'6H5(*P='6S&gt;'FF=Q!G1(!!(A!!%!Z$17RF?$)O&lt;(:D&lt;'&amp;T=Q!!#E."&lt;'6Y-C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!*%"Q!"Y!!"!/1U&amp;M:8AS,GRW9WRB=X-!!!F$17RF?$)A;7Y!6!$Q!!Q!!Q!%!"-!&amp;!!%!!1!"!!%!"5!"!!%!"9#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!8!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
-		</Item>
-	</Item>
 	<Item Name="CAlex2_InitAll.vi" Type="VI" URL="../CAlex2_InitAll.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*L!!!!'!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!1$E."&lt;'6Y-CZM&gt;G.M98.T!!!+1U&amp;M:8AS)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!21!I!#V2I;7&gt;I4(1A+'UJ!"&amp;!#A!,5WBB&lt;GN-&gt;#!I&lt;3E!$U!+!!F);8"8:#!I&lt;3E!&amp;%"1!!-!"Q!)!!E(1G^E?52J&lt;1!21!I!#F2I;7&gt;I)#BL:SE!!"&amp;!#A!+5WBB&lt;GMA+'NH+1!!%E"1!!)!#Q!-"E*P:(F8&gt;!!!%U!+!!V);8"$&gt;7:G6W1A+'UJ!".!#A!.3'FQ1X6G:EBU)#BN+1!61!I!$UBJ=%:X:&amp;.I;7:U)#BN+1!61!I!$V2I;7&gt;I6'^,&lt;G6F)#BN+1!81!I!%62I;7&gt;I1X6G:E2J=X1A+'UJ!"6!#A!05WBB&lt;GN5&lt;UNO:75A+'UJ!"R!5!!'!!Y!$Q!1!"%!%A!4#%.V:G9A4'^D!!"'!0%!!!!!!!!!!AZ$17RF?$)O&lt;(:D&lt;'&amp;T=R"-&lt;X&gt;F=E*P:(F%;7UO9X2M!"Z!5!!$!!I!$1!5$5RF:V"S&lt;X"F=H2J:8-!*%"Q!"Y!!"!/1U&amp;M:8AS,GRW9WRB=X-!!!F$17RF?$)A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!6!"9$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%A!!!")!!!U!!!!-!!!!!!!!!!!!!!%!&amp;Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -138,13 +158,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 	</Item>
-	<Item Name="CAlex2_InitAll_Hv.vi" Type="VI" URL="../CAlex2_InitAll_Hv.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+&lt;!!!!'Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!1$E."&lt;'6Y-CZM&gt;G.M98.T!!!+1U&amp;M:8AS)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!,1!I!"62I;7&gt;I!!N!#A!&amp;5WBB&lt;GM!'E"1!!)!"Q!)$U6Y&gt;(*B6W6J:WBU+'NH+1!21!I!#V2I;7&gt;I4(1A+'UJ!"&amp;!#A!,5WBB&lt;GN-&gt;#!I&lt;3E!$U!+!!F);8"8:#!I&lt;3E!&amp;%"1!!-!#A!,!!Q(1G^E?52J&lt;1!21!I!#F2I;7&gt;I)#BL:SE!!"&amp;!#A!+5WBB&lt;GMA+'NH+1!!%E"1!!)!$A!0"E*P:(F8&gt;!!!%U!+!!V);8"$&gt;7:G6W1A+'UJ!".!#A!.3'FQ1X6G:EBU)#BN+1!61!I!$UBJ=%:X:&amp;.I;7:U)#BN+1!61!I!$V2I;7&gt;I6'^,&lt;G6F)#BN+1!81!I!%62I;7&gt;I1X6G:E2J=X1A+'UJ!"6!#A!05WBB&lt;GN5&lt;UNO:75A+'UJ!"R!5!!'!"%!%A!4!"1!&amp;1!7#%.V:G9A4'^D!!"'!0%!!!!!!!!!!AZ$17RF?$)O&lt;(:D&lt;'&amp;T=R"-&lt;X&gt;F=E*P:(F%;7UO9X2M!"Z!5!!$!!U!%!!8$5RF:V"S&lt;X"F=H2J:8-!*%"Q!"Y!!"!/1U&amp;M:8AS,GRW9WRB=X-!!!F$17RF?$)A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!#1!9!"E$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!'A!!!!!</Property>
+	<Item Name="CAlex2_InitAll_ExtWt.vi" Type="VI" URL="../CAlex2_InitAll_ExtWt.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,O!!!!(!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!1$E."&lt;'6Y-CZM&gt;G.M98.T!!!+1U&amp;M:8AS)'^V&gt;!!!5Q$R!!!!!!!!!!)/1U&amp;M:8AS,GRW9WRB=X-11U&amp;M:8B7:8*T;7^O,G.U&lt;!!L1"9!!A:.&lt;W*J&lt;'5*6(*F972N;7RM!!!-1U&amp;M:8B7:8*T;7^O!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!N!#A!&amp;6'BJ:WA!#U!+!!64;'&amp;O;Q!;1&amp;!!!A!)!!E028BU=G&amp;8:7FH;(1I;W=J!"&amp;!#A!,6'BJ:WB-&gt;#!I&lt;3E!%5!+!!N4;'&amp;O;URU)#BN+1!01!I!#5BJ=&amp;&gt;E)#BN+1!51&amp;!!!Q!,!!Q!$1&gt;#&lt;W2Z2'FN!"&amp;!#A!+6'BJ:WAA+'NH+1!!%5!+!!J4;'&amp;O;S!I;W=J!!!31&amp;!!!A!0!"!'1G^E?6&gt;U!!!41!I!$5BJ=%.V:G:8:#!I&lt;3E!%U!+!!V);8"$&gt;7:G3(1A+'UJ!"6!#A!03'FQ2H&gt;E5WBJ:H1A+'UJ!"6!#A!06'BJ:WB5&lt;UNO:75A+'UJ!"&gt;!#A!26'BJ:WB$&gt;7:G2'FT&gt;#!I&lt;3E!&amp;5!+!!^4;'&amp;O;V2P3WZF:3!I&lt;3E!(%"1!!9!%A!4!"1!&amp;1!7!"=)1X6G:C"-&lt;W-!!%9!]1!!!!!!!!!#$E."&lt;'6Y-CZM&gt;G.M98.T%%RP&gt;W6S1G^E?52J&lt;3ZD&gt;'Q!(E"1!!-!$A!2!"A.4'6H5(*P='6S&gt;'FF=Q!E1(!!(A!!%!Z$17RF?$)O&lt;(:D&lt;'&amp;T=Q!!#5."&lt;'6Y-C"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!9!"Q!+!"E!'A-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!1!!!!#A!!!!A!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!&lt;!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1350836752</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 </LVClass>

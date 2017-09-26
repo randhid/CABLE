@@ -482,10 +482,6 @@
 				<Item Name="CustomVI.lvlib" Type="Library" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/CustomVI.lvlib"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
-				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
-				<Item Name="Draw Multiple Lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Multiple Lines.vi"/>
-				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
-				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
 				<Item Name="cfis_Replace Percent Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Replace Percent Code.vi"/>
 				<Item Name="cfis_Reverse Scan From String For Integer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Reverse Scan From String For Integer.vi"/>
 				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
@@ -497,6 +493,7 @@
 			<Item Name="IMU_operation.ctl" Type="VI" URL="../../RT VIs/HighLevelController/TypeDef/IMU_operation.ctl"/>
 			<Item Name="Vicon2JointAngles2.vi" Type="VI" URL="../../RT VIs/HighLevelController/Vicon2JointAngles2.vi"/>
 			<Item Name="Vicon2JointAngles.vi" Type="VI" URL="../../RT VIs/HighLevelController/Vicon2JointAngles.vi"/>
+			<Item Name="CAlex2_rtDisplay.vi" Type="VI" URL="../../Classes/CAlex2-Display/CAlex2_rtDisplay.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
