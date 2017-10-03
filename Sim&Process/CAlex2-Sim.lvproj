@@ -76,6 +76,7 @@
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="plotAnkleTraj.vi" Type="VI" URL="../../Remote VIs/Sub Vis/plotAnkleTraj.vi"/>
+			<Item Name="SearchStringByLine.vi" Type="VI" URL="../../../Shared Libraries/customVIs/String/SearchStringByLine.vi"/>
 		</Item>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="SerialChain.lvclass" Type="LVClass" URL="../../Classes/SerialChain/SerialChain.lvclass"/>
@@ -395,14 +396,14 @@
 				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
 				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
 				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
-				<Item Name="File Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Info__ogtk.vi"/>
-				<Item Name="File Info Record__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Info Record__ogtk.ctl"/>
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
 				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
+				<Item Name="File Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Info__ogtk.vi"/>
+				<Item Name="File Info Record__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Info Record__ogtk.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -484,21 +485,18 @@
 				<Item Name="cfis_Get File Extension Without Changing Case.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Get File Extension Without Changing Case.vi"/>
 				<Item Name="cfis_Split File Path Into Three Parts.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Split File Path Into Three Parts.vi"/>
 				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
-				<Item Name="DeDupFileName.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/FileOps/DeDupFileName.vi"/>
-				<Item Name="Cut&amp;Average.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/DataProcess/Cut&amp;Average.vi"/>
-				<Item Name="ChangeModTime.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/FileOps/ChangeModTime.vi"/>
-				<Item Name="AddGraphAnnotation.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/Tools/AddGraphAnnotation.vi"/>
-				<Item Name="WriteLine.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/FileOps/WriteLine.vi"/>
-				<Item Name="CustomVI.lvlib" Type="Library" URL="/&lt;vilib&gt;/AuZn/auzn custom VIs/CustomVI.lvlib"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="DeDupFileName.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/FileOps/DeDupFileName.vi"/>
+				<Item Name="Cut&amp;Average.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/DataProcess/Cut&amp;Average.vi"/>
+				<Item Name="AuZnCustomVI.lvlib" Type="Library" URL="/&lt;vilib&gt;/AuZn/auzn custom VIs/AuZnCustomVI.lvlib"/>
+				<Item Name="AddGraphAnnotation.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/Tools/AddGraphAnnotation.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="IMU_operation.ctl" Type="VI" URL="../../RT VIs/HighLevelController/TypeDef/IMU_operation.ctl"/>
 			<Item Name="Vicon2JointAngles2.vi" Type="VI" URL="../../RT VIs/HighLevelController/Vicon2JointAngles2.vi"/>
 			<Item Name="Vicon2JointAngles.vi" Type="VI" URL="../../RT VIs/HighLevelController/Vicon2JointAngles.vi"/>
-			<Item Name="CAlex2_rtDisplay.vi" Type="VI" URL="../../Classes/CAlex2-Display/CAlex2_rtDisplay.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

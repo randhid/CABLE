@@ -124,6 +124,7 @@
 			<Item Name="ScaleTraj_Angle.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj_Angle.vi"/>
 			<Item Name="ScaleTraj_Height.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj_Height.vi"/>
 			<Item Name="VectorNorm.vi" Type="VI" URL="../Remote VIs/Sub Vis/VectorNorm.vi"/>
+			<Item Name="CheckRTMasterLoop.vi" Type="VI" URL="../Remote VIs/Sub Vis/CheckRTMasterLoop.vi"/>
 		</Item>
 		<Item Name="Config" Type="Folder">
 			<Item Name="GenCMSMismatchFile.vi" Type="VI" URL="../Remote VIs/Configs/GenCMSMismatchFile.vi"/>
@@ -135,7 +136,6 @@
 		<Item Name="LoopTiming.vi" Type="VI" URL="../Remote VIs/LoopTiming.vi"/>
 		<Item Name="RestTimer.vi" Type="VI" URL="../Remote VIs/Sub Vis/RestTimer.vi"/>
 		<Item Name="SimulateJointAngles.vi" Type="VI" URL="../Remote VIs/SimulateJointAngles.vi"/>
-		<Item Name="CheckRTMasterLoop.vi" Type="VI" URL="../Remote VIs/Sub Vis/CheckRTMasterLoop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
@@ -209,6 +209,13 @@
 				<Item Name="Index Array Elements__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index Array Elements__ogtk.vi"/>
 				<Item Name="File Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Info__ogtk.vi"/>
 				<Item Name="File Info Record__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Info Record__ogtk.ctl"/>
+				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
+				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
+				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
+				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
+				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
+				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
+				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
@@ -290,12 +297,10 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="DeDupFileName.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/FileOps/DeDupFileName.vi"/>
-				<Item Name="Cut&amp;Average.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/DataProcess/Cut&amp;Average.vi"/>
-				<Item Name="AddGraphAnnotation.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/Tools/AddGraphAnnotation.vi"/>
-				<Item Name="CustomVI.lvlib" Type="Library" URL="/&lt;vilib&gt;/AuZn/auzn custom VIs/CustomVI.lvlib"/>
-				<Item Name="RemoveWarnings.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/Tools/RemoveWarnings.vi"/>
-				<Item Name="DoubleToColor.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/Tools/DoubleToColor.vi"/>
+				<Item Name="AuZnCustomVI.lvlib" Type="Library" URL="/&lt;vilib&gt;/AuZn/auzn custom VIs/AuZnCustomVI.lvlib"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="LVAnnotationListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVAnnotationListTypeDef.ctl"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -3113,8 +3118,7 @@ DirectoryIndex index.htm
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="RemoveWarnings.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/Tools/RemoveWarnings.vi"/>
 				<Item Name="DeDupFileName.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/FileOps/DeDupFileName.vi"/>
-				<Item Name="CustomVI.lvlib" Type="Library" URL="/&lt;vilib&gt;/AuZn/auzn custom VIs/CustomVI.lvlib"/>
-				<Item Name="AddEOL.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/String/AddEOL.vi"/>
+				<Item Name="AuZnCustomVI.lvlib" Type="Library" URL="/&lt;vilib&gt;/AuZn/auzn custom VIs/AuZnCustomVI.lvlib"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
