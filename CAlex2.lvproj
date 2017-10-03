@@ -119,7 +119,6 @@
 			<Item Name="ProtocolControl2.vi" Type="VI" URL="../Remote VIs/Protocol/ProtocolControl2.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="CableMotorSensorMismatch.vi" Type="VI" URL="../RT VIs/LowLevelController/CableMotorSensorMismatch.vi"/>
 			<Item Name="CutMethod.ctl" Type="VI" URL="../Remote VIs/GenTargetTraj/TypeDef/CutMethod.ctl"/>
 			<Item Name="plotAnkleTraj.vi" Type="VI" URL="../Remote VIs/Sub Vis/plotAnkleTraj.vi"/>
 			<Item Name="ScaleTraj_Angle.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj_Angle.vi"/>
