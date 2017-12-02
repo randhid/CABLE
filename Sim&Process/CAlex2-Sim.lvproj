@@ -115,6 +115,7 @@
 			<Item Name="DataProcess_ja.vi" Type="VI" URL="../DataProcess/DataProcess_ja.vi"/>
 			<Item Name="DataProcess_anklepos.vi" Type="VI" URL="../DataProcess/DataProcess_anklepos.vi"/>
 			<Item Name="DataProcess_ChangeCatchName.vi" Type="VI" URL="../DataProcess/DataProcess_ChangeCatchName.vi"/>
+			<Item Name="DataProcess_RecreateProcessesFiles.vi" Type="VI" URL="../DataProcess/DataProcess_RecreateProcessesFiles.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -487,16 +488,17 @@
 				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
-				<Item Name="DeDupFileName.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/FileOps/DeDupFileName.vi"/>
-				<Item Name="Cut&amp;Average.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/DataProcess/Cut&amp;Average.vi"/>
 				<Item Name="AuZnCustomVI.lvlib" Type="Library" URL="/&lt;vilib&gt;/AuZn/auzn custom VIs/AuZnCustomVI.lvlib"/>
-				<Item Name="AddGraphAnnotation.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/Tools/AddGraphAnnotation.vi"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="IMU_operation.ctl" Type="VI" URL="../../RT VIs/HighLevelController/TypeDef/IMU_operation.ctl"/>
 			<Item Name="Vicon2JointAngles2.vi" Type="VI" URL="../../RT VIs/HighLevelController/Vicon2JointAngles2.vi"/>
 			<Item Name="Vicon2JointAngles.vi" Type="VI" URL="../../RT VIs/HighLevelController/Vicon2JointAngles.vi"/>
+			<Item Name="IsStringNumber.vi" Type="VI" URL="../../../AuZn Custom VIs/src/String/IsStringNumber.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
