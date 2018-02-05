@@ -498,7 +498,6 @@
 			<Item Name="IMU_operation.ctl" Type="VI" URL="../../RT VIs/HighLevelController/TypeDef/IMU_operation.ctl"/>
 			<Item Name="Vicon2JointAngles2.vi" Type="VI" URL="../../RT VIs/HighLevelController/Vicon2JointAngles2.vi"/>
 			<Item Name="Vicon2JointAngles.vi" Type="VI" URL="../../RT VIs/HighLevelController/Vicon2JointAngles.vi"/>
-			<Item Name="IsStringNumber.vi" Type="VI" URL="../../../AuZn Custom VIs/src/String/IsStringNumber.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
