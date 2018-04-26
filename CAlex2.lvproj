@@ -50,6 +50,7 @@
 	<Property Name="varPersistentID:{8CFD9A85-8D6B-41B4-A812-AF6A39270A1D}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_ClosePt</Property>
 	<Property Name="varPersistentID:{8DF98774-22DD-4CEF-8549-71BE0E322F7F}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/Stop RT</Property>
 	<Property Name="varPersistentID:{8F2E9C19-4446-443D-BC53-4EDA72EA278A}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/ZeroPosition</Property>
+	<Property Name="varPersistentID:{93B6C740-DF73-4F65-BBF1-B6166A365186}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_TareAngles</Property>
 	<Property Name="varPersistentID:{A08E1A73-9D20-46CB-A9BD-B84CC61ADE7D}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Accel(m-s2)</Property>
 	<Property Name="varPersistentID:{A21F1DF6-8F9A-4BF8-9B2F-E6608D880BC0}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/CableTensionCurrent</Property>
 	<Property Name="varPersistentID:{A3086374-6B22-44B3-832F-FBFA99C8A2F0}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_CompArm</Property>
@@ -2844,8 +2845,6 @@ DirectoryIndex index.htm
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
 				<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
-				<Item Name="File Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Info__ogtk.vi"/>
-				<Item Name="File Info Record__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Info Record__ogtk.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
@@ -3115,23 +3114,6 @@ DirectoryIndex index.htm
 				<Item Name="RemoveWarnings.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/Tools/RemoveWarnings.vi"/>
 				<Item Name="DeDupFileName.vi" Type="VI" URL="/&lt;vilib&gt;/GoldZinc Software/auzn custom VIs/FileOps/DeDupFileName.vi"/>
 				<Item Name="AuZnCustomVI.lvlib" Type="Library" URL="/&lt;vilib&gt;/AuZn/auzn custom VIs/AuZnCustomVI.lvlib"/>
-				<Item Name="LVAnnotationListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVAnnotationListTypeDef.ctl"/>
-				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
-				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
-				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
-				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
-				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
-				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
-				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
-				<Item Name="Get Image Subset.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Get Image Subset.vi"/>
-				<Item Name="Coerce Bad Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Coerce Bad Rect.vi"/>
-				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
-				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
-				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
-				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
-				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
-				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -3142,7 +3124,6 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="CAlex2_FPGATarget_MotorControl_+dy1qhm6Ymw.lvbitx" Type="Document" URL="../FPGA Bitfiles/CAlex2_FPGATarget_MotorControl_+dy1qhm6Ymw.lvbitx"/>
-			<Item Name="AuZnCustomVI.lvlib" Type="Library" URL="../../Shared Libraries/customVIs/src/AuZnCustomVI.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
