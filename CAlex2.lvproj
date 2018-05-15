@@ -125,6 +125,7 @@
 			<Item Name="ScaleTraj_Height.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj_Height.vi"/>
 			<Item Name="VectorNorm.vi" Type="VI" URL="../Remote VIs/Sub Vis/VectorNorm.vi"/>
 			<Item Name="CheckRTMasterLoop.vi" Type="VI" URL="../Remote VIs/Sub Vis/CheckRTMasterLoop.vi"/>
+			<Item Name="ScaleTraj_Length.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj_Length.vi"/>
 		</Item>
 		<Item Name="Config" Type="Folder">
 			<Item Name="GenCMSMismatchFile.vi" Type="VI" URL="../Remote VIs/Configs/GenCMSMismatchFile.vi"/>
