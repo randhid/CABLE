@@ -306,7 +306,6 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
-			<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -3127,7 +3126,6 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="CAlex2_FPGATarget_MotorControl_+dy1qhm6Ymw.lvbitx" Type="Document" URL="../FPGA Bitfiles/CAlex2_FPGATarget_MotorControl_+dy1qhm6Ymw.lvbitx"/>
-			<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2017/user.lib/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
