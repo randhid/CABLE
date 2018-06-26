@@ -2775,6 +2775,8 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="RT_MasterLoop_Mobile.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Mobile.vi"/>
 		<Item Name="RT_MasterLoop_Treadmill.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Treadmill.vi"/>
+		<Item Name="RT_MasterLoop_Mobile_Left.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Mobile_Left.vi"/>
+		<Item Name="RT_MasterLoop_Treadmill_left.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Treadmill_left.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
