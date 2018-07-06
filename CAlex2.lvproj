@@ -137,6 +137,7 @@
 		<Item Name="LoopTiming.vi" Type="VI" URL="../Remote VIs/LoopTiming.vi"/>
 		<Item Name="RestTimer.vi" Type="VI" URL="../Remote VIs/Sub Vis/RestTimer.vi"/>
 		<Item Name="SimulateJointAngles.vi" Type="VI" URL="../Remote VIs/SimulateJointAngles.vi"/>
+		<Item Name="ScaleTraj_LengthAnterior.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleTraj_LengthAnterior.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
@@ -2774,8 +2775,8 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="RT_MasterLoop_Mobile.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Mobile.vi"/>
-		<Item Name="RT_MasterLoop_Treadmill.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Treadmill.vi"/>
 		<Item Name="RT_MasterLoop_Mobile_Left.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Mobile_Left.vi"/>
+		<Item Name="RT_MasterLoop_Treadmill.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Treadmill.vi"/>
 		<Item Name="RT_MasterLoop_Treadmill_left.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Treadmill_left.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
