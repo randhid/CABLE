@@ -73,6 +73,8 @@
 			<Item Name="ScaleTraj_Height.vi" Type="VI" URL="../../Remote VIs/GenTargetTraj/ScaleTraj_Height.vi"/>
 			<Item Name="ScaleTraj_Angle.vi" Type="VI" URL="../../Remote VIs/GenTargetTraj/ScaleTraj_Angle.vi"/>
 			<Item Name="GenTargetGait.vi" Type="VI" URL="../../Remote VIs/GenTargetTraj/GenTargetGait.vi"/>
+			<Item Name="ScaleTraj_LengthAnterior.vi" Type="VI" URL="../../Remote VIs/GenTargetTraj/ScaleTraj_LengthAnterior.vi"/>
+			<Item Name="ScaleTraj_Length.vi" Type="VI" URL="../../Remote VIs/GenTargetTraj/ScaleTraj_Length.vi"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="plotAnkleTraj.vi" Type="VI" URL="../../Remote VIs/Sub Vis/plotAnkleTraj.vi"/>
@@ -160,8 +162,6 @@
 				<Item Name="Delete Elements from 2D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (Variant)__ogtk.vi"/>
 				<Item Name="Delete Elements from Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from Array__ogtk.vi"/>
 				<Item Name="Filter Error Codes (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Array)__ogtk.vi"/>
-				<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
-				<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
 				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
 				<Item Name="Reorder 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Reorder 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CSG)__ogtk.vi"/>
