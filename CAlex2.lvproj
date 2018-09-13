@@ -219,8 +219,6 @@
 				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
 				<Item Name="Filter Error Codes (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Array)__ogtk.vi"/>
-				<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
-				<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
@@ -306,64 +304,51 @@
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
-				<Item Name="Haro3D.lvlib" Type="Library" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Haro3D.lvlib"/>
-				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="LV3DPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LV3DPointTypeDef.ctl"/>
 				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
-				<Item Name="LVTextureCoordinateArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVTextureCoordinateArrayTypeDef.ctl"/>
-				<Item Name="LVRGBAColorTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRGBAColorTypeDef.ctl"/>
-				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
-				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
-				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
-				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
-				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
-				<Item Name="Read BMP Header Info.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP Header Info.vi"/>
-				<Item Name="Read BMP File Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File Data.vi"/>
-				<Item Name="Read BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File.vi"/>
-				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
-				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
-				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
-				<Item Name="GetNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/GetNamedRendezvousPrefix.vi"/>
-				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
-				<Item Name="RendezvousDataCluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/RendezvousDataCluster.ctl"/>
-				<Item Name="Rendezvous RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Rendezvous RefNum"/>
-				<Item Name="Create New Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Create New Rendezvous.vi"/>
-				<Item Name="Not A Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Not A Rendezvous.vi"/>
-				<Item Name="Rendezvous Name &amp; Ref DB Action.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Rendezvous Name &amp; Ref DB Action.ctl"/>
-				<Item Name="Rendezvous Name &amp; Ref DB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Rendezvous Name &amp; Ref DB.vi"/>
-				<Item Name="Create Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Create Rendezvous.vi"/>
-				<Item Name="Release Waiting Procs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Release Waiting Procs.vi"/>
-				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
-				<Item Name="RemoveNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/RemoveNamedRendezvousPrefix.vi"/>
-				<Item Name="Destroy A Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy A Rendezvous.vi"/>
-				<Item Name="Destroy Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy Rendezvous.vi"/>
-				<Item Name="Picture_Message.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Hololens/Modules/Hololens Message classes/Picture_Message_class/Picture_Message.lvclass"/>
-				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
-				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
-				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
-				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
-				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
-				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
-				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
-				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="SimpleMesh.dll" Type="Document" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/Mesh_class/SimpleMesh.dll"/>
-				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
-				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
-				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
-				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
-				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
-				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="Material_info.ctl" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/controls/Material_info.ctl"/>
+				<Item Name="3D_Shape.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/3D_Shape_class/3D_Shape.lvclass"/>
+				<Item Name="_Deg_Rad_typedef.ctl" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D Operations/controls/_Deg_Rad_typedef.ctl"/>
+				<Item Name="3D_Box.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/Box_class/3D_Box.lvclass"/>
+				<Item Name="3D_Cylinder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/Cylinder_class/3D_Cylinder.lvclass"/>
+				<Item Name="3D_Sphere.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/Sphere_class/3D_Sphere_class/3D_Sphere.lvclass"/>
+				<Item Name="Mesh.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/Mesh_class/Mesh.lvclass"/>
+				<Item Name="Panel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/3D_Quad_class/Panel.lvclass"/>
+				<Item Name="Open Hololens.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Hololens/Hololens_class/Programming/Open Hololens.vi"/>
+				<Item Name="Point to Object.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Hololens/Hololens_class/Commands/UI/Point to Object.vi"/>
+				<Item Name="WriteMaterialInfo.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/3D_Shape_class/properties/WriteMaterialInfo.vi"/>
+				<Item Name="WritePosition.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/3D_Object_class/properties/WritePosition.vi"/>
+				<Item Name="Modify Shape.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Hololens/Hololens_class/Commands/3D Objects/Modify Shape.vi"/>
+				<Item Name="Create Box.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/Box_class/Create Box.vi"/>
+				<Item Name="Add Shape.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Hololens/Hololens_class/Commands/3D Objects/Add Shape.vi"/>
+				<Item Name="Set Object Info.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Hololens/Hololens_class/Commands/UI/Set Object Info.vi"/>
+				<Item Name="Create Cylinder.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/Cylinder_class/Create Cylinder.vi"/>
+				<Item Name="Create Sphere.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/Sphere_class/3D_Sphere_class/Create Sphere.vi"/>
+				<Item Name="Extract Mesh Message.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Hololens/Modules/Hololens Message classes/Mesh_Message_class/Extract Mesh Message.vi"/>
+				<Item Name="Extract Object Selected Message.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Hololens/Modules/Hololens Message classes/Object_Selected_Message_class/Extract Object Selected Message.vi"/>
+				<Item Name="Modify Multi Materials.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Hololens/Hololens_class/Commands/3D Objects/Modify Multi Materials.vi"/>
+				<Item Name="Move Origin.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Hololens/Hololens_class/Commands/Hololens Space/Move Origin.vi"/>
+				<Item Name="ReadOrientation.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/3D_Object_class/properties/ReadOrientation.vi"/>
+				<Item Name="Move Object.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Hololens/Hololens_class/Commands/3D Objects/Move Object.vi"/>
+				<Item Name="OBJ_File_Load.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/OBJ classes/OBJ_Mesh_class/OBJ_File_Load.vi"/>
+				<Item Name="ReadMeshArray.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/OBJ classes/OBJ_Mesh_class/properties/ReadMeshArray.vi"/>
+				<Item Name="Calculate Normals.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/OBJ classes/OBJ_Mesh_class/Calculate Normals.vi"/>
+				<Item Name="Send Texture Image.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Hololens/Hololens_class/Commands/3D Objects/Send Texture Image.vi"/>
+				<Item Name="Close Hololens.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Hololens/Hololens_class/Programming/Close Hololens.vi"/>
+				<Item Name="Create Panel.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/3D_Quad_class/Create Panel.vi"/>
+				<Item Name="Euler_to_Quaternion.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D Operations/Euler_to_Quaternion.vi"/>
+				<Item Name="ReadShape.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/3D_Shape_class/properties/ReadShape.vi"/>
+				<Item Name="ReadPosition.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/3D_Object_class/properties/ReadPosition.vi"/>
+				<Item Name="quaternion_to_rotation_axis.vi" Type="VI" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D Operations/quaternion_to_rotation_axis.vi"/>
+				<Item Name="OBJ_Mesh.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/HaroTek/Haro3D/Utilities/3D objects/OBJ classes/OBJ_Mesh_class/OBJ_Mesh.lvclass"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
-			<Item Name="SimpleMesh_x64.dll" Type="Document" URL="/D/Users/Marc/Documents/Marc Documents/Labview development/Haro3D 2015 versions/version v1910 2015/.licensed/Utilities/3D objects/Mesh_class/SimpleMesh_x64.dll"/>
-			<Item Name="Holo_Example_Shape_ref_typedef.ctl" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/HaroTek/Haro3D Examples/Support/Holo_Example_Shape_ref_typedef.ctl"/>
-			<Item Name="_Hololens_3dobject_example_tab.ctl" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/HaroTek/Haro3D Examples/controls/_Hololens_3dobject_example_tab.ctl"/>
+			<Item Name="Holo_Example_Shape_ref_typedef.ctl" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2016/examples/HaroTek/Haro3D Examples/Support/Holo_Example_Shape_ref_typedef.ctl"/>
+			<Item Name="_Hololens_3dobject_example_tab.ctl" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2016/examples/HaroTek/Haro3D Examples/controls/_Hololens_3dobject_example_tab.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -2907,8 +2892,6 @@ DirectoryIndex index.htm
 				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
 				<Item Name="Filter Error Codes (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Array)__ogtk.vi"/>
-				<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
-				<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
