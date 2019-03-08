@@ -2832,7 +2832,15 @@ DirectoryIndex index.htm
 		<Item Name="RT_MasterLoop_Mobile.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Mobile.vi"/>
 		<Item Name="RT_MasterLoop_Mobile_Left.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Mobile_Left.vi"/>
 		<Item Name="RT_MasterLoop_Treadmill.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Treadmill.vi"/>
-		<Item Name="RT_MasterLoop_Treadmill_left.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Treadmill_left.vi"/>
+		<Item Name="OpticaklSensorScale" Type="NI-DAQmx Scale">
+			<Property Name="Descr" Type="Str">Scaling factor for the optical sensor for Ares' Project.</Property>
+			<Property Name="Lin.Slope" Type="Str">100</Property>
+			<Property Name="Lin.YIntercept" Type="Str">0</Property>
+			<Property Name="Name" Type="Str">OpticaklSensorScale</Property>
+			<Property Name="PreScaledUnits" Type="Str">Volts</Property>
+			<Property Name="ScaledUnits" Type="Str">Newton</Property>
+			<Property Name="ScaleType" Type="Str">Linear</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
