@@ -104,6 +104,7 @@
 			</Item>
 			<Item Name="subVI" Type="Folder">
 				<Item Name="GetAnklePosEachCycle.vi" Type="VI" URL="../DataProcess/GetAnklePosEachCycle.vi"/>
+				<Item Name="GetTensionPosEachCycle.vi" Type="VI" URL="../DataProcess/GetTensionPosEachCycle.vi"/>
 				<Item Name="GetJAEachCycle.vi" Type="VI" URL="../DataProcess/GetJAEachCycle.vi"/>
 				<Item Name="FolderNameMatch.vi" Type="VI" URL="../DataProcess/FolderNameMatch.vi"/>
 				<Item Name="MatchCarexToEMG.vi" Type="VI" URL="../DataProcess/MatchCarexToEMG.vi"/>
@@ -117,6 +118,7 @@
 			<Item Name="DataProcess_ja.vi" Type="VI" URL="../DataProcess/DataProcess_ja.vi"/>
 			<Item Name="DataProcess_anklepos.vi" Type="VI" URL="../DataProcess/DataProcess_anklepos.vi"/>
 			<Item Name="DataProcess_ChangeCatchName.vi" Type="VI" URL="../DataProcess/DataProcess_ChangeCatchName.vi"/>
+			<Item Name="DataProcess_Tension.vi" Type="VI" URL="../DataProcess/DataProcess_Tension.vi"/>
 			<Item Name="DataProcess_RecreateProcessesFiles.vi" Type="VI" URL="../DataProcess/DataProcess_RecreateProcessesFiles.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">

@@ -219,6 +219,8 @@
 				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
 				<Item Name="Filter Error Codes (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Array)__ogtk.vi"/>
+				<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
+				<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
@@ -359,9 +361,9 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
-			<Item Name="Holo_Example_Shape_ref_typedef.ctl" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2016/examples/HaroTek/Haro3D Examples/Support/Holo_Example_Shape_ref_typedef.ctl"/>
-			<Item Name="_Hololens_3dobject_example_tab.ctl" Type="VI" URL="/Program Files (x86)/National Instruments/LabVIEW 2016/examples/HaroTek/Haro3D Examples/controls/_Hololens_3dobject_example_tab.ctl"/>
-			<Item Name="SimpleMesh_x64.dll" Type="Document" URL="../../../../Users/Marc/Documents/Marc Documents/Labview development/Haro3D 2015 versions/version v1910 2015/.licensed/Utilities/3D objects/Mesh_class/SimpleMesh_x64.dll"/>
+			<Item Name="_Hololens_3dobject_example_tab.ctl" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/HaroTek/Haro3D Examples/controls/_Hololens_3dobject_example_tab.ctl"/>
+			<Item Name="Holo_Example_Shape_ref_typedef.ctl" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/HaroTek/Haro3D Examples/Support/Holo_Example_Shape_ref_typedef.ctl"/>
+			<Item Name="SimpleMesh_x64.dll" Type="Document" URL="/D/Users/Marc/Documents/Marc Documents/Labview development/Haro3D 2015 versions/version v1910 2015/.licensed/Utilities/3D objects/Mesh_class/SimpleMesh_x64.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -2913,6 +2915,8 @@ DirectoryIndex index.htm
 				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
 				<Item Name="Filter Error Codes (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Array)__ogtk.vi"/>
+				<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
+				<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
