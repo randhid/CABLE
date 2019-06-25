@@ -465,6 +465,14 @@ DirectoryIndex index.htm
 				<Property Name="ScaledUnits" Type="Str">Newton</Property>
 				<Property Name="ScaleType" Type="Str">Linear</Property>
 			</Item>
+			<Item Name="OpticalSensorScale" Type="NI-DAQmx Scale">
+				<Property Name="Lin.Slope" Type="Str">746.29830000000004</Property>
+				<Property Name="Lin.YIntercept" Type="Str">-5.9882299999999997</Property>
+				<Property Name="Name" Type="Str">OpticalSensorScale</Property>
+				<Property Name="PreScaledUnits" Type="Str">Volts</Property>
+				<Property Name="ScaledUnits" Type="Str">Newton</Property>
+				<Property Name="ScaleType" Type="Str">Linear</Property>
+			</Item>
 			<Item Name="LoadCells_FSR_AI" Type="NI-DAQmx Task">
 				<Property Name="\0\AI.CustomScaleName" Type="Str">LoadCell_Futek_LSB200</Property>
 				<Property Name="\0\AI.Max" Type="Str">200</Property>
@@ -534,7 +542,7 @@ DirectoryIndex index.htm
 				<Property Name="\3\ChanType" Type="Str">Analog Input</Property>
 				<Property Name="\3\Name" Type="Str">LoadCells_FSR_AI/LoadCell-4</Property>
 				<Property Name="\3\PhysicalChanName" Type="Str">PXI1Slot3/ai3</Property>
-				<Property Name="\4\AI.CustomScaleName" Type="Str">LoadCell_Futek_LSB200</Property>
+				<Property Name="\4\AI.CustomScaleName" Type="Str">OpticalSensorScale</Property>
 				<Property Name="\4\AI.Max" Type="Str">200</Property>
 				<Property Name="\4\AI.MeasType" Type="Str">Voltage</Property>
 				<Property Name="\4\AI.Min" Type="Str">-200</Property>
@@ -608,7 +616,7 @@ DirectoryIndex index.htm
 				<Property Name="\0\ChanType" Type="Str">Digital Input</Property>
 				<Property Name="\0\DI.InvertLines" Type="Str">0</Property>
 				<Property Name="\0\Name" Type="Str">SyncIn_Vicon/DigitalIn</Property>
-				<Property Name="\0\PhysicalChanName" Type="Str">PXI1Slot3/port0/line20</Property>
+				<Property Name="\0\PhysicalChanName" Type="Str">PXI1Slot3/port0/line1</Property>
 				<Property Name="Channels" Type="Str">SyncIn_Vicon/DigitalIn</Property>
 				<Property Name="Name" Type="Str">SyncIn_Vicon</Property>
 				<Property Name="SampTimingType" Type="Str">On Demand</Property>
@@ -1032,6 +1040,9 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="ConfirmRTMasterLoopRuning.vi" Type="VI" URL="../RT VIs/SubVIs/ConfirmRTMasterLoopRuning.vi"/>
+		</Item>
+		<Item Name="LoadCellCal" Type="Folder" URL="../../LoadCellCal">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="SharedVariables.lvlib" Type="Library" URL="../Remote VIs/SharedVariables.lvlib"/>
 		<Item Name="FPGA Target" Type="FPGA Target">
@@ -2834,15 +2845,6 @@ DirectoryIndex index.htm
 		<Item Name="RT_MasterLoop_Mobile.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Mobile.vi"/>
 		<Item Name="RT_MasterLoop_Mobile_Left.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Mobile_Left.vi"/>
 		<Item Name="RT_MasterLoop_Treadmill.vi" Type="VI" URL="../RT VIs/RT_MasterLoop_Treadmill.vi"/>
-		<Item Name="OpticaklSensorScale" Type="NI-DAQmx Scale">
-			<Property Name="Descr" Type="Str">Scaling factor for the optical sensor for Ares' Project.</Property>
-			<Property Name="Lin.Slope" Type="Str">100</Property>
-			<Property Name="Lin.YIntercept" Type="Str">0</Property>
-			<Property Name="Name" Type="Str">OpticaklSensorScale</Property>
-			<Property Name="PreScaledUnits" Type="Str">Volts</Property>
-			<Property Name="ScaledUnits" Type="Str">Newton</Property>
-			<Property Name="ScaleType" Type="Str">Linear</Property>
-		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
