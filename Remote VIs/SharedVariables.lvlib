@@ -477,7 +477,7 @@
 			<Property Name="type" Type="Str">Network</Property>
 			<Property Name="typedefName1" Type="Str">CAlex2.lvclass:CAlexVersion.ctl</Property>
 			<Property Name="typedefPath1" Type="PathRel">../../Classes/CAlex2/TypeDef/CAlexVersion.ctl</Property>
-			<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#&amp;A1!!!"9!A!!!!!!"!']!]1!!!!!!!!!#$E."&lt;'6Y-CZM&gt;G.M98.T%%."&lt;'6Y6G6S=WFP&lt;CZD&gt;'Q!2U!7!!1'47^C;7RF#UVP9GFM:5RF:H1+#62S:7&amp;E&lt;7FM&lt;!^5=G6B:'VJ&lt;'QA4'6G&gt;!I!!!R$17RF?&amp;:F=H.J&lt;WY!!!%!!!!!!!!!!!!!!!!</Property>
+			<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"P;Q!!!"9!A!!!!!!"!&amp;E!]1!!!!!!!!!#$E."&lt;'6Y-CZM&gt;G.M98.T%%."&lt;'6Y6G6S=WFP&lt;CZD&gt;'Q!-5!7!!-'47^C;7RF"6.R&gt;7&amp;U#62S:7&amp;E&lt;7FM&lt;!!!$%."&lt;'6Y6G6S=WFP&lt;A!!!1!!!!!!!!!!!!!!!!</Property>
 		</Item>
 	</Item>
 	<Item Name="Debug" Type="Folder">
