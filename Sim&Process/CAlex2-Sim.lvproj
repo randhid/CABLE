@@ -121,6 +121,7 @@
 			<Item Name="DataProcess_Tension.vi" Type="VI" URL="../DataProcess/DataProcess_Tension.vi"/>
 			<Item Name="DataProcess_RecreateProcessesFiles.vi" Type="VI" URL="../DataProcess/DataProcess_RecreateProcessesFiles.vi"/>
 		</Item>
+		<Item Name="CAlex2.lvclass" Type="LVClass" URL="../../../../SOFT-CALEX/CAlex2-controller/Classes/CAlex2/CAlex2.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
@@ -502,6 +503,10 @@
 			<Item Name="IMU_operation.ctl" Type="VI" URL="../../RT VIs/HighLevelController/TypeDef/IMU_operation.ctl"/>
 			<Item Name="Vicon2JointAngles2.vi" Type="VI" URL="../../RT VIs/HighLevelController/Vicon2JointAngles2.vi"/>
 			<Item Name="Vicon2JointAngles.vi" Type="VI" URL="../../RT VIs/HighLevelController/Vicon2JointAngles.vi"/>
+			<Item Name="CAlex2_InitAll.vi" Type="VI" URL="../../Classes/CAlex2/CAlex2_InitAll.vi"/>
+			<Item Name="CAlex2.ctl" Type="VI" URL="../../Classes/CAlex2/CAlex2.lvclass/CAlex2.ctl"/>
+			<Item Name="SerialChain.lvclass" Type="LVClass" URL="../../../../SOFT-CALEX/CAlex2-controller/Classes/SerialChain/SerialChain.lvclass"/>
+			<Item Name="SerialChain.ctl" Type="VI" URL="../../../../SOFT-CALEX/CAlex2-controller/Classes/SerialChain/SerialChain.lvclass/SerialChain.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

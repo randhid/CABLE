@@ -309,6 +309,12 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
+			<Item Name="LowerBodyDim.ctl" Type="VI" URL="../Classes/CAlex2/TypeDef/LowerBodyDim.ctl"/>
+			<Item Name="CAlex2_InitAll_ExtWt.vi" Type="VI" URL="../Classes/CAlex2/CAlex2_InitAll_ExtWt.vi"/>
+			<Item Name="CAlex2_SetLegDH.vi" Type="VI" URL="../Classes/CAlex2/CAlex2_SetLegDH.vi"/>
+			<Item Name="CAlex2_InitAll.vi" Type="VI" URL="../Classes/CAlex2/CAlex2_InitAll.vi"/>
+			<Item Name="CAlex2.ctl" Type="VI" URL="../Classes/CAlex2/CAlex2.lvclass/CAlex2.ctl"/>
+			<Item Name="CAlexVersion.ctl" Type="VI" URL="../Classes/CAlex2/TypeDef/CAlexVersion.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -3140,6 +3146,10 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="CAlex2_FPGATarget_MotorControl_+dy1qhm6Ymw.lvbitx" Type="Document" URL="../FPGA Bitfiles/CAlex2_FPGATarget_MotorControl_+dy1qhm6Ymw.lvbitx"/>
+			<Item Name="CAlexVersion.ctl" Type="VI" URL="../Classes/CAlex2/TypeDef/CAlexVersion.ctl"/>
+			<Item Name="LowerBodyDim.ctl" Type="VI" URL="../Classes/CAlex2/TypeDef/LowerBodyDim.ctl"/>
+			<Item Name="CAlex2_InitAll_ExtWt.vi" Type="VI" URL="../Classes/CAlex2/CAlex2_InitAll_ExtWt.vi"/>
+			<Item Name="CAlex2_SetLegDH.vi" Type="VI" URL="../Classes/CAlex2/CAlex2_SetLegDH.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
