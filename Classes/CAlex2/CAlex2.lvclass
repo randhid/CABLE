@@ -153,13 +153,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 		</Item>
 		<Item Name="CABLE_SetCuff_Thigh.vi" Type="VI" URL="../SetCuffs/CABLE_SetCuff_Thigh.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+@!!!!%1!%!!!!$5!$!!:#&lt;W2Z351!!!V!#A!(1G^E?5ZV&lt;1!51%!!!@````]!!A:$&lt;W^S:$1!!!F!!Q!#351!!%9!]&gt;80%EE!!!!#%V.F=GFB&lt;%.I97FO,GRW9WRB=X-05'^J&lt;H20&lt;E*P:(EO9X2M!"J!5!!#!!-!"!N$&lt;UUI1X6G:E.4+1!01!I!#%VB=X-I;W=J!!"!!0(6TR**!!!!!B.4:8*J97R$;'&amp;J&lt;CZM&gt;G.M98.T$V"P;7ZU4WZ#&lt;W2Z,G.U&lt;!!51&amp;!!!A!$!!1&amp;5'^J&lt;H1!(E"!!!(`````!!=11W&amp;C&lt;'61&gt;(-I1X6G:E.4+1!!'5!+!".3:7&amp;M)%VB&gt;(*J?#"&amp;&lt;'6N:7ZU!%=!]1!!!!!!!!!#$UZ*8UVB&gt;(*J?#ZM&gt;GRJ9AZ3:7&amp;M47&amp;U=GFY,G.U&lt;!!A1%!!!P``````````!!E+1X6G:CU_1G^E?1!!4Q$R!!!!!!!!!!):5W6S;7&amp;M1WBB;7YN1W&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=QB$&gt;7:G,G.U&lt;!!E1&amp;!!"1!"!!5!"A!)!!I/6'BJ:WAA1X6G:C"-&lt;X=!!%]!]1!!!!!!!!!#'6.F=GFB&lt;%.I97FO,5.B9GRF,GRW9WRB=X-)1X6G:CZD&gt;'Q!*%"1!!5!!1!&amp;!!9!#!!+$V2I;7&gt;I)%.V:G9A3'FH;!!81!I!%56Y&gt;(*B)&amp;&gt;F;7&gt;I&gt;#!I;W=J!#.!#A!=68"Q:8)A1X6G:C"U&lt;S"-&lt;X&gt;F=C"$&gt;7:G)#BN+1!!(5!+!":-&lt;X&gt;F=C"$&gt;7:G)(2P)%NO:75A+'UJ!!"5!0!!$!!!!!!!#Q!-!!!!!!!!!!!!!!!.!!Y!$Q)!!(A!!!!!!!!!!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!)!!!!#A!!!!!"!"!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*1!!!!%!!%!!!!$5!$!!:#&lt;W2Z351!!!V!#A!(1G^E?5ZV&lt;1!51%!!!@````]!!A:$&lt;W^S:$1!!!F!!Q!#351!!%9!]&gt;80%EE!!!!#%V.F=GFB&lt;%.I97FO,GRW9WRB=X-05'^J&lt;H20&lt;E*P:(EO9X2M!"J!5!!#!!-!"!N$&lt;UUI1X6G:E.4+1!01!I!#%VB=X-I;W=J!!"!!0(6TR**!!!!!B.4:8*J97R$;'&amp;J&lt;CZM&gt;G.M98.T$V"P;7ZU4WZ#&lt;W2Z,G.U&lt;!!51&amp;!!!A!$!!1&amp;5'^J&lt;H1!(E"!!!(`````!!=11W&amp;C&lt;'61&gt;(-I1X6G:E.4+1!!'5!+!".3:7&amp;M)%VB&gt;(*J?#"&amp;&lt;'6N:7ZU!%=!]1!!!!!!!!!#$UZ*8UVB&gt;(*J?#ZM&gt;GRJ9AZ3:7&amp;M47&amp;U=GFY,G.U&lt;!!A1%!!!P``````````!!E+1X6G:CU_1G^E?1!!4Q$R!!!!!!!!!!):5W6S;7&amp;M1WBB;7YN1W&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=QB$&gt;7:G,G.U&lt;!!E1&amp;!!"1!"!!5!"A!)!!I06'BJ:WAA1X6G:C");7&gt;I!"&gt;!#A!228BU=G%A6W6J:WBU)#BL:SE!)U!+!"R6=("F=C"$&gt;7:G)(2P)%RP&gt;W6S)%.V:G9A+'UJ!!!&gt;1!I!&amp;ERP&gt;W6S)%.V:G9A&gt;']A3WZF:3!I&lt;3E!!&amp;1!]!!-!!!!!!!!!!M!!!!!!!!!!!!!!!Q!$1!/!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!A!!!!)!!!!!!%!$Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
 	</Item>
 	<Item Name="LegDim" Type="Folder">

@@ -6,12 +6,10 @@
 	<Property Name="varPersistentID:{010D2550-6E7D-4359-9129-96CFBD0BFD4A}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/LegJointAngles</Property>
 	<Property Name="varPersistentID:{053F03F0-7130-4A2B-9741-C8E0A172CFE1}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/CableLengthInc</Property>
 	<Property Name="varPersistentID:{05ED41F6-000C-41A6-BB46-296588292A5B}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/AnkleTraj_Hist</Property>
-	<Property Name="varPersistentID:{06D3D543-BBAB-4FD3-846E-8DA83AF1F100}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Reset</Property>
 	<Property Name="varPersistentID:{07352B55-35B4-4F25-8FB0-2A1445BC0E5E}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Debug/ExceTime_Interface</Property>
 	<Property Name="varPersistentID:{0EEB25B7-EA78-4FDA-9AEE-EACF7AD8897F}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/IMU_reset</Property>
 	<Property Name="varPersistentID:{110EFBBA-AA04-4AC6-B0BB-C84FF2F3E6F3}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/IMU_Tare</Property>
 	<Property Name="varPersistentID:{166FAB3E-4F3A-40C9-A4A0-B5A6DB3B2670}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/LegExtraWeight(kg)</Property>
-	<Property Name="varPersistentID:{180A0D36-ED63-4478-A570-191BE0470392}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Mag(Gauss)</Property>
 	<Property Name="varPersistentID:{1E7D1A98-CDDF-47BC-9EEE-CCFF63274A2C}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/StandPos_Set</Property>
 	<Property Name="varPersistentID:{1F9BC5F7-F86A-4584-A0DD-9C8431FEF695}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/PathType</Property>
 	<Property Name="varPersistentID:{2350E022-6CAC-4B61-8704-A06BE9D4C657}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/LegDimRst</Property>
@@ -36,7 +34,6 @@
 	<Property Name="varPersistentID:{64016815-82E7-49B5-9508-7741BC958D63}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/ClosestPt</Property>
 	<Property Name="varPersistentID:{678E0B2B-970A-4979-A95E-3429EFFB20AB}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/GenForceField</Property>
 	<Property Name="varPersistentID:{7002A3F0-05EF-4FA3-B263-D189065759CB}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/LegAnkleLoc</Property>
-	<Property Name="varPersistentID:{724BB76C-BC54-4D24-9930-E87A4D7D44A7}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Stop</Property>
 	<Property Name="varPersistentID:{73EC2E7E-0B15-4B12-80DA-FC7DFD77EE42}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/MotorEnable</Property>
 	<Property Name="varPersistentID:{7651352E-BFD7-462C-A007-7827AB841C4A}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/AnkleTraj_Past</Property>
 	<Property Name="varPersistentID:{822DF578-4D96-4C9C-A8FE-716BC638729F}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Motor Loop/TenPlanned(M-order)</Property>
@@ -50,15 +47,12 @@
 	<Property Name="varPersistentID:{8CFD9A85-8D6B-41B4-A812-AF6A39270A1D}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_ClosePt</Property>
 	<Property Name="varPersistentID:{8DF98774-22DD-4CEF-8549-71BE0E322F7F}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/Stop RT</Property>
 	<Property Name="varPersistentID:{8F2E9C19-4446-443D-BC53-4EDA72EA278A}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/ZeroPosition</Property>
-	<Property Name="varPersistentID:{93B6C740-DF73-4F65-BBF1-B6166A365186}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_TareAngles</Property>
-	<Property Name="varPersistentID:{A08E1A73-9D20-46CB-A9BD-B84CC61ADE7D}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Accel(m-s2)</Property>
 	<Property Name="varPersistentID:{A21F1DF6-8F9A-4BF8-9B2F-E6608D880BC0}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/CableTensionCurrent</Property>
 	<Property Name="varPersistentID:{A3086374-6B22-44B3-832F-FBFA99C8A2F0}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_CompArm</Property>
 	<Property Name="varPersistentID:{A44E4BEB-8C9F-4982-8490-729F582C8A17}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Exoskeleton/UpdateLeg</Property>
 	<Property Name="varPersistentID:{A58FFBE4-9C6C-42C8-B597-27B42D9D2F9D}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/FieldForceXYZ</Property>
 	<Property Name="varPersistentID:{A63818A1-3BA4-4D2C-A8F9-FA767AE92AC4}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/ViconConnected</Property>
 	<Property Name="varPersistentID:{A7EE5BBC-5F2E-449E-83B1-02E66637A086}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Debug/ExecTime_Logger</Property>
-	<Property Name="varPersistentID:{B10F0374-A2A0-4816-B0F6-D79C68C2A475}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Gyro(rad-s)</Property>
 	<Property Name="varPersistentID:{B575D0DA-8C7E-403D-AA13-C6E5DBA85355}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/StandPosVicon</Property>
 	<Property Name="varPersistentID:{B6D6C72A-5600-4070-9E26-B61D532E0405}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Motor Loop/TenActual(M-order)</Property>
 	<Property Name="varPersistentID:{BDBD5BD3-6254-44FD-B975-6D46F6D9B5B4}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Debug/ExecTime_HighLvLoop</Property>
@@ -72,7 +66,6 @@
 	<Property Name="varPersistentID:{D3C0BA74-0D2A-4B7B-9AF9-2A9A65A36689}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/FFController/FFRst</Property>
 	<Property Name="varPersistentID:{D4C90B94-3A8D-448B-839C-9153DBBB2EC4}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Motor Loop/MotorCmd(I)</Property>
 	<Property Name="varPersistentID:{D6281B28-A0AA-4605-8942-AE3A00BFEB26}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/LegDim</Property>
-	<Property Name="varPersistentID:{D736BFC8-78AC-40D8-9810-47C1710407C5}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Angles (rad)</Property>
 	<Property Name="varPersistentID:{DC887707-4BE2-4D68-A2EC-30D6088910B5}" Type="Ref">/PXIe-8135/LowLevelController/MotorCtrl_SV.lvlib/ResetMotorEnc</Property>
 	<Property Name="varPersistentID:{DE4CF4EC-D81B-4CA2-95A2-2CF25A08829E}" Type="Ref">/PXIe-8135/TCPconnect/tcpSharedVariables.lvlib/ViconConnected</Property>
 	<Property Name="varPersistentID:{E2561D34-C6DA-4CEC-A547-B400D4E5D689}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Data Logger/FileName</Property>
@@ -81,11 +74,9 @@
 	<Property Name="varPersistentID:{E8010CC6-366B-47B5-9E89-0F5BF8A4B9E4}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/General/CAlexVersion</Property>
 	<Property Name="varPersistentID:{EC0DFE10-4857-4020-B02A-17D3E7E41D0A}" Type="Ref">/PXIe-8135/SharedVariables.lvlib/Data Logger/Record?</Property>
 	<Property Name="varPersistentID:{F2BEA521-AE39-4CA0-8B13-62600ABF371C}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/StandPosIMU</Property>
-	<Property Name="varPersistentID:{F7694959-B096-4FF2-823E-FACD345072F7}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_AngRates (rad-s)</Property>
 	<Property Name="varPersistentID:{F799C58A-F84F-49A1-8CAD-38412DBF9071}" Type="Ref">/PXIe-8135/HighLevelController/Exoskeleton_SV.lvlib/JointSensor</Property>
 	<Property Name="varPersistentID:{F8DAE504-4A3E-40B4-9FED-B9F6B03BDB98}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_Rst</Property>
 	<Property Name="varPersistentID:{FAC35D65-BE6E-4967-BEE8-5F3C877358C7}" Type="Ref">/PXIe-8135/HighLevelController/ForceField_SV.lvlib/FF_AnkleTraj</Property>
-	<Property Name="varPersistentID:{FB699F72-7CD2-4361-9E07-34381F720A4D}" Type="Ref">/PXIe-8135/HighLevelController/VN100_Var.lvlib/VN100_Tare</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -138,6 +129,7 @@
 		<Item Name="LoopTiming.vi" Type="VI" URL="../Remote VIs/LoopTiming.vi"/>
 		<Item Name="RestTimer.vi" Type="VI" URL="../Remote VIs/Sub Vis/RestTimer.vi"/>
 		<Item Name="SimulateJointAngles.vi" Type="VI" URL="../Remote VIs/SimulateJointAngles.vi"/>
+		<Item Name="GenTargetSquat.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/GenTargetSquat.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
@@ -309,6 +301,8 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
+			<Item Name="ScaleSquat_Depth.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleSquat_Depth.vi"/>
+			<Item Name="ScaleSquat_Angle.vi" Type="VI" URL="../Remote VIs/GenTargetTraj/ScaleSquat_Angle.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -2857,7 +2851,6 @@ DirectoryIndex index.htm
 				<Item Name="Index 2D Array Elements (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (U64)__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (LVObject)__ogtk.vi"/>
 				<Item Name="Index 2D Array Elements (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (LVObject)__ogtk.vi"/>
-				<Item Name="Search or Split String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Search or Split String__ogtk.vi"/>
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
 				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
@@ -3065,10 +3058,6 @@ DirectoryIndex index.htm
 				<Item Name="DAQmx Create Channel (CI-Duty Cycle).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Duty Cycle).vi"/>
 				<Item Name="DAQmx Create Channel (CI-Velocity-Angular).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Velocity-Angular).vi"/>
 				<Item Name="DAQmx Create Channel (CI-Velocity-Linear).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Velocity-Linear).vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-				<Item Name="VISA Set IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Set IO Buffer Mask.ctl"/>
 				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
@@ -3143,6 +3132,10 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="CAlex2_FPGATarget_MotorControl_+dy1qhm6Ymw.lvbitx" Type="Document" URL="../FPGA Bitfiles/CAlex2_FPGATarget_MotorControl_+dy1qhm6Ymw.lvbitx"/>
+			<Item Name="AsyncMode.ctl" Type="VI" URL="../../Shared Libraries/VN100/TypeDef/AsyncMode.ctl"/>
+			<Item Name="VN100_Init.vi" Type="VI" URL="../../Shared Libraries/VN100/VN100_Init.vi"/>
+			<Item Name="VN100_Loop.vi" Type="VI" URL="../../Shared Libraries/VN100/VN100_Loop.vi"/>
+			<Item Name="VN100_Close.vi" Type="VI" URL="../../Shared Libraries/VN100/VN100_Close.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
